@@ -1,0 +1,21 @@
+# Python Bytecode and Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+
+# Streamlit Local Cache
+.streamlit/secrets.toml
+
+# IDE & OS temporary files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp

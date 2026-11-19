@@ -1,0 +1,1254 @@
+EmployeeID,Age,Gender,MaritalStatus,EducationField,EducationLevelID,DepartmentID,JobRoleID,JobLevel,MonthlyIncome,PercentSalaryHike,StockOptionLevel,DistanceFromHome,OverTime,YearsAtCompany,YearsInCurrentRole,YearsSinceLastPromotion,YearsWithCurrManager,TotalWorkingYears,NumCompaniesWorked,TrainingTimesLastYear,DateOfJoining,DateOfLeaving,Attrition,SalaryBand
+1001,40,Female,Married,Life Sciences,2,1,10,4,144000,19,0,8.0,No,6,2,6,1,9,0.0,2,2021-04-01,,No,Leadership
+1002,44,Male,Married,Life Sciences,3,3,4,2,42400,23,2,27.0,No,4,1,3,1,7,3.0,6,2020-04-12,,No,Mid-Junior
+1003,43,Male,Married,Technical Degree,2,3,5,1,25000,13,0,10.0,Yes,1,1,0,0,16,2.0,0,2023-01-31,,No,Entry
+1004,44,Male,Single,Life Sciences,3,5,11,2,40200,13,0,6.0,No,3,0,2,1,7,0.0,4,2022-09-30,,No,Mid-Junior
+1005,42,Female,Single,Life Sciences,5,6,12,3,69900,16,1,1.0,No,0,0,0,0,3,2.0,4,2022-07-03,2022-09-01,Yes,Senior
+1006,35,Female,Married,Technical Degree,3,3,4,2,33700,24,1,1.0,No,2,0,2,2,10,5.0,3,2021-02-23,,No,Mid-Junior
+1007,37,Female,Divorced,Medical,3,2,3,5,156200,16,0,30.0,No,1,1,0,1,5,2.0,2,2020-12-22,,No,Leadership
+1008,44,Male,Single,Human Resources,3,3,5,2,47000,16,0,4.0,Yes,0,0,0,0,7,5.0,6,2024-09-24,2024-11-23,Yes,Mid-Junior
+1009,44,Male,Married,Life Sciences,4,6,12,2,58200,25,0,10.0,Yes,3,2,2,3,12,2.0,1,2020-05-02,,No,Senior
+1010,24,Male,Married,Life Sciences,4,2,1,2,46800,23,0,22.0,No,1,1,0,0,2,0.0,3,2021-01-18,,No,Mid-Junior
+1011,27,Female,Married,Human Resources,3,2,1,3,73900,23,1,22.0,No,0,0,0,0,1,4.0,6,2022-06-14,2022-08-13,Yes,Senior
+1012,32,Female,Married,Medical,3,2,1,2,51200,15,1,1.0,No,1,0,1,1,9,1.0,1,2025-08-31,,No,Senior
+1013,39,Male,Married,Medical,3,3,5,2,56900,23,3,7.0,No,5,0,2,4,11,1.0,1,2020-04-18,,No,Senior
+1014,55,Female,Married,Medical,3,5,11,2,63400,12,1,8.0,No,9,4,8,3,21,3.0,6,2022-03-25,,No,Senior
+1015,49,Male,Divorced,Life Sciences,3,1,9,1,29800,12,1,4.0,Yes,3,0,1,0,6,0.0,4,2024-09-14,,No,Mid-Junior
+1016,18,Female,Married,Human Resources,4,3,5,2,41000,24,1,1.0,No,0,0,0,0,0,4.0,6,2022-06-21,,No,Mid-Junior
+1017,53,Male,Married,Medical,4,3,5,1,34200,18,1,4.0,Yes,5,5,1,4,13,1.0,3,2025-01-13,,No,Mid-Junior
+1018,43,Female,Married,Life Sciences,3,2,3,4,124100,12,0,3.0,No,0,0,0,0,6,5.0,4,2023-02-13,,No,Leadership
+1019,26,Female,Single,Life Sciences,4,4,8,1,22800,15,1,1.0,No,1,0,1,1,3,2.0,3,2020-01-27,,No,Entry
+1020,41,Male,Single,Life Sciences,1,3,5,1,28100,20,3,2.0,No,1,1,1,0,5,1.0,1,2021-10-15,,No,Mid-Junior
+1021,18,Male,Married,Medical,3,1,10,4,117200,20,0,2.0,No,0,0,0,0,0,1.0,6,2024-09-27,,No,Leadership
+1022,29,Male,Married,Marketing,4,3,5,2,46700,14,2,17.0,No,0,0,0,0,3,1.0,2,2023-10-25,2023-12-24,Yes,Mid-Junior
+1023,33,Male,Single,Life Sciences,4,2,3,5,171800,14,1,20.0,No,0,0,0,0,2,5.0,0,2021-09-28,,No,Leadership
+1024,38,Female,Single,Life Sciences,3,6,12,2,40700,17,3,12.0,Yes,0,0,0,0,6,3.0,4,2022-05-31,,No,Mid-Junior
+1025,35,Male,Single,Life Sciences,3,2,3,4,135600,23,2,9.0,No,3,3,3,0,9,1.0,1,2023-10-10,,No,Leadership
+1026,39,Male,Divorced,Technical Degree,3,2,1,3,83300,16,3,19.0,No,0,0,0,0,5,3.0,2,2021-02-22,2021-04-23,Yes,Senior
+1027,49,Female,Single,Medical,4,2,2,2,59200,21,0,15.0,No,3,3,3,0,16,5.0,3,2024-04-05,,No,Senior
+1028,24,Male,Married,Marketing,4,2,2,2,36700,15,1,10.0,No,0,0,0,0,1,6.0,4,2021-01-31,,No,Mid-Junior
+1029,47,Female,Married,Medical,3,3,4,2,57200,13,0,17.0,No,1,0,1,1,3,1.0,1,2024-01-10,2025-01-07,Yes,Senior
+1030,29,Male,Married,Life Sciences,4,3,5,2,57300,25,0,30.0,Yes,1,0,0,0,2,0.0,5,2022-12-19,,No,Senior
+1031,33,Female,Married,Medical,2,3,4,2,52700,12,1,4.0,No,2,2,0,0,5,0.0,1,2020-06-26,,No,Senior
+1032,45,Male,Divorced,Medical,3,3,5,1,26700,24,3,14.0,Yes,5,2,0,4,19,5.0,2,2025-02-24,,No,Mid-Junior
+1033,27,Male,Single,Life Sciences,4,2,3,5,194100,14,1,17.0,No,1,1,0,1,3,1.0,3,2021-05-26,,No,Leadership
+1034,40,Male,Single,Human Resources,3,2,1,2,38300,11,1,18.0,Yes,1,1,1,1,11,3.0,3,2024-03-30,,No,Mid-Junior
+1035,40,Female,Married,Life Sciences,2,5,11,2,46900,25,1,1.0,No,3,0,0,1,5,,0,2020-11-18,,No,Mid-Junior
+1036,32,Male,Married,Medical,1,2,1,3,62600,21,0,9.0,No,0,0,0,0,6,2.0,0,2023-04-15,,No,Senior
+1037,44,Male,Divorced,Technical Degree,3,2,3,4,108100,16,0,1.0,No,4,2,3,1,8,0.0,3,2024-01-21,,No,Leadership
+1038,31,Male,Divorced,Technical Degree,1,3,5,2,38200,24,1,20.0,Yes,0,0,0,0,2,1.0,3,2022-02-26,,No,Mid-Junior
+1039,30,Female,Single,Technical Degree,3,1,9,2,51700,15,2,1.0,No,3,3,1,0,6,1.0,3,2020-10-11,,No,Senior
+1040,30,Male,Single,Marketing,1,2,1,2,36200,15,0,23.0,No,0,0,0,0,5,1.0,1,2020-07-06,,No,Mid-Junior
+1041,35,Female,Divorced,Life Sciences,3,5,11,3,97000,13,2,9.0,No,6,5,6,0,9,3.0,1,2022-07-22,2026-10-20,Yes,Senior
+1042,44,Male,Married,Marketing,3,2,1,2,50300,24,1,6.0,No,5,2,4,1,11,4.0,2,2022-08-11,,No,Senior
+1043,34,Male,Married,Life Sciences,2,2,3,5,193000,14,0,7.0,No,0,0,0,0,5,1.0,2,2021-02-17,,No,Leadership
+1044,34,Male,Married,Life Sciences,3,2,2,2,48600,21,0,1.0,No,1,0,1,1,3,2.0,3,2024-04-05,,No,Mid-Junior
+1045,50,Female,Divorced,Life Sciences,2,4,7,4,113700,13,1,1.0,No,3,2,3,0,13,2.0,2,2023-02-12,,No,Leadership
+1046,36,Male,Single,Technical Degree,3,2,3,5,155300,12,0,98.0,No,1,1,1,1,3,0.0,4,2025-01-31,,No,Leadership
+1047,39,Male,Married,Medical,3,2,2,2,38100,13,3,8.0,No,2,2,1,2,4,4.0,3,2024-02-03,2025-12-15,Yes,Mid-Junior
+1048,31,Female,Single,Human Resources,3,4,6,3,64600,22,1,13.0,Yes,0,0,0,0,4,3.0,1,2024-02-25,,No,Senior
+1049,43,Male,Married,Medical,3,3,4,2,36200,20,0,5.0,No,2,0,0,1,12,4.0,1,2023-12-26,,No,Mid-Junior
+1050,40,Female,Single,Marketing,2,6,12,3,59500,19,1,6.0,No,0,0,0,0,2,,2,2022-05-08,,No,Senior
+1051,26,Male,Divorced,Medical,1,2,1,2,55900,22,0,1.0,No,0,0,0,0,0,3.0,1,2022-12-29,,No,Senior
+1052,28,Male,Single,Marketing,4,3,4,3,65200,22,1,27.0,No,2,1,1,2,4,2.0,2,2020-10-19,,No,Senior
+1053,37,Female,Married,Medical,2,1,9,2,60100,19,1,11.0,Yes,4,0,4,0,8,1.0,1,2021-12-01,,No,Senior
+1054,30,Male,Married,Life Sciences,1,1,10,5,148200,18,0,4.0,No,0,0,0,0,7,1.0,3,2025-12-27,,No,Leadership
+1055,38,Male,Single,Medical,2,4,8,1,29800,13,0,10.0,No,1,0,0,0,6,2.0,4,2022-09-29,,No,Mid-Junior
+1056,35,Male,Married,Life Sciences,4,3,5,1,26000,12,1,8.0,No,4,3,1,1,9,2.0,1,2021-10-31,,No,Mid-Junior
+1057,28,Male,Married,Marketing,2,6,12,3,61300,16,1,16.0,No,1,0,1,0,4,1.0,3,2025-03-08,,No,Senior
+1058,49,Male,Married,Medical,2,6,12,2,43000,13,0,4.0,No,1,0,0,1,12,1.0,5,2024-04-03,,No,Mid-Junior
+1059,49,Male,Married,Marketing,3,4,8,1,20100,14,2,18.0,No,0,0,0,0,8,2.0,1,2023-01-10,,No,Entry
+1060,39,Male,Divorced,Marketing,5,2,1,2,42900,12,0,1.0,No,0,0,0,0,6,5.0,4,2022-06-18,,No,Mid-Junior
+1061,33,Female,Married,Marketing,2,2,3,4,121800,21,0,20.0,No,2,2,2,0,8,0.0,6,2023-08-21,,No,Leadership
+1062,35,Male,Divorced,Marketing,2,6,12,2,47600,13,0,6.0,No,0,0,0,0,3,0.0,1,2020-08-17,,No,Mid-Junior
+1063,30,Female,Married,Technical Degree,3,2,3,4,123400,14,2,5.0,No,0,0,0,0,2,2.0,4,2022-07-27,,No,Leadership
+1064,34,Female,Single,Technical Degree,3,1,9,2,39400,17,2,15.0,No,0,0,0,0,1,2.0,2,2020-05-11,,No,Mid-Junior
+1065,31,Male,Married,Technical Degree,3,3,4,3,83400,11,1,17.0,No,1,0,1,0,5,3.0,2,2023-07-16,,No,Senior
+1066,37,Female,Married,Life Sciences,3,3,5,1,25000,21,1,14.0,Yes,2,0,0,1,6,2.0,4,2024-07-01,,No,Entry
+1067,29,Female,Divorced,Life Sciences,3,3,5,1,27100,11,1,4.0,No,1,0,0,1,4,2.0,0,2023-01-01,2023-10-19,Yes,Mid-Junior
+1068,31,Male,Divorced,Life Sciences,3,1,10,4,139900,19,1,29.0,No,1,1,1,1,7,1.0,2,2022-05-14,,No,Leadership
+1069,37,Male,Married,Other,2,3,4,2,37900,21,3,6.0,No,0,0,0,0,2,1.0,0,2023-07-12,,No,Mid-Junior
+1070,52,Male,Divorced,Life Sciences,5,3,5,2,34500,11,2,30.0,Yes,3,2,3,0,18,3.0,4,2022-05-20,,No,Mid-Junior
+1071,35,Female,Married,Life Sciences,3,2,2,1,23700,24,0,6.0,Yes,0,0,0,0,3,1.0,5,2025-08-06,2025-10-05,Yes,Entry
+1072,40,Female,Married,Technical Degree,2,2,2,2,44500,20,2,18.0,No,1,0,0,1,11,2.0,5,2025-02-22,,No,Mid-Junior
+1073,27,Female,Married,Life Sciences,3,5,11,3,93200,19,1,1.0,No,1,0,0,0,3,5.0,3,2021-08-08,,No,Senior
+1074,45,Female,Single,Technical Degree,2,3,5,1,30300,11,2,9.0,No,0,0,0,0,11,0.0,4,2022-12-20,,No,Mid-Junior
+1075,37,Male,Married,Life Sciences,1,3,4,3,78900,20,2,12.0,No,2,2,2,1,8,2.0,4,2021-07-25,,No,Senior
+1076,36,Male,Married,Marketing,2,3,5,1,26200,20,1,6.0,No,2,0,1,2,4,1.0,1,2022-10-07,,No,Mid-Junior
+1077,41,Female,Divorced,Life Sciences,4,2,1,2,51800,23,3,5.0,No,0,0,0,0,2,4.0,0,2022-12-12,,No,Senior
+1078,50,Male,Divorced,Technical Degree,3,3,4,3,91900,23,3,1.0,Yes,4,2,1,0,10,1.0,2,2024-10-20,,No,Senior
+1079,27,Female,Married,Medical,2,4,7,4,100700,24,3,,No,2,0,0,2,5,1.0,5,2024-06-23,,No,Leadership
+1080,38,Female,Single,Human Resources,2,2,2,1,20900,24,0,3.0,No,3,2,0,3,4,3.0,5,2024-01-22,,No,Entry
+1081,44,Female,Single,Medical,4,2,3,4,130300,14,1,2.0,No,3,2,2,1,11,0.0,2,2022-06-17,,No,Leadership
+1082,36,Male,Divorced,Other,4,4,6,3,61800,11,1,11.0,No,0,0,0,0,8,1.0,2,2021-07-20,,No,Senior
+1083,32,Male,Single,Life Sciences,2,3,4,2,52000,11,3,7.0,No,2,1,0,2,5,1.0,3,2025-09-18,,No,Senior
+1084,19,Male,Single,Life Sciences,4,2,3,5,156900,21,1,7.0,No,0,0,0,0,0,4.0,1,2025-07-14,2025-09-12,Yes,Leadership
+1085,46,Male,Single,Other,3,4,8,1,24700,21,1,11.0,No,1,1,1,1,3,1.0,2,2020-07-11,,No,Entry
+1086,34,Male,Married,Human Resources,2,1,9,2,43700,15,3,2.0,Yes,0,0,0,0,2,3.0,1,2021-03-25,,No,Mid-Junior
+1087,36,Male,Married,Medical,5,4,7,4,98000,14,0,9.0,No,1,0,0,0,5,2.0,3,2021-09-18,,No,Senior
+1088,43,Female,Married,Other,1,4,7,3,73800,14,1,3.0,No,0,0,0,0,2,3.0,5,2021-10-17,2022-01-09,Yes,Senior
+1089,21,Male,Single,Life Sciences,2,3,5,2,54700,23,0,,Yes,0,0,0,0,0,5.0,3,2024-09-25,,No,Senior
+1090,36,Male,Married,Medical,3,2,2,1,29200,16,1,11.0,No,5,4,5,3,7,1.0,1,2020-09-17,,No,Mid-Junior
+1091,33,Male,Single,Life Sciences,2,2,2,2,50800,17,0,4.0,Yes,1,0,1,1,4,3.0,2,2024-04-25,,No,Senior
+1092,50,Female,Married,Life Sciences,4,3,5,1,22400,18,2,14.0,No,2,2,1,0,11,3.0,1,2024-04-12,,No,Entry
+1093,33,Female,Married,Life Sciences,3,2,3,4,120500,23,0,7.0,No,1,1,1,0,4,0.0,0,2025-04-01,,No,Leadership
+1094,53,Male,Married,Life Sciences,2,3,4,3,92400,12,3,10.0,No,5,2,0,4,13,1.0,3,2025-12-07,,No,Senior
+1095,34,Male,Married,Life Sciences,4,4,8,2,56700,12,1,19.0,No,4,2,4,3,6,0.0,4,2022-10-26,,No,Senior
+1096,33,Female,Single,Medical,3,2,1,2,49600,23,0,9.0,No,0,0,0,0,2,0.0,4,2020-02-17,,No,Mid-Junior
+1097,45,Female,Married,Medical,1,3,4,3,85500,22,1,13.0,No,2,0,2,1,6,3.0,0,2021-04-14,,No,Senior
+1098,31,Female,Single,Life Sciences,4,3,5,2,48100,25,2,10.0,No,0,0,0,0,3,3.0,1,2022-12-28,,No,Mid-Junior
+1099,34,Male,Single,Medical,2,2,2,2,36200,25,0,30.0,Yes,2,2,0,0,7,2.0,2,2023-10-25,,No,Mid-Junior
+1100,29,Male,Married,Medical,1,2,1,2,50700,22,1,6.0,No,2,2,2,2,4,0.0,3,2021-04-01,,No,Senior
+1101,33,Female,Single,Medical,3,3,4,3,75300,21,2,23.0,No,6,3,2,4,9,3.0,3,2023-04-17,,No,Senior
+1102,38,Male,Single,Technical Degree,4,3,4,2,52700,24,0,10.0,No,4,2,1,2,10,1.0,6,2024-11-15,2026-09-02,Yes,Senior
+1103,36,Male,Divorced,Life Sciences,2,2,1,3,62800,11,0,12.0,No,2,1,2,2,5,2.0,5,2020-01-14,,No,Senior
+1104,26,Female,Single,Human Resources,4,5,11,3,94400,18,0,30.0,No,0,0,0,0,3,2.0,2,2022-12-14,,No,Senior
+1105,36,Male,Married,Technical Degree,3,4,7,3,82700,14,2,11.0,No,3,2,1,3,6,2.0,1,2025-08-12,,No,Senior
+1106,25,Male,Married,Life Sciences,4,4,8,2,37900,21,1,1.0,No,0,0,0,0,1,2.0,1,2022-01-01,,No,Mid-Junior
+1107,36,Male,Divorced,Other,4,2,3,5,151500,11,2,14.0,No,0,0,0,0,2,2.0,4,2025-09-10,,No,Leadership
+1108,29,Male,Single,Life Sciences,3,2,2,2,38000,13,1,10.0,No,0,0,0,0,6,1.0,2,2021-03-11,,No,Mid-Junior
+1109,34,Male,Married,Life Sciences,3,2,3,5,158100,12,1,3.0,Yes,1,0,1,1,2,0.0,2,2023-05-07,,No,Leadership
+1110,19,Female,Single,Medical,4,3,4,3,87000,21,1,24.0,No,0,0,0,0,0,0.0,6,2025-09-10,,No,Senior
+1111,35,Male,Divorced,Medical,3,5,11,2,35500,24,2,15.0,No,0,0,0,0,5,1.0,1,2022-03-25,2022-05-24,Yes,Mid-Junior
+1112,34,Female,Single,Medical,1,2,3,5,187900,24,0,5.0,No,0,0,0,0,3,3.0,3,2024-03-11,,No,Leadership
+1113,18,Male,Single,Life Sciences,2,5,11,2,37000,24,3,4.0,No,0,0,0,0,0,1.0,0,2021-10-23,,No,Mid-Junior
+1114,32,Male,Single,Marketing,1,3,5,2,37000,15,2,5.0,Yes,2,2,0,1,4,2.0,3,2025-12-12,2026-08-15,Yes,Mid-Junior
+1115,29,Female,Single,Other,2,3,4,2,55700,21,0,2.0,No,2,0,0,1,3,2.0,2,2023-08-20,,No,Senior
+1116,51,Female,Divorced,Technical Degree,3,3,5,2,49700,23,3,11.0,Yes,5,4,1,5,22,0.0,4,2025-06-24,,No,Mid-Junior
+1117,41,Female,Married,Marketing,1,2,1,2,36700,24,1,4.0,No,1,1,0,1,5,1.0,1,2020-03-20,,No,Mid-Junior
+1118,41,Female,Married,Life Sciences,2,2,3,5,183700,23,0,30.0,Yes,1,0,1,0,9,3.0,3,2021-04-03,,No,Leadership
+1119,27,Male,Married,Medical,3,2,3,5,179300,16,1,20.0,No,1,1,1,1,4,2.0,4,2024-01-26,,No,Leadership
+1120,46,Male,Married,Medical,3,5,11,2,54700,24,2,1.0,No,0,0,0,0,3,0.0,1,2023-06-13,,No,Senior
+1121,35,Female,Married,Life Sciences,5,3,4,3,-15000,13,0,7.0,No,0,0,0,0,0,1.0,2,2022-09-07,2022-11-06,Yes,Senior
+1122,37,Female,Married,Medical,3,2,3,4,132000,24,0,19.0,Yes,2,0,2,1,9,2.0,5,2022-09-13,,No,Leadership
+1123,43,Male,Single,Human Resources,3,2,1,3,60200,17,2,7.0,Yes,0,0,0,0,6,4.0,4,2020-11-18,2021-01-17,Yes,Senior
+1124,28,Male,Married,Other,4,5,11,3,81900,11,0,2.0,No,0,0,0,0,4,2.0,1,2025-06-13,,No,Senior
+1125,52,Female,Single,Marketing,1,4,6,3,75800,25,0,3.0,Yes,14,11,0,3,23,1.0,4,2020-10-10,,No,Senior
+1126,32,Female,Divorced,Medical,4,3,4,2,38700,22,1,10.0,No,4,4,1,2,7,1.0,4,2025-12-21,,No,Mid-Junior
+1127,36,Female,Married,Life Sciences,4,2,1,2,55700,22,1,5.0,No,0,0,0,0,6,3.0,2,2021-05-30,2021-07-29,Yes,Senior
+1128,41,Male,Married,Marketing,1,3,4,3,73000,19,1,2.0,No,1,0,0,0,8,2.0,1,2025-04-30,,No,Senior
+1129,37,Male,Single,Technical Degree,3,1,9,2,60300,20,2,2.0,Yes,6,4,3,1,8,2.0,2,2021-11-07,,No,Senior
+1130,40,Male,Married,Marketing,4,6,12,3,58900,11,0,9.0,No,0,0,0,0,4,2.0,6,2022-12-21,,No,Senior
+1131,32,Female,Divorced,Life Sciences,4,3,4,3,84100,25,0,16.0,Yes,0,0,0,0,1,1.0,6,2025-12-01,2026-02-04,Yes,Senior
+1132,40,Female,Married,Life Sciences,3,3,5,1,34900,24,0,1.0,No,4,1,2,1,13,2.0,4,2024-09-29,,No,Mid-Junior
+1133,34,Male,Married,Medical,4,3,4,2,54700,16,2,1.0,No,1,0,0,0,5,3.0,2,2022-05-17,,No,Senior
+1134,40,Male,Single,Marketing,4,2,3,5,190400,21,0,7.0,No,4,4,1,0,12,2.0,6,2022-04-03,,No,Leadership
+1135,24,Male,Single,Medical,2,2,3,5,187600,16,0,12.0,Yes,0,0,0,0,1,,0,2023-06-30,,No,Leadership
+1136,25,Female,Divorced,Technical Degree,4,5,11,3,60300,20,0,4.0,No,1,1,1,0,2,1.0,1,2024-06-22,,No,Senior
+1137,24,Male,Divorced,Marketing,3,3,4,3,78900,22,1,28.0,No,0,0,0,0,1,6.0,3,2024-03-09,,No,Senior
+1138,47,Male,Married,Life Sciences,3,3,4,2,41400,23,0,,No,2,0,0,0,6,3.0,2,2024-11-29,,No,Mid-Junior
+1139,35,Male,Single,Life Sciences,3,4,7,3,58700,16,1,11.0,No,0,0,0,0,1,6.0,1,2025-10-20,,No,Senior
+1140,30,Female,Married,Other,2,3,4,3,82500,24,0,30.0,No,0,0,0,0,1,1.0,0,2025-01-23,,No,Senior
+1141,22,Male,Divorced,Medical,3,2,2,2,53500,15,1,10.0,Yes,0,0,0,0,0,2.0,2,2021-05-10,,No,Senior
+1142,39,Male,Divorced,Human Resources,4,3,5,2,34200,22,1,4.0,No,2,1,0,1,12,2.0,2,2022-10-12,2024-09-08,Yes,Mid-Junior
+1143,46,Male,Married,Life Sciences,3,3,5,2,34800,22,0,5.0,Yes,0,0,0,0,1,0.0,4,2020-09-19,2020-11-18,Yes,Mid-Junior
+1144,39,Male,Divorced,Life Sciences,2,2,1,3,71100,20,2,16.0,No,3,0,1,3,10,1.0,5,2020-03-27,,No,Senior
+1145,22,Male,Divorced,Medical,3,2,3,5,151100,25,1,2.0,No,0,0,0,0,0,3.0,6,2022-07-31,,No,Leadership
+1146,22,Female,Divorced,Life Sciences,3,2,3,5,174900,22,2,6.0,No,0,0,0,0,0,1.0,0,2022-06-21,,No,Leadership
+1147,28,Female,Married,Life Sciences,4,4,7,3,72600,19,0,4.0,No,0,0,0,0,3,2.0,3,2020-01-30,,No,Senior
+1148,43,Male,Divorced,Medical,4,3,5,1,34900,12,1,12.0,No,6,2,2,1,15,3.0,4,2020-10-17,,No,Mid-Junior
+1149,48,Male,Divorced,Life Sciences,3,3,4,2,41900,13,1,5.0,No,1,1,0,1,7,1.0,2,2020-08-29,2021-07-28,Yes,Mid-Junior
+1150,33,Female,Married,Medical,3,2,1,3,95000,13,2,3.0,No,0,0,0,0,5,3.0,3,2020-10-03,2020-12-02,Yes,Senior
+1151,35,Female,Married,Life Sciences,2,4,6,3,92500,23,0,2.0,Yes,4,1,4,2,7,2.0,0,2023-09-15,,No,Senior
+1152,32,Male,Married,Medical,4,4,7,3,90100,24,0,5.0,No,0,0,0,0,2,3.0,5,2020-10-17,,No,Senior
+1153,54,Male,Single,Life Sciences,2,2,3,5,174400,20,0,10.0,Yes,2,2,1,1,10,3.0,3,2025-10-06,,No,Leadership
+1154,23,Male,Divorced,Marketing,1,2,3,4,124000,14,0,,Yes,0,0,0,0,1,2.0,2,2022-09-01,,No,Leadership
+1155,44,Male,Married,Medical,3,4,8,1,26500,12,1,2.0,No,5,1,2,5,6,4.0,2,2023-02-14,,No,Mid-Junior
+1156,38,Male,Single,Technical Degree,3,2,2,1,25600,20,2,1.0,Yes,5,1,3,1,9,,4,2025-06-11,,No,Mid-Junior
+1157,34,Female,Divorced,Medical,2,3,5,2,53400,19,1,1.0,No,0,0,0,0,8,2.0,4,2022-05-27,,No,Senior
+1158,30,Male,Married,Marketing,3,3,5,1,23500,18,3,,No,1,1,1,0,3,4.0,2,2021-06-25,,No,Entry
+1159,37,Male,Single,Life Sciences,2,1,9,1,23400,16,1,6.0,No,1,0,0,0,3,5.0,4,2025-04-20,,No,Entry
+1160,41,Male,Married,Other,3,1,10,4,133000,13,3,10.0,No,5,2,3,3,12,1.0,2,2022-09-22,,No,Leadership
+1161,21,Female,Single,Life Sciences,5,3,5,2,43800,23,0,1.0,No,0,0,0,0,0,1.0,4,2025-04-21,,No,Mid-Junior
+1162,40,Female,Married,Life Sciences,3,1,9,1,25900,23,1,16.0,No,2,2,1,2,5,0.0,2,2024-07-25,,No,Mid-Junior
+1163,28,Male,Single,Marketing,4,4,8,2,43600,11,3,14.0,Yes,1,0,1,1,4,1.0,3,2022-02-18,2022-12-14,Yes,Mid-Junior
+1164,41,Male,Single,Technical Degree,2,2,2,1,19300,19,2,7.0,Yes,1,1,0,1,4,1.0,5,2021-02-01,,No,Entry
+1165,27,Male,Single,Life Sciences,1,4,8,2,38200,18,0,30.0,No,2,1,2,1,4,1.0,4,2024-10-31,,No,Mid-Junior
+1166,23,Female,Married,Medical,5,3,5,2,48200,19,0,4.0,Yes,0,0,0,0,1,2.0,4,2023-12-22,2024-02-20,Yes,Mid-Junior
+1167,35,Male,Single,Medical,4,3,4,2,54000,16,0,30.0,No,0,0,0,0,4,0.0,2,2024-08-10,,No,Senior
+1168,34,Female,Divorced,Other,3,3,5,1,22500,18,3,25.0,Yes,3,0,2,2,6,0.0,6,2025-03-27,,No,Entry
+1169,21,Female,Divorced,Technical Degree,4,3,4,3,79600,17,0,9.0,No,0,0,0,0,0,2.0,1,2020-08-09,2020-10-30,Yes,Senior
+1170,26,Male,Married,Medical,1,4,8,1,20400,23,2,3.0,No,1,1,0,0,3,1.0,4,2021-02-07,,No,Entry
+1171,45,Male,Married,Technical Degree,3,4,7,3,91300,18,0,2.0,No,1,1,1,0,2,0.0,2,2020-09-05,,No,Senior
+1172,34,Female,Single,Life Sciences,3,3,4,2,59000,19,0,2.0,No,2,2,1,2,5,2.0,2,2024-07-07,,No,Senior
+1173,23,Male,Married,Technical Degree,4,3,5,1,24600,12,0,16.0,No,0,0,0,0,0,2.0,3,2023-10-21,,No,Entry
+1174,43,Male,Married,Life Sciences,1,2,3,4,134200,12,2,8.0,Yes,2,1,0,0,9,1.0,1,2021-03-23,,No,Leadership
+1175,33,Male,Single,Life Sciences,3,2,1,3,80500,20,0,3.0,No,2,1,1,2,4,3.0,6,2022-10-15,2024-09-03,Yes,Senior
+1176,49,Female,Married,Medical,3,5,11,2,55200,25,0,1.0,No,0,0,0,0,16,2.0,1,2022-02-18,2022-04-19,Yes,Senior
+1177,30,Male,Divorced,Other,2,4,7,4,102000,18,3,5.0,Yes,3,0,1,3,7,4.0,1,2025-01-11,,No,Leadership
+1178,30,Female,Single,Medical,4,3,4,3,85000,23,1,1.0,No,1,1,1,1,7,1.0,2,2021-07-28,2022-08-15,Yes,Senior
+1179,45,Male,Married,Medical,3,2,3,5,168600,20,1,2.0,No,5,3,3,5,9,2.0,2,2022-01-21,,No,Leadership
+1180,55,Male,Single,Technical Degree,3,3,4,2,55700,18,1,5.0,No,2,2,1,0,5,2.0,3,2023-02-14,,No,Senior
+1181,22,Male,Single,Human Resources,3,1,10,5,148600,12,0,3.0,No,0,0,0,0,0,4.0,1,2025-03-09,2025-05-08,Yes,Leadership
+1182,49,Male,Divorced,Marketing,4,3,5,1,28900,22,2,1.0,No,9,1,6,9,18,2.0,2,2020-11-04,,No,Mid-Junior
+1183,31,Female,Single,Technical Degree,3,3,4,3,84100,17,0,3.0,Yes,0,0,0,0,3,1.0,3,2024-12-20,2025-02-18,Yes,Senior
+1184,35,Male,Single,Technical Degree,4,5,11,2,56100,13,1,4.0,Yes,0,0,0,0,1,5.0,3,2021-02-05,2021-04-06,Yes,Senior
+1185,47,Male,Single,Medical,3,2,3,4,141900,15,3,1.0,Yes,9,1,6,5,19,1.0,4,2020-03-01,,No,Leadership
+1186,36,Male,Married,Life Sciences,4,2,1,3,69600,16,1,17.0,No,3,0,0,2,7,3.0,3,2021-01-17,,No,Senior
+1187,37,Female,Married,Other,4,2,2,1,32100,16,1,6.0,Yes,5,0,4,0,12,2.0,2,2022-08-26,,No,Mid-Junior
+1188,29,Male,Single,Medical,3,2,1,2,51600,13,0,3.0,No,0,0,0,0,0,2.0,5,2021-11-12,,No,Senior
+1189,32,Male,Married,Medical,4,4,8,1,21200,15,1,1.0,No,0,0,0,0,7,5.0,4,2024-07-22,2024-09-20,Yes,Entry
+1190,45,Male,Single,Medical,1,2,1,3,76200,19,0,1.0,Yes,2,1,0,0,15,0.0,4,2025-05-25,,No,Senior
+1191,39,Male,Married,Marketing,3,2,1,3,74200,25,3,4.0,No,7,4,0,6,10,5.0,3,2022-05-25,,No,Senior
+1192,40,Female,Divorced,Life Sciences,3,2,3,4,121200,18,3,22.0,Yes,4,3,1,1,9,4.0,2,2024-06-30,,No,Leadership
+1193,41,Female,Married,Life Sciences,3,4,8,2,40000,19,3,11.0,Yes,0,0,0,0,5,1.0,3,2020-08-28,2020-10-27,Yes,Mid-Junior
+1194,40,Male,Married,Life Sciences,2,3,5,1,27000,13,2,2.0,Yes,0,0,0,0,6,4.0,2,2024-04-01,2024-05-31,Yes,Mid-Junior
+1195,35,Female,Married,Technical Degree,3,3,5,2,41800,15,0,24.0,No,2,1,1,1,4,0.0,1,2024-05-18,,No,Mid-Junior
+1196,30,Female,Single,Technical Degree,3,3,4,2,44900,25,0,5.0,No,2,2,2,2,4,1.0,0,2022-12-22,,No,Mid-Junior
+1197,44,Male,Married,Technical Degree,3,4,6,3,74700,12,1,3.0,No,8,2,8,7,13,,1,2025-02-06,,No,Senior
+1198,42,Female,Married,Marketing,1,3,5,2,48000,12,2,22.0,No,4,2,0,1,8,3.0,3,2023-03-14,,No,Mid-Junior
+1199,41,Female,Married,Medical,3,2,2,1,24700,19,3,9.0,No,3,0,0,1,6,3.0,2,2024-09-28,,No,Entry
+1200,25,Female,Married,Other,5,2,3,4,114300,24,2,7.0,No,1,0,1,0,2,2.0,3,2025-06-16,,No,Leadership
+1201,34,Female,Single,Life Sciences,4,6,12,2,35400,12,1,3.0,No,2,0,2,0,7,1.0,4,2021-09-26,2023-08-15,Yes,Mid-Junior
+1202,44,Male,Married,Medical,1,6,12,3,98100,12,1,2.0,No,7,1,0,0,12,3.0,3,2023-04-30,,No,Senior
+1203,32,Female,Divorced,Life Sciences,4,4,6,3,78900,25,0,5.0,Yes,1,0,0,1,7,0.0,2,2022-06-10,2023-03-26,Yes,Senior
+1204,36,Male,Married,Life Sciences,4,3,4,3,65900,12,1,14.0,Yes,1,1,0,1,7,2.0,2,2020-09-06,2021-08-27,Yes,Senior
+1205,29,Female,Divorced,Life Sciences,3,2,1,2,48600,18,1,6.0,No,0,0,0,0,2,0.0,3,2020-08-22,,No,Mid-Junior
+1206,42,Male,Single,Technical Degree,3,2,2,2,45500,24,3,16.0,No,0,0,0,0,2,1.0,3,2020-07-24,,No,Mid-Junior
+1207,28,Male,Single,Marketing,3,4,8,1,25300,18,0,1.0,No,0,0,0,0,1,1.0,3,2025-05-06,2025-07-05,Yes,Mid-Junior
+1208,28,Male,Single,Medical,5,3,4,2,42500,15,1,10.0,No,0,0,0,0,4,2.0,1,2025-12-15,,No,Mid-Junior
+1209,19,Female,Divorced,Life Sciences,3,2,3,4,132900,13,0,5.0,No,0,0,0,0,0,2.0,3,2021-10-06,,No,Leadership
+1210,39,Male,Married,Life Sciences,3,3,4,2,41700,23,2,20.0,No,0,0,0,0,0,4.0,2,2020-08-20,2020-10-19,Yes,Mid-Junior
+1211,50,Female,Single,Life Sciences,3,2,2,1,35700,23,1,8.0,No,7,7,6,5,27,1.0,1,2020-11-24,,No,Mid-Junior
+1212,39,Male,Married,Technical Degree,4,6,12,2,43900,15,2,15.0,Yes,0,0,0,0,1,5.0,2,2022-01-31,,No,Mid-Junior
+1213,29,Female,Married,Medical,5,3,5,1,27500,11,1,1.0,No,1,1,0,0,6,1.0,3,2020-10-07,,No,Mid-Junior
+1214,42,Male,Single,Medical,2,3,5,2,56600,23,1,13.0,Yes,1,0,1,0,4,1.0,2,2020-10-05,,No,Senior
+1215,23,Male,Married,Other,4,2,1,3,60100,16,2,4.0,No,0,0,0,0,0,4.0,4,2022-08-21,2022-10-20,Yes,Senior
+1216,52,Male,Married,Life Sciences,4,5,11,2,43600,23,2,11.0,No,1,1,0,0,12,1.0,1,2021-05-06,,No,Mid-Junior
+1217,36,Female,Married,Technical Degree,1,4,6,3,90600,13,1,7.0,No,4,3,0,3,9,1.0,0,2022-10-05,,No,Senior
+1218,50,Male,Divorced,Human Resources,2,2,1,2,54100,24,0,20.0,Yes,6,5,3,2,15,0.0,2,2020-06-11,2026-08-18,Yes,Senior
+1219,34,Female,Divorced,Medical,3,3,4,2,51500,23,1,12.0,No,0,0,0,0,3,3.0,3,2020-12-01,,No,Senior
+1220,39,Female,Single,Medical,3,2,2,1,22000,15,1,1.0,No,1,0,1,1,2,2.0,1,2024-09-13,,No,Entry
+1221,45,Female,Single,Medical,3,2,2,1,27800,25,2,1.0,Yes,0,0,0,0,4,0.0,5,2025-11-11,,No,Mid-Junior
+1222,44,Male,Single,Medical,3,2,2,2,51800,25,0,7.0,No,1,1,1,1,8,2.0,1,2023-07-19,,No,Senior
+1223,39,Male,Single,Medical,4,2,3,4,110800,11,0,29.0,Yes,2,0,2,0,9,3.0,2,2022-12-04,,No,Leadership
+1224,44,Male,Single,Medical,2,3,5,1,27400,22,3,18.0,No,0,0,0,0,1,4.0,1,2022-04-16,2022-07-06,Yes,Mid-Junior
+1225,41,Male,Single,Life Sciences,2,1,9,1,21700,14,0,1.0,No,1,1,1,1,9,5.0,2,2023-07-10,,No,Entry
+1226,41,Male,Divorced,Marketing,1,1,10,5,176900,20,2,14.0,No,2,1,1,2,4,3.0,3,2022-09-04,2024-08-11,Yes,Leadership
+1227,41,Female,Single,Technical Degree,4,2,1,3,75400,20,0,6.0,No,1,1,1,0,11,3.0,3,2024-06-09,,No,Senior
+1228,41,Male,Divorced,Medical,5,4,7,4,128700,25,1,20.0,No,0,0,0,0,5,1.0,1,2021-06-20,,No,Leadership
+1229,50,Female,Married,Other,3,3,5,2,50600,24,0,6.0,No,5,0,3,0,15,1.0,2,2023-05-13,2026-09-20,Yes,Senior
+1230,23,Female,Married,Other,3,1,9,1,31500,12,1,5.0,No,0,0,0,0,0,1.0,4,2020-10-24,,No,Mid-Junior
+1231,49,Male,Single,Human Resources,3,6,12,2,45000,20,0,22.0,Yes,3,0,1,1,20,1.0,5,2020-02-08,2023-03-06,Yes,Mid-Junior
+1232,18,Male,Married,Life Sciences,3,4,7,3,61600,15,1,13.0,No,0,0,0,0,0,0.0,3,2021-02-13,,No,Senior
+1233,18,Male,Married,Medical,2,5,11,3,76400,21,2,4.0,Yes,0,0,0,0,0,2.0,1,2020-10-27,,No,Senior
+1234,29,Male,Married,Marketing,3,3,4,2,52500,19,1,1.0,No,0,0,0,0,2,0.0,4,2022-05-23,,No,Senior
+1235,36,Female,Divorced,Technical Degree,3,6,12,3,63500,20,2,2.0,No,1,1,0,1,9,2.0,2,2025-09-03,,No,Senior
+1236,34,Female,Married,Life Sciences,4,3,5,1,27300,12,1,6.0,No,1,1,1,0,4,1.0,6,2022-12-22,2023-10-26,Yes,Mid-Junior
+1237,36,Female,Divorced,Medical,2,6,12,3,70700,22,0,1.0,No,0,0,0,0,10,1.0,6,2023-11-30,2024-01-29,Yes,Senior
+1238,22,Male,Single,Life Sciences,2,2,1,2,46700,18,0,2.0,No,0,0,0,0,1,2.0,2,2022-09-27,,No,Mid-Junior
+1239,22,Female,Single,Life Sciences,4,4,6,2,33400,18,1,1.0,Yes,0,0,0,0,0,0.0,3,2024-02-22,2024-04-22,Yes,Mid-Junior
+1240,21,Male,Single,Life Sciences,4,5,11,3,68400,20,1,5.0,No,0,0,0,0,0,3.0,1,2021-10-08,,No,Senior
+1241,26,Male,Divorced,Life Sciences,1,2,1,3,63600,22,0,5.0,No,0,0,0,0,2,3.0,2,2024-11-29,,No,Senior
+1242,38,Female,Married,Life Sciences,3,5,11,2,40200,25,0,1.0,No,0,0,0,0,0,1.0,5,2023-05-24,,No,Mid-Junior
+1243,37,Male,Married,Life Sciences,1,4,6,3,77200,20,2,5.0,Yes,1,0,1,1,10,2.0,2,2025-12-06,,No,Senior
+1244,43,Female,Single,Other,2,6,12,2,55400,13,3,5.0,No,3,1,2,3,10,2.0,0,2020-02-02,,No,Senior
+1245,40,Male,Single,Medical,4,2,1,2,32700,13,3,2.0,No,0,0,0,0,4,1.0,3,2023-05-11,,No,Mid-Junior
+1246,26,Male,Married,Marketing,2,2,3,5,179400,15,1,9.0,No,0,0,0,0,1,2.0,6,2021-02-28,,No,Leadership
+1247,34,Female,Married,Technical Degree,5,3,4,3,74800,12,1,8.0,No,1,1,1,1,9,0.0,1,2021-07-04,,No,Senior
+1248,41,Female,Married,Medical,2,4,7,4,139600,19,0,24.0,Yes,1,0,1,0,5,1.0,2,2022-12-19,,No,Leadership
+1249,37,Male,Single,Life Sciences,2,2,1,3,85900,17,1,6.0,Yes,4,2,3,3,9,1.0,2,2021-04-17,,No,Senior
+1250,30,Female,Single,Technical Degree,1,2,3,5,153300,19,0,7.0,No,0,0,0,0,5,0.0,3,2021-03-14,,No,Leadership
+1251,51,Male,Single,Medical,4,6,12,2,59800,25,0,2.0,No,5,5,4,2,16,4.0,2,2021-09-28,,No,Senior
+1252,26,Male,Single,Other,4,3,4,3,88700,11,1,6.0,No,0,0,0,0,2,4.0,5,2023-01-20,2023-03-21,Yes,Senior
+1253,45,Male,Single,Marketing,3,2,2,2,39900,16,2,12.0,No,9,6,2,5,15,3.0,2,2022-05-12,,No,Mid-Junior
+1254,29,Female,Married,Medical,4,1,9,2,41800,22,1,1.0,No,0,0,0,0,0,2.0,5,2023-11-05,2024-01-04,Yes,Mid-Junior
+1255,44,Male,Single,Marketing,2,4,7,3,77700,13,1,13.0,Yes,0,0,0,0,3,1.0,4,2022-12-17,,No,Senior
+1256,42,Male,Divorced,Marketing,3,2,1,3,92100,15,2,2.0,Yes,0,0,0,0,3,,4,2025-09-01,,No,Senior
+1257,32,Male,Single,Technical Degree,3,3,5,1,31800,22,3,10.0,No,2,0,0,1,5,3.0,1,2025-06-24,,No,Mid-Junior
+1258,49,Male,Divorced,Medical,4,3,5,1,24200,24,1,11.0,No,3,2,3,2,13,4.0,5,2022-10-25,,No,Entry
+1259,26,Male,Single,Technical Degree,4,2,2,2,36400,15,1,16.0,Yes,3,1,1,1,5,5.0,2,2020-07-27,2023-05-21,Yes,Mid-Junior
+1260,29,Male,Married,Other,3,2,1,2,49600,15,1,10.0,No,3,1,0,1,7,3.0,2,2024-09-30,,No,Mid-Junior
+1261,40,Male,Married,Technical Degree,3,2,3,5,194300,22,0,10.0,No,5,2,5,3,16,0.0,4,2023-02-07,,No,Leadership
+1262,42,Female,Married,Other,3,2,3,4,136000,23,1,14.0,No,4,1,1,4,14,2.0,6,2020-06-29,,No,Leadership
+1263,38,Female,Single,Medical,2,4,6,3,90000,12,0,1.0,No,1,0,1,1,5,4.0,4,2020-01-15,2021-01-09,Yes,Senior
+1264,25,Female,Divorced,Medical,3,3,4,2,36200,18,1,13.0,No,0,0,0,0,1,0.0,3,2021-06-19,,No,Mid-Junior
+1265,30,Female,Married,Technical Degree,3,1,10,5,167700,13,1,1.0,No,1,1,0,0,2,4.0,2,2022-12-08,,No,Leadership
+1266,37,Male,Married,Marketing,2,4,7,3,71900,19,0,3.0,No,1,0,1,0,4,1.0,3,2021-10-23,2022-11-15,Yes,Senior
+1267,33,Male,Married,Other,1,3,4,3,88100,19,1,11.0,No,0,0,0,0,1,3.0,0,2024-10-17,2024-12-16,Yes,Senior
+1268,41,Male,Married,Medical,3,1,10,4,115000,17,1,5.0,No,1,1,1,0,8,2.0,2,2020-02-09,,No,Leadership
+1269,30,Female,Single,Technical Degree,3,2,2,1,28900,24,2,3.0,Yes,3,3,0,3,8,2.0,3,2021-04-03,2024-01-22,Yes,Mid-Junior
+1270,39,Male,Single,Medical,1,6,12,2,45700,21,0,8.0,No,1,1,0,1,2,1.0,3,2021-09-02,2022-10-21,Yes,Mid-Junior
+1271,30,Female,Married,Life Sciences,3,2,2,2,45500,18,0,2.0,No,0,0,0,0,2,2.0,0,2020-05-27,,No,Mid-Junior
+1272,27,Female,Single,Technical Degree,5,3,5,2,39400,13,2,1.0,No,0,0,0,0,3,2.0,2,2024-02-21,2024-04-21,Yes,Mid-Junior
+1273,48,Male,Single,Technical Degree,3,6,12,2,51900,16,2,1.0,No,6,3,6,1,11,2.0,3,2021-08-29,,No,Senior
+1274,36,Male,Married,Life Sciences,1,4,6,2,41000,16,3,11.0,No,0,0,0,0,6,3.0,4,2024-10-26,,No,Mid-Junior
+1275,40,Male,Married,Marketing,1,1,9,1,27300,17,1,13.0,No,1,1,1,1,5,0.0,2,2021-06-06,,No,Mid-Junior
+1276,25,Female,Married,Technical Degree,4,3,5,1,24700,11,0,,Yes,0,0,0,0,2,0.0,5,2020-06-20,2020-08-19,Yes,Entry
+1277,30,Female,Married,Marketing,3,5,11,3,81900,14,0,13.0,No,1,1,1,1,5,5.0,2,2024-02-02,,No,Senior
+1278,36,Male,Married,Technical Degree,4,3,4,2,42400,13,0,5.0,No,1,1,1,0,4,3.0,4,2020-06-12,,No,Mid-Junior
+1279,49,Male,Married,Medical,2,2,1,3,70700,17,0,11.0,No,3,3,1,1,10,1.0,6,2024-01-05,2026-08-04,Yes,Senior
+1280,44,Female,Single,Medical,1,2,1,3,69100,22,1,6.0,No,3,1,3,0,10,2.0,1,2022-10-19,,No,Senior
+1281,54,Male,Married,Life Sciences,3,4,7,3,4500000,23,0,7.0,No,1,0,1,1,16,2.0,4,2021-02-25,,No,Senior
+1282,31,Male,Married,Life Sciences,3,3,4,3,82900,21,3,4.0,Yes,3,2,1,0,5,2.0,5,2023-12-19,,No,Senior
+1283,31,Female,Married,Medical,3,6,12,3,82600,19,2,4.0,Yes,1,0,0,0,3,4.0,3,2024-07-22,,No,Senior
+1284,42,Male,Single,Life Sciences,2,3,5,1,27700,18,1,20.0,Yes,6,5,5,5,13,1.0,3,2021-09-25,2026-10-10,Yes,Mid-Junior
+1285,32,Female,Divorced,Medical,3,4,6,3,83600,16,3,8.0,Yes,1,0,0,0,2,3.0,0,2021-12-26,,No,Senior
+1286,42,Male,Divorced,Marketing,1,2,2,2,46000,22,0,1.0,No,4,1,4,4,11,4.0,4,2024-08-15,,No,Mid-Junior
+1287,36,Male,Married,Medical,4,1,9,1,19900,18,0,8.0,No,2,2,1,0,3,2.0,3,2020-04-11,,No,Entry
+1288,25,Male,Divorced,Other,3,4,8,1,27600,12,1,17.0,No,1,1,0,0,2,1.0,2,2022-01-04,,No,Mid-Junior
+1289,39,Female,Married,Life Sciences,4,3,4,2,35100,22,1,10.0,No,1,1,1,1,14,1.0,2,2023-09-22,2024-10-06,Yes,Mid-Junior
+1290,34,Female,Married,Technical Degree,3,2,2,2,54600,25,0,3.0,No,2,1,2,2,7,3.0,3,2022-10-13,,No,Senior
+1291,38,Male,Single,Life Sciences,4,3,4,3,91900,24,3,15.0,No,2,1,2,2,9,1.0,6,2022-12-28,,No,Senior
+1292,29,Female,Divorced,Other,4,4,6,3,74900,21,2,16.0,No,1,0,1,0,3,2.0,2,2021-10-14,,No,Senior
+1293,33,Female,Married,Marketing,1,3,5,2,36900,14,1,7.0,No,1,0,0,0,8,2.0,1,2021-03-18,,No,Mid-Junior
+1294,22,Female,Single,Life Sciences,4,2,1,3,77400,23,1,4.0,Yes,0,0,0,0,1,2.0,6,2024-04-15,2024-06-14,Yes,Senior
+1295,39,Male,Married,Technical Degree,3,3,5,1,26400,13,1,1.0,No,0,0,0,0,10,1.0,3,2025-04-11,2025-06-10,Yes,Mid-Junior
+1296,28,Female,Married,Medical,3,3,5,1,19400,22,2,11.0,No,1,1,0,1,6,3.0,3,2022-03-28,,No,Entry
+1297,35,Male,Single,Marketing,3,4,6,3,60700,25,0,7.0,No,3,2,2,2,7,0.0,2,2025-02-28,,No,Senior
+1298,44,Male,Married,Human Resources,4,6,12,3,69700,24,0,6.0,Yes,5,2,3,5,14,3.0,4,2023-12-03,,No,Senior
+1299,35,Female,Single,Medical,4,4,6,3,83700,16,2,10.0,No,0,0,0,0,4,1.0,4,2023-06-04,,No,Senior
+1300,39,Female,Divorced,Medical,3,5,11,3,84900,11,0,5.0,No,0,0,0,0,5,2.0,1,2022-07-21,,No,Senior
+1301,50,Female,Single,Medical,4,2,2,2,39300,24,1,1.0,Yes,7,3,6,3,20,0.0,1,2022-07-02,,No,Mid-Junior
+1302,42,Male,Married,Marketing,4,2,3,5,176100,16,2,12.0,Yes,0,0,0,0,3,,3,2020-04-06,,No,Leadership
+1303,32,Male,Married,Technical Degree,2,2,1,3,70300,23,3,5.0,No,1,1,1,0,5,3.0,4,2022-03-02,,No,Senior
+1304,30,Female,Single,Life Sciences,2,2,3,5,180500,20,1,2.0,No,1,1,0,1,6,2.0,3,2024-06-20,,No,Leadership
+1305,31,Female,Married,Life Sciences,2,2,1,3,81200,18,1,6.0,No,0,0,0,0,5,2.0,4,2023-09-06,,No,Senior
+1306,38,Male,Married,Life Sciences,2,3,5,2,54500,16,1,16.0,Yes,1,1,1,0,6,1.0,2,2023-02-15,,No,Senior
+1307,18,Male,Married,Life Sciences,3,2,3,5,165600,12,1,1.0,No,0,0,0,0,0,2.0,0,2020-10-11,,No,Leadership
+1308,25,Female,Married,Human Resources,2,2,2,2,58000,22,0,22.0,Yes,0,0,0,0,0,1.0,1,2023-02-17,,No,Senior
+1309,45,Female,Married,Marketing,3,5,11,2,40200,20,2,10.0,No,6,1,1,5,15,3.0,3,2023-12-09,,No,Mid-Junior
+1310,37,Male,Married,Life Sciences,3,3,4,2,50900,11,1,19.0,Yes,2,1,0,2,7,3.0,1,2025-09-17,2026-08-05,Yes,Senior
+1311,18,Male,Married,Technical Degree,4,6,12,3,90000,25,1,12.0,No,0,0,0,0,0,2.0,3,2023-09-18,,No,Senior
+1312,40,Female,Single,Life Sciences,3,2,3,5,173200,22,2,,No,3,2,0,2,13,0.0,5,2020-04-23,,No,Leadership
+1313,34,Male,Divorced,Life Sciences,1,2,3,5,175500,13,0,26.0,No,0,0,0,0,2,1.0,4,2021-04-17,,No,Leadership
+1314,46,Male,Single,Technical Degree,3,3,5,1,28200,16,1,19.0,Yes,4,4,2,4,5,0.0,2,2022-12-05,,No,Mid-Junior
+1315,47,Female,Divorced,Marketing,3,6,12,2,51200,15,1,2.0,No,0,0,0,0,11,5.0,1,2022-01-01,,No,Senior
+1316,29,Male,Married,Marketing,2,3,4,3,64900,25,1,1.0,No,0,0,0,0,5,3.0,5,2022-12-23,,No,Senior
+1317,35,Female,Single,Other,3,2,2,2,55100,12,0,1.0,Yes,4,3,3,2,6,3.0,5,2020-06-05,2024-04-03,Yes,Senior
+1318,40,Male,Married,Life Sciences,3,3,4,3,84200,15,2,25.0,Yes,0,0,0,0,4,0.0,0,2024-11-14,,No,Senior
+1319,38,Female,Divorced,Marketing,1,1,10,5,184000,13,3,6.0,No,0,0,0,0,3,2.0,4,2023-11-16,,No,Leadership
+1320,26,Male,Married,Life Sciences,2,5,11,2,43900,11,0,3.0,Yes,1,1,1,0,2,3.0,5,2023-07-08,,No,Mid-Junior
+1321,46,Male,Divorced,Marketing,3,2,2,1,26300,22,1,10.0,No,0,0,0,0,1,4.0,2,2024-11-22,2025-01-26,Yes,Mid-Junior
+1322,44,Female,Single,Life Sciences,3,3,4,2,49700,14,0,6.0,No,1,0,0,1,14,3.0,3,2025-09-25,,No,Mid-Junior
+1323,37,Male,Married,Medical,4,4,6,2,58000,17,3,12.0,No,2,2,1,0,10,1.0,2,2021-04-18,,No,Senior
+1324,31,Female,Divorced,Medical,3,4,7,4,122300,20,0,2.0,Yes,2,2,2,2,10,1.0,2,2024-04-26,,No,Leadership
+1325,25,Male,Married,Marketing,3,2,1,3,62500,25,1,4.0,No,0,0,0,0,1,4.0,2,2022-02-17,,No,Senior
+1326,45,Male,Single,Technical Degree,3,2,1,2,41100,15,0,2.0,No,3,2,2,3,8,3.0,5,2022-11-09,,No,Mid-Junior
+1327,35,Female,Single,Other,2,1,10,4,130400,20,1,16.0,No,1,1,1,1,4,0.0,2,2020-06-30,,No,Leadership
+1328,34,Male,Single,Medical,4,3,4,3,59400,24,0,,No,0,0,0,0,6,,1,2024-11-21,,No,Senior
+1329,41,Male,Married,Technical Degree,2,2,2,2,52500,23,2,5.0,Yes,3,3,1,3,4,3.0,2,2020-01-07,2023-02-18,Yes,Senior
+1330,46,Female,Married,Life Sciences,2,3,4,2,34600,14,2,18.0,No,2,1,2,0,11,0.0,2,2022-03-18,,No,Mid-Junior
+1331,38,Male,Married,Technical Degree,4,6,12,2,51600,24,1,11.0,No,3,1,1,3,10,1.0,3,2024-01-31,,No,Senior
+1332,32,Male,Single,Life Sciences,3,2,3,5,154100,24,0,14.0,Yes,1,0,0,1,6,1.0,3,2024-11-01,2025-08-20,Yes,Leadership
+1333,47,Male,Single,Medical,1,5,11,2,50800,14,1,1.0,No,3,2,1,1,7,2.0,4,2023-09-14,,No,Senior
+1334,47,Male,Single,Life Sciences,3,3,5,1,26200,17,3,30.0,No,3,0,3,0,8,0.0,3,2023-07-09,,No,Mid-Junior
+1335,38,Male,Single,Medical,1,2,2,1,28000,19,0,3.0,No,6,6,1,2,12,4.0,6,2021-05-25,,No,Mid-Junior
+1336,31,Female,Divorced,Other,3,3,5,2,43200,23,1,1.0,No,1,0,0,1,3,3.0,3,2023-05-15,,No,Mid-Junior
+1337,39,Male,Married,Life Sciences,1,4,8,2,40500,16,0,10.0,No,1,1,1,0,4,1.0,4,2025-09-08,,No,Mid-Junior
+1338,38,Male,Divorced,Life Sciences,3,4,8,2,49900,20,0,5.0,Yes,4,2,0,1,12,1.0,5,2023-06-20,,No,Mid-Junior
+1339,38,Male,Married,Medical,2,5,11,3,83900,13,0,3.0,No,3,1,2,0,8,0.0,1,2024-07-30,,No,Senior
+1340,37,Male,Single,Technical Degree,5,2,2,2,44900,12,1,30.0,No,1,1,0,1,3,3.0,4,2023-08-29,,No,Mid-Junior
+1341,28,Male,Married,Life Sciences,4,2,1,3,90700,15,1,4.0,No,1,1,0,0,2,1.0,3,2024-07-06,2025-10-02,Yes,Senior
+1342,41,Male,Married,Technical Degree,3,3,4,3,72100,11,0,3.0,No,3,0,2,0,14,2.0,3,2023-04-26,,No,Senior
+1343,27,Female,Married,Medical,4,2,2,1,20300,24,1,30.0,Yes,2,0,0,0,5,3.0,5,2021-06-05,,No,Entry
+1344,29,Female,Single,Life Sciences,3,3,5,2,57000,25,0,2.0,No,0,0,0,0,4,1.0,3,2022-02-24,,No,Senior
+1345,32,Male,Married,Life Sciences,4,2,3,4,117700,19,1,20.0,No,0,0,0,0,1,0.0,4,2024-09-18,,No,Leadership
+1346,44,Male,Married,Human Resources,3,5,11,3,59000,22,0,9.0,Yes,1,1,0,0,2,4.0,5,2024-04-01,,No,Senior
+1347,31,Male,Married,Marketing,3,1,10,5,142500,11,1,7.0,No,2,0,0,2,5,4.0,2,2021-12-13,,No,Leadership
+1348,31,Male,Married,Medical,2,2,1,2,57500,22,1,2.0,No,0,0,0,0,0,0.0,0,2023-05-17,,No,Senior
+1349,39,Female,Divorced,Life Sciences,3,3,5,1,27700,25,3,8.0,Yes,2,2,2,1,9,1.0,2,2024-07-21,,No,Mid-Junior
+1350,30,Male,Single,Medical,3,2,3,4,99000,12,0,4.0,No,0,0,0,0,1,2.0,2,2020-01-02,,No,Senior
+1351,21,Male,Married,Marketing,1,5,11,2,56900,23,0,30.0,No,0,0,0,0,0,1.0,2,2023-05-29,,No,Senior
+1352,38,Male,Divorced,Technical Degree,3,2,2,1,32000,16,0,1.0,No,1,0,1,1,4,1.0,3,2023-03-21,2024-02-12,Yes,Mid-Junior
+1353,44,Female,Married,Marketing,3,5,11,3,71700,23,1,6.0,Yes,0,0,0,0,7,1.0,3,2024-10-26,2024-12-25,Yes,Senior
+1354,38,Male,Single,Human Resources,4,3,5,1,21900,20,3,1.0,Yes,0,0,0,0,1,2.0,6,2023-08-12,,No,Entry
+1355,31,Male,Single,Medical,3,1,9,2,44700,19,0,10.0,No,3,0,0,0,9,4.0,2,2025-03-19,,No,Mid-Junior
+1356,33,Male,Married,Medical,4,3,5,2,54700,25,1,15.0,No,4,4,1,4,7,0.0,3,2024-12-14,2026-08-05,Yes,Senior
+1357,39,Female,Divorced,Medical,2,2,1,3,67600,22,3,15.0,No,4,1,4,1,11,2.0,1,2022-05-25,,No,Senior
+1358,45,Male,Single,Life Sciences,3,3,4,2,50200,24,2,11.0,No,1,1,0,1,2,0.0,3,2025-09-24,,No,Senior
+1359,39,Male,Married,Life Sciences,4,2,3,4,111200,16,3,30.0,No,0,0,0,0,2,3.0,3,2025-04-22,,No,Leadership
+1360,24,Male,Married,Technical Degree,4,2,3,5,187000,25,0,2.0,No,0,0,0,0,1,3.0,2,2021-11-26,,No,Leadership
+1361,28,Male,Single,Human Resources,3,2,3,4,134100,23,3,1.0,No,1,0,0,1,4,4.0,3,2020-12-13,,No,Leadership
+1362,46,Female,Married,Other,1,2,1,3,79000,14,0,5.0,No,8,8,1,7,20,1.0,4,2023-03-08,,No,Senior
+1363,60,Female,Married,Medical,4,6,12,3,88100,22,1,14.0,No,22,12,5,4,27,3.0,4,2025-10-12,2026-08-10,Yes,Senior
+1364,29,Male,Married,Technical Degree,2,2,2,2,57200,17,0,8.0,No,0,0,0,0,5,2.0,2,2023-10-04,2023-12-03,Yes,Senior
+1365,50,Male,Single,Life Sciences,4,3,5,1,27600,12,2,30.0,No,2,2,1,1,8,0.0,3,2022-08-20,,No,Mid-Junior
+1366,28,Female,Married,Life Sciences,1,4,8,2,40400,17,1,6.0,Yes,0,0,0,0,3,1.0,3,2023-06-25,,No,Mid-Junior
+1367,43,Female,Married,Life Sciences,3,3,5,2,57400,23,0,8.0,No,2,2,2,0,11,2.0,3,2022-07-09,,No,Senior
+1368,26,Male,Single,Technical Degree,4,2,1,2,32500,13,3,7.0,No,0,0,0,0,2,3.0,4,2022-03-26,,No,Mid-Junior
+1369,38,Male,Married,Life Sciences,5,3,5,1,28500,23,0,14.0,Yes,5,5,1,5,9,0.0,3,2021-08-26,,No,Mid-Junior
+1370,29,Male,Single,Life Sciences,3,1,10,5,151100,24,0,7.0,No,1,0,1,1,2,4.0,3,2020-04-10,,No,Leadership
+1371,34,Female,Divorced,Life Sciences,3,3,5,1,31000,16,1,2.0,Yes,0,0,0,0,0,3.0,5,2020-07-08,2020-09-06,Yes,Mid-Junior
+1372,23,Male,Single,Technical Degree,3,3,5,2,40800,17,0,4.0,No,0,0,0,0,0,,3,2025-04-30,,No,Mid-Junior
+1373,24,Male,Single,Life Sciences,1,1,10,4,127000,17,3,2.0,No,0,0,0,0,0,2.0,4,2020-10-25,,No,Leadership
+1374,41,Female,Single,Marketing,3,2,3,5,176600,24,0,5.0,Yes,2,1,0,0,12,1.0,6,2025-02-08,,No,Leadership
+1375,32,Female,Married,Medical,3,2,3,5,187000,11,0,5.0,No,0,0,0,0,2,4.0,2,2024-08-24,,No,Leadership
+1376,24,Male,Married,Technical Degree,2,4,6,2,47800,20,1,5.0,No,0,0,0,0,0,4.0,2,2022-03-07,2022-06-03,Yes,Mid-Junior
+1377,54,Male,Married,Life Sciences,1,6,12,2,59700,13,0,1.0,No,6,3,4,1,17,1.0,2,2024-04-21,2026-09-09,Yes,Senior
+1378,41,Male,Single,Life Sciences,4,2,2,1,28600,11,0,10.0,No,4,4,1,1,10,2.0,3,2022-09-26,,No,Mid-Junior
+1379,41,Female,Single,Life Sciences,3,3,5,1,32000,24,0,3.0,No,1,1,0,1,14,2.0,1,2021-08-27,,No,Mid-Junior
+1380,27,Female,Single,Life Sciences,1,5,11,3,80300,14,0,2.0,No,2,0,2,2,4,2.0,2,2020-01-23,,No,Senior
+1381,32,Female,Single,Medical,4,2,3,5,172100,24,1,1.0,No,0,0,0,0,5,1.0,2,2021-03-12,,No,Leadership
+1382,36,Male,Married,Medical,3,6,12,3,68900,18,0,1.0,No,5,2,2,5,8,1.0,5,2024-10-07,,No,Senior
+1383,21,Female,Single,Other,4,6,12,2,33100,22,3,5.0,No,0,0,0,0,0,0.0,4,2022-06-15,,No,Mid-Junior
+1384,54,Female,Married,Marketing,3,3,5,2,39900,20,2,2.0,Yes,3,0,3,0,4,3.0,2,2021-12-21,2025-03-18,Yes,Mid-Junior
+1385,33,Male,Divorced,Medical,3,5,11,2,44300,25,3,30.0,No,0,0,0,0,3,0.0,4,2025-10-22,,No,Mid-Junior
+1386,27,Male,Single,Technical Degree,5,2,2,1,22500,13,0,2.0,No,0,0,0,0,2,2.0,5,2025-03-17,,No,Entry
+1387,44,Female,Married,Human Resources,3,3,5,2,63000,18,0,,Yes,7,1,6,1,14,2.0,1,2020-07-24,,No,Senior
+1388,28,Male,Married,Marketing,2,2,3,4,128600,12,2,2.0,No,0,0,0,0,2,1.0,4,2022-10-17,,No,Leadership
+1389,41,Male,Single,Technical Degree,2,1,10,4,108400,22,1,6.0,No,9,8,3,4,13,2.0,1,2021-05-12,2026-10-13,Yes,Leadership
+1390,33,Female,Divorced,Life Sciences,2,4,8,1,22500,18,0,19.0,Yes,0,0,0,0,5,5.0,2,2025-03-18,,No,Entry
+1391,28,Female,Married,Marketing,3,2,1,3,89000,22,1,14.0,No,0,0,0,0,2,4.0,2,2025-12-15,,No,Senior
+1392,49,Male,Married,Life Sciences,4,2,2,1,29800,15,1,3.0,Yes,11,1,5,8,18,,4,2023-07-23,2026-08-13,Yes,Mid-Junior
+1393,35,Male,Married,Human Resources,1,4,6,2,34600,25,0,8.0,No,3,2,2,1,12,2.0,4,2025-08-29,,No,Mid-Junior
+1394,39,Male,Single,Life Sciences,2,1,9,2,60800,20,0,7.0,No,5,1,0,5,8,0.0,6,2024-10-13,,No,Senior
+1395,36,Male,Single,Medical,1,4,7,4,103100,18,0,2.0,No,9,9,8,5,11,0.0,2,2024-12-31,,No,Leadership
+1396,37,Male,Divorced,Medical,3,5,11,3,87600,25,3,7.0,Yes,0,0,0,0,3,1.0,2,2021-10-13,2021-12-12,Yes,Senior
+1397,27,Female,Married,Life Sciences,3,3,4,3,85700,20,0,23.0,Yes,0,0,0,0,1,2.0,3,2025-01-17,,No,Senior
+1398,43,Male,Married,Life Sciences,2,2,2,1,35800,13,2,29.0,No,6,1,5,1,16,1.0,2,2022-11-27,,No,Mid-Junior
+1399,51,Male,Single,Marketing,1,1,9,2,58300,19,0,30.0,No,1,0,0,1,2,1.0,2,2022-10-09,,No,Senior
+1400,35,Female,Single,Life Sciences,1,4,7,3,90300,24,1,26.0,Yes,0,0,0,0,2,2.0,0,2023-02-09,,No,Senior
+1401,45,Female,Married,Medical,4,3,4,2,49600,24,1,1.0,No,0,0,0,0,2,1.0,5,2025-11-05,,No,Mid-Junior
+1402,37,Male,Single,Technical Degree,3,3,5,1,30000,17,1,10.0,Yes,0,0,0,0,6,1.0,6,2025-06-07,2025-08-16,Yes,Mid-Junior
+1403,31,Male,Married,Life Sciences,4,2,1,3,93500,23,1,4.0,No,0,0,0,0,3,4.0,3,2022-09-06,2022-11-05,Yes,Senior
+1404,29,Female,Married,Medical,5,2,2,2,44000,25,2,16.0,Yes,0,0,0,0,1,1.0,6,2024-12-06,,No,Mid-Junior
+1405,26,Female,Divorced,Life Sciences,3,1,9,1,26800,19,0,15.0,Yes,0,0,0,0,0,4.0,0,2020-11-13,,No,Mid-Junior
+1406,24,Male,Married,Life Sciences,2,3,4,3,75900,18,0,1.0,No,0,0,0,0,1,2.0,3,2023-03-16,,No,Senior
+1407,36,Male,Married,Life Sciences,3,2,3,5,194200,15,2,3.0,Yes,0,0,0,0,3,2.0,4,2022-08-18,,No,Leadership
+1408,25,Male,Married,Technical Degree,1,2,1,3,67000,21,1,4.0,Yes,0,0,0,0,0,3.0,1,2023-01-17,,No,Senior
+1409,36,Male,Married,Medical,4,5,11,2,46400,17,0,15.0,No,1,1,0,1,4,4.0,3,2023-10-07,,No,Mid-Junior
+1410,40,Female,Married,Medical,2,4,7,4,120100,19,0,11.0,Yes,5,3,1,1,12,2.0,1,2023-08-02,,No,Leadership
+1411,38,Male,Married,Life Sciences,2,2,3,5,183000,17,1,1.0,No,1,0,1,0,9,7.0,2,2020-11-26,,No,Leadership
+1412,34,Female,Single,Technical Degree,3,3,4,2,42600,21,0,2.0,No,0,0,0,0,5,0.0,4,2021-07-20,,No,Mid-Junior
+1413,55,Male,Single,Life Sciences,5,2,1,2,48000,14,1,17.0,Yes,2,2,0,1,12,3.0,1,2021-09-09,2023-08-09,Yes,Mid-Junior
+1414,20,Male,Married,Medical,5,4,8,2,46100,16,0,30.0,Yes,0,0,0,0,0,0.0,2,2024-04-17,,No,Mid-Junior
+1415,37,Female,Divorced,Life Sciences,3,6,12,3,67400,16,0,13.0,No,3,1,1,0,12,0.0,3,2021-09-17,,No,Senior
+1416,58,Male,Single,Life Sciences,5,2,1,3,97900,15,2,23.0,No,5,4,5,4,16,1.0,6,2022-05-26,,No,Senior
+1417,34,Male,Married,Marketing,3,2,1,2,59500,23,1,2.0,Yes,2,0,0,1,4,1.0,2,2020-09-20,,No,Senior
+1418,29,Male,Married,Marketing,3,4,6,3,71500,15,0,13.0,No,0,0,0,0,1,1.0,2,2024-08-26,,No,Senior
+1419,32,Female,Single,Technical Degree,3,2,2,1,18500,18,0,22.0,No,0,0,0,0,6,1.0,4,2024-07-27,2024-09-25,Yes,Entry
+1420,30,Male,Single,Technical Degree,3,2,2,2,47700,12,2,7.0,No,0,0,0,0,2,1.0,1,2025-03-23,,No,Mid-Junior
+1421,41,Male,Single,Life Sciences,3,2,2,2,38100,24,1,2.0,No,6,3,4,4,15,3.0,1,2024-08-30,,No,Mid-Junior
+1422,28,Female,Married,Medical,2,2,3,5,169300,24,0,4.0,No,0,0,0,0,2,4.0,2,2020-09-12,,No,Leadership
+1423,41,Male,Single,Technical Degree,3,3,4,3,89500,11,0,1.0,No,1,1,1,0,9,3.0,3,2022-04-27,,No,Senior
+1424,44,Male,Married,Human Resources,3,1,10,5,165800,14,2,9.0,No,1,0,1,0,4,1.0,1,2024-09-16,,No,Leadership
+1425,18,Male,Single,Life Sciences,2,2,2,2,42200,25,1,4.0,Yes,0,0,0,0,0,2.0,2,2024-05-14,,No,Mid-Junior
+1426,52,Male,Single,Medical,3,2,3,5,161600,23,2,6.0,No,9,9,2,1,18,0.0,3,2020-03-21,,No,Leadership
+1427,33,Female,Single,Marketing,2,3,4,2,38700,16,1,3.0,No,0,0,0,0,4,2.0,5,2024-04-07,,No,Mid-Junior
+1428,33,Male,Divorced,Technical Degree,3,4,7,3,68000,19,2,3.0,Yes,1,1,0,0,5,3.0,2,2025-05-07,,No,Senior
+1429,29,Male,Single,Other,3,2,1,2,54400,13,1,2.0,No,1,1,0,1,5,3.0,0,2020-01-25,,No,Senior
+1430,34,Female,Divorced,Medical,4,1,9,2,38900,13,1,2.0,No,1,1,0,0,9,2.0,5,2023-12-11,2024-11-26,Yes,Mid-Junior
+1431,22,Male,Single,Marketing,3,2,3,4,110700,21,3,1.0,No,0,0,0,0,0,3.0,4,2024-05-16,,No,Leadership
+1432,38,Male,Single,Medical,4,4,7,3,70500,20,0,5.0,No,0,0,0,0,5,3.0,0,2024-09-12,,No,Senior
+1433,24,Female,Single,Marketing,3,5,11,3,68400,15,0,6.0,No,0,0,0,0,1,3.0,3,2022-06-22,,No,Senior
+1434,37,Male,Single,Technical Degree,3,2,1,2,59000,24,0,,No,5,2,0,1,13,3.0,3,2025-06-22,,No,Senior
+1435,48,Female,Married,Marketing,1,2,2,2,45000,23,3,5.0,No,1,0,1,1,7,0.0,3,2022-06-17,,No,Mid-Junior
+1436,30,Male,Divorced,Technical Degree,4,2,3,4,127500,12,0,2.0,No,0,0,0,0,1,1.0,4,2023-01-22,,No,Leadership
+1437,47,Female,Married,Life Sciences,3,2,1,2,48900,12,3,1.0,No,6,3,0,6,15,1.0,5,2024-11-20,,No,Mid-Junior
+1438,34,Male,Single,Medical,2,5,11,3,88300,23,1,,No,1,1,0,1,11,1.0,5,2025-06-12,,No,Senior
+1439,45,Male,Married,Medical,4,4,8,1,27300,25,1,8.0,Yes,5,4,1,0,16,,0,2020-04-28,,No,Mid-Junior
+1440,36,Female,Single,Technical Degree,2,3,4,2,42300,14,1,8.0,No,1,0,0,1,4,2.0,5,2024-05-11,,No,Mid-Junior
+1441,42,Female,Married,Technical Degree,3,2,1,2,57900,14,1,8.0,No,2,2,0,0,5,4.0,5,2023-10-08,,No,Senior
+1442,44,Male,Single,Technical Degree,4,4,8,1,19800,20,0,6.0,No,1,0,1,1,5,0.0,1,2024-07-14,2025-05-27,Yes,Entry
+1443,36,Female,Single,Life Sciences,4,5,11,2,41300,17,0,5.0,Yes,0,0,0,0,2,3.0,0,2025-03-29,,No,Mid-Junior
+1444,39,Female,Married,Marketing,4,1,10,4,121400,14,0,8.0,No,2,2,1,0,5,2.0,1,2021-06-06,,No,Leadership
+1445,43,Male,Divorced,Life Sciences,3,3,4,2,51800,25,0,14.0,Yes,2,0,1,2,16,2.0,4,2025-12-27,,No,Senior
+1446,28,Female,Married,Life Sciences,4,2,2,1,25300,22,0,1.0,Yes,1,0,1,0,4,2.0,5,2020-04-20,2021-04-30,Yes,Mid-Junior
+1447,20,Female,Single,Life Sciences,4,2,1,2,40500,24,1,17.0,No,0,0,0,0,0,3.0,2,2020-04-21,,No,Mid-Junior
+1448,37,Male,Single,Life Sciences,3,3,5,1,26800,14,0,30.0,No,0,0,0,0,8,1.0,2,2020-12-09,,No,Mid-Junior
+1449,35,Female,Single,Medical,4,2,3,5,143000,19,0,4.0,No,2,0,1,2,5,1.0,0,2024-10-21,,No,Leadership
+1450,33,Male,Single,Human Resources,1,5,11,2,44700,21,1,4.0,No,0,0,0,0,4,1.0,4,2021-07-09,,No,Mid-Junior
+1451,41,Male,Single,Technical Degree,3,2,3,4,104700,25,1,11.0,No,0,0,0,0,1,2.0,6,2025-03-06,,No,Leadership
+1452,37,Female,Married,Other,5,3,5,2,42200,12,0,14.0,No,0,0,0,0,1,1.0,4,2022-01-14,2022-03-15,Yes,Mid-Junior
+1453,43,Female,Divorced,Life Sciences,4,5,11,3,91400,15,0,1.0,No,1,1,1,1,8,4.0,2,2022-12-01,,No,Senior
+1454,38,Female,Married,Life Sciences,5,3,5,2,48200,24,3,9.0,No,5,0,0,4,16,5.0,1,2024-04-01,,No,Mid-Junior
+1455,37,Male,Married,Medical,4,5,11,3,84600,21,2,1.0,No,1,1,1,0,10,0.0,4,2023-09-02,,No,Senior
+1456,35,Male,Married,Marketing,3,2,2,1,28400,15,0,13.0,No,1,1,0,0,4,4.0,2,2022-05-16,,No,Mid-Junior
+1457,32,Female,Married,Life Sciences,4,3,4,2,57500,17,1,2.0,No,0,0,0,0,4,1.0,3,2025-02-05,,No,Senior
+1458,42,Female,Divorced,Life Sciences,3,4,6,3,87300,13,1,4.0,No,2,1,2,0,5,3.0,4,2023-08-31,,No,Senior
+1459,41,Female,Married,Marketing,3,5,11,2,39500,15,2,1.0,No,3,2,0,2,14,1.0,3,2023-10-14,,No,Mid-Junior
+1460,28,Male,Single,Life Sciences,4,2,3,4,103600,14,2,25.0,No,0,0,0,0,4,0.0,1,2024-04-01,,No,Leadership
+1461,36,Female,Married,Marketing,4,6,12,3,90000,17,2,8.0,No,1,0,1,0,6,1.0,3,2023-02-13,,No,Senior
+1462,40,Male,Single,Medical,3,6,12,2,39400,22,1,15.0,No,4,1,3,1,11,2.0,2,2024-09-22,,No,Mid-Junior
+1463,44,Female,Single,Medical,2,5,11,3,89300,19,0,1.0,No,0,0,0,0,6,4.0,2,2022-10-30,,No,Senior
+1464,37,Female,Married,Life Sciences,3,2,1,2,55500,18,0,4.0,No,1,0,0,1,6,3.0,3,2020-12-01,,No,Senior
+1465,29,Male,Married,Life Sciences,4,2,2,2,40800,19,0,1.0,No,0,0,0,0,0,1.0,2,2025-04-10,,No,Mid-Junior
+1466,40,Male,Divorced,Life Sciences,3,3,5,2,60100,13,1,9.0,No,8,6,7,4,12,1.0,6,2020-03-20,,No,Senior
+1467,53,Male,Divorced,Medical,1,2,3,4,105400,12,0,19.0,No,7,3,7,1,13,4.0,3,2020-08-01,,No,Leadership
+1468,36,Female,Single,Medical,3,4,8,1,24400,14,0,4.0,No,4,4,0,4,7,5.0,4,2023-12-04,,No,Entry
+1469,30,Male,Married,Marketing,2,4,8,2,56000,23,0,2.0,Yes,1,0,1,0,3,2.0,4,2022-07-07,2023-09-21,Yes,Senior
+1470,36,Male,Married,Technical Degree,2,3,4,3,92200,21,1,5.0,No,4,1,1,1,10,2.0,2,2020-10-08,,No,Senior
+1471,47,Female,Married,Life Sciences,3,4,6,2,55000,25,0,4.0,No,4,2,3,1,15,4.0,2,2020-06-13,,No,Senior
+1472,32,Male,Single,Life Sciences,4,4,7,4,130400,20,2,12.0,No,0,0,0,0,2,1.0,4,2020-05-07,,No,Leadership
+1473,41,Male,Single,Medical,3,1,9,2,50800,11,1,1.0,No,7,4,7,1,15,0.0,2,2022-10-09,,No,Senior
+1474,40,Male,Married,Human Resources,3,2,1,2,47400,14,2,1.0,No,0,0,0,0,10,,1,2022-03-27,,No,Mid-Junior
+1475,30,Female,Single,Medical,4,6,12,2,39800,22,0,7.0,Yes,1,1,0,1,3,4.0,0,2020-03-24,2021-06-01,Yes,Mid-Junior
+1476,43,Male,Married,Medical,4,3,4,3,91300,23,2,3.0,No,1,1,1,0,7,4.0,3,2021-09-16,,No,Senior
+1477,19,Female,Divorced,Life Sciences,3,4,6,3,81100,15,1,2.0,No,0,0,0,0,0,1.0,3,2022-09-04,,No,Senior
+1478,31,Male,Married,Life Sciences,5,3,5,2,46500,22,1,1.0,No,1,0,1,1,3,2.0,2,2021-06-01,,No,Mid-Junior
+1479,32,Male,Single,Technical Degree,3,6,12,2,53300,20,1,9.0,No,0,0,0,0,5,1.0,0,2025-04-23,,No,Senior
+1480,56,Male,Married,Life Sciences,4,2,2,2,63800,16,0,4.0,Yes,15,10,12,14,21,0.0,4,2021-04-13,2026-10-03,Yes,Senior
+1481,28,Male,Divorced,Life Sciences,4,2,1,3,91900,24,1,4.0,No,0,0,0,0,1,2.0,1,2025-03-19,,No,Senior
+1482,44,Female,Single,Other,3,2,2,1,24600,21,1,1.0,No,2,1,2,2,9,0.0,1,2022-11-15,,No,Entry
+1483,39,Male,Married,Life Sciences,2,2,3,5,142500,24,0,3.0,No,1,0,1,0,4,1.0,2,2024-02-19,,No,Leadership
+1484,49,Male,Married,Medical,3,5,11,2,32000,22,0,10.0,Yes,0,0,0,0,14,3.0,3,2021-11-18,,No,Mid-Junior
+1485,26,Male,Single,Life Sciences,3,4,7,3,62900,14,1,10.0,No,0,0,0,0,4,1.0,1,2021-04-14,,No,Senior
+1486,43,Male,Married,Marketing,4,2,3,4,129600,15,0,4.0,No,2,1,2,1,5,2.0,3,2021-11-01,,No,Leadership
+1487,39,Female,Single,Medical,3,2,3,5,157800,16,1,4.0,No,0,0,0,0,0,2.0,2,2023-06-28,,No,Leadership
+1488,38,Male,Single,Life Sciences,4,2,1,2,32400,21,1,10.0,Yes,0,0,0,0,1,4.0,3,2021-03-18,2021-05-17,Yes,Mid-Junior
+1489,46,Female,Married,Human Resources,2,2,2,2,54000,21,1,18.0,No,7,0,5,6,10,1.0,3,2020-04-15,,No,Senior
+1490,30,Male,Single,Life Sciences,3,4,6,3,84000,17,1,2.0,No,0,0,0,0,1,2.0,6,2023-07-01,,No,Senior
+1491,30,Female,Married,Medical,3,3,5,2,39200,20,0,12.0,No,0,0,0,0,5,2.0,2,2024-03-17,,No,Mid-Junior
+1492,41,Male,Single,Life Sciences,2,3,5,1,32100,20,0,30.0,No,4,1,3,2,12,2.0,3,2024-06-12,,No,Mid-Junior
+1493,40,Female,Married,Medical,4,2,1,2,50500,18,1,1.0,No,1,1,0,0,10,3.0,3,2022-03-23,,No,Senior
+1494,23,Male,Single,Medical,2,3,5,2,47100,23,1,8.0,Yes,0,0,0,0,1,3.0,3,2020-11-07,,No,Mid-Junior
+1495,43,Male,Married,Technical Degree,1,1,10,5,181000,18,0,1.0,Yes,1,1,0,0,8,5.0,2,2022-09-21,,No,Leadership
+1496,41,Male,Married,Life Sciences,4,2,1,3,95600,12,0,5.0,No,3,0,2,2,7,2.0,4,2021-02-21,,No,Senior
+1497,42,Female,Divorced,Medical,4,3,4,2,36000,21,0,17.0,Yes,3,3,1,0,6,1.0,0,2023-05-20,,No,Mid-Junior
+1498,18,Female,Divorced,Life Sciences,3,3,4,2,45200,21,0,8.0,No,0,0,0,0,0,1.0,3,2021-05-10,,No,Mid-Junior
+1499,36,Male,Single,Technical Degree,1,4,7,4,132700,20,0,30.0,Yes,0,0,0,0,2,1.0,2,2020-06-17,,No,Leadership
+1500,39,Female,Divorced,Life Sciences,2,3,4,3,85700,11,0,19.0,No,1,1,1,1,9,3.0,0,2023-11-23,,No,Senior
+1501,30,Female,Married,Life Sciences,2,3,4,2,35700,15,2,7.0,No,4,2,1,3,8,3.0,2,2025-12-22,,No,Mid-Junior
+1502,32,Male,Divorced,Medical,2,2,2,2,53200,19,2,5.0,No,0,0,0,0,1,4.0,0,2024-10-20,2025-01-07,Yes,Senior
+1503,28,Male,Married,Life Sciences,2,1,10,5,194600,16,2,15.0,No,0,0,0,0,1,3.0,2,2024-02-26,,No,Leadership
+1504,44,Female,Single,Technical Degree,3,3,4,2,58400,22,1,6.0,No,8,2,4,7,14,2.0,3,2020-10-09,,No,Senior
+1505,24,Female,Married,Marketing,3,5,11,3,92800,11,2,18.0,Yes,0,0,0,0,2,2.0,3,2025-09-03,2025-11-17,Yes,Senior
+1506,32,Male,Single,Marketing,1,4,7,3,71600,22,0,18.0,No,2,0,2,0,8,2.0,1,2023-10-29,,No,Senior
+1507,41,Male,Single,Life Sciences,5,2,3,4,103800,21,0,1.0,No,6,1,2,6,12,,1,2020-02-21,,No,Leadership
+1508,43,Female,Married,Marketing,3,4,7,3,94200,17,2,3.0,Yes,0,0,0,0,12,1.0,4,2024-09-16,,No,Senior
+1509,39,Male,Married,Medical,5,3,4,3,84100,15,0,2.0,No,1,1,0,0,4,2.0,2,2025-06-30,,No,Senior
+1510,42,Female,Divorced,Technical Degree,4,1,10,5,167900,18,1,3.0,No,1,1,0,0,11,3.0,6,2021-03-08,,No,Leadership
+1511,33,Male,Married,Life Sciences,1,3,5,2,33900,22,3,5.0,Yes,1,1,0,1,6,2.0,5,2024-11-10,,No,Mid-Junior
+1512,51,Male,Single,Medical,1,5,11,3,64600,18,1,10.0,No,0,0,0,0,17,6.0,1,2024-01-23,,No,Senior
+1513,30,Male,Married,Medical,5,3,4,2,34900,13,3,29.0,Yes,0,0,0,0,0,1.0,4,2025-02-26,,No,Mid-Junior
+1514,28,Male,Married,Life Sciences,3,3,5,1,19700,14,0,10.0,Yes,1,1,0,0,3,1.0,3,2021-09-18,2022-10-09,Yes,Entry
+1515,38,Female,Single,Life Sciences,3,2,1,3,81000,16,2,2.0,Yes,5,0,0,4,9,1.0,3,2021-12-22,,No,Senior
+1516,32,Male,Divorced,Life Sciences,3,6,12,3,77800,20,1,3.0,Yes,0,0,0,0,4,1.0,4,2025-11-07,,No,Senior
+1517,36,Female,Single,Marketing,5,2,2,1,31800,25,0,1.0,No,5,0,0,4,7,3.0,3,2023-01-11,,No,Mid-Junior
+1518,31,Female,Married,Life Sciences,5,2,1,2,48500,25,3,1.0,No,0,0,0,0,0,0.0,3,2025-06-03,2025-08-02,Yes,Mid-Junior
+1519,35,Male,Divorced,Medical,3,4,6,2,51300,23,2,16.0,No,3,0,2,3,6,3.0,1,2024-11-19,,No,Senior
+1520,35,Female,Married,Medical,5,2,3,5,143900,14,1,19.0,Yes,3,2,3,1,10,,4,2023-01-04,,No,Leadership
+1521,22,Male,Married,Life Sciences,3,2,3,4,139600,21,1,7.0,No,0,0,0,0,0,3.0,4,2023-08-13,,No,Leadership
+1522,29,Male,Single,Marketing,3,6,12,3,66600,19,1,11.0,No,0,0,0,0,1,0.0,6,2022-10-02,,No,Senior
+1523,48,Male,Single,Other,1,2,3,4,121800,24,0,18.0,No,5,0,1,3,11,3.0,0,2020-12-20,,No,Leadership
+1524,43,Male,Married,Medical,4,2,2,1,26500,22,1,6.0,Yes,4,4,4,0,10,3.0,0,2023-02-16,,No,Mid-Junior
+1525,20,Male,Single,Life Sciences,3,2,3,5,167200,21,3,12.0,No,0,0,0,0,0,2.0,4,2025-01-20,,No,Leadership
+1526,39,Male,Married,Technical Degree,2,2,2,2,53200,25,0,4.0,Yes,0,0,0,0,6,0.0,3,2022-09-25,,No,Senior
+1527,54,Male,Divorced,Human Resources,2,2,2,1,30700,17,0,1.0,Yes,1,1,0,0,8,4.0,3,2025-03-18,2026-05-12,Yes,Mid-Junior
+1528,41,Female,Single,Life Sciences,3,4,6,2,33700,24,2,12.0,Yes,2,2,0,2,13,4.0,1,2024-04-01,,No,Mid-Junior
+1529,36,Male,Married,Life Sciences,5,5,11,2,52100,23,1,16.0,No,0,0,0,0,0,0.0,2,2023-10-09,,No,Senior
+1530,52,Female,Married,Technical Degree,4,3,5,2,50700,21,0,30.0,No,4,4,2,0,8,0.0,4,2020-04-27,,No,Senior
+1531,43,Male,Single,Technical Degree,2,3,4,3,71700,11,2,9.0,No,0,0,0,0,4,1.0,3,2025-07-17,,No,Senior
+1532,35,Female,Single,Other,5,5,11,2,51000,18,0,5.0,No,0,0,0,0,3,2.0,4,2023-08-24,,No,Senior
+1533,45,Male,Divorced,Life Sciences,4,6,12,3,79800,24,1,17.0,No,0,0,0,0,3,1.0,2,2022-01-14,,No,Senior
+1534,33,Male,Divorced,Medical,4,2,2,2,47900,22,0,7.0,Yes,3,3,2,2,5,2.0,3,2025-06-20,2026-09-15,Yes,Mid-Junior
+1535,35,Male,Single,Human Resources,3,2,3,5,152500,15,0,2.0,Yes,1,0,0,0,2,4.0,2,2022-11-24,,No,Leadership
+1536,35,Female,Single,Medical,3,2,1,3,94000,14,1,16.0,Yes,5,4,1,4,10,5.0,2,2023-10-26,2026-08-15,Yes,Senior
+1537,35,Male,Single,Medical,2,2,1,3,96800,14,1,24.0,No,4,1,2,2,7,3.0,2,2023-02-05,2026-10-29,Yes,Senior
+1538,35,Female,Married,Life Sciences,1,5,11,3,77500,13,0,1.0,No,1,0,0,1,7,2.0,3,2025-10-17,,No,Senior
+1539,32,Male,Single,Marketing,3,2,2,2,55000,23,3,1.0,No,2,2,2,0,3,3.0,3,2022-02-21,,No,Senior
+1540,32,Female,Married,Life Sciences,3,3,4,2,34600,21,1,1.0,No,1,0,0,1,4,2.0,4,2020-12-16,,No,Mid-Junior
+1541,39,Male,Married,Medical,2,3,5,1,26700,14,0,26.0,No,1,1,0,1,5,4.0,2,2022-09-15,,No,Mid-Junior
+1542,40,Female,Single,Marketing,4,2,3,4,139600,24,3,9.0,Yes,8,1,0,1,16,1.0,6,2024-07-22,,No,Leadership
+1543,26,Male,Divorced,Life Sciences,1,2,3,4,109700,22,1,5.0,No,0,0,0,0,1,2.0,3,2025-06-24,,No,Leadership
+1544,34,Female,Married,Other,4,4,8,1,34100,24,0,5.0,No,3,0,1,3,10,3.0,0,2022-09-11,,No,Mid-Junior
+1545,33,Male,Divorced,Medical,1,1,9,1,20900,23,0,30.0,Yes,2,0,0,1,4,4.0,3,2025-05-04,2026-08-29,Yes,Entry
+1546,40,Male,Married,Life Sciences,4,2,3,4,137800,20,1,12.0,Yes,0,0,0,0,4,2.0,3,2025-01-09,,No,Leadership
+1547,47,Female,Married,Marketing,3,3,4,2,63800,13,0,2.0,No,12,12,10,12,15,1.0,6,2020-03-11,,No,Senior
+1548,36,Male,Married,Life Sciences,3,3,4,2,53700,17,1,11.0,No,5,2,3,2,11,3.0,5,2021-01-16,2026-01-01,Yes,Senior
+1549,25,Male,Single,Life Sciences,1,4,8,1,26800,25,3,2.0,No,0,0,0,0,1,3.0,4,2022-06-26,,No,Mid-Junior
+1550,36,Male,Single,Life Sciences,2,3,4,2,50600,24,1,30.0,No,0,0,0,0,5,1.0,0,2024-07-14,,No,Senior
+1551,24,Female,Married,Life Sciences,3,4,6,3,94200,11,0,8.0,No,0,0,0,0,1,1.0,4,2022-09-23,,No,Senior
+1552,24,Male,Single,Technical Degree,2,2,3,5,182900,22,1,2.0,No,0,0,0,0,0,2.0,4,2023-06-08,,No,Leadership
+1553,35,Female,Single,Life Sciences,3,4,6,3,93600,17,1,3.0,Yes,4,4,3,0,10,3.0,4,2024-02-20,,No,Senior
+1554,31,Female,Single,Marketing,3,2,3,5,169500,14,3,5.0,No,0,0,0,0,2,2.0,3,2025-04-22,,No,Leadership
+1555,45,Male,Single,Life Sciences,1,2,2,2,53100,14,0,5.0,No,2,1,0,1,4,1.0,4,2025-12-14,,No,Senior
+1556,52,Male,Married,Life Sciences,2,4,8,1,33400,24,1,1.0,No,2,0,2,0,6,2.0,6,2023-11-09,,No,Mid-Junior
+1557,28,Male,Married,Life Sciences,2,5,11,2,35000,20,0,18.0,No,0,0,0,0,1,1.0,3,2024-10-08,2024-12-07,Yes,Mid-Junior
+1558,36,Male,Married,Technical Degree,3,3,4,3,89600,24,1,7.0,Yes,0,0,0,0,7,2.0,6,2023-09-16,,No,Senior
+1559,36,Female,Divorced,Life Sciences,4,2,2,2,43900,17,0,1.0,No,1,0,0,1,9,2.0,6,2023-12-12,,No,Mid-Junior
+1560,37,Male,Divorced,Marketing,4,2,2,1,30100,18,1,2.0,No,1,0,1,0,7,2.0,3,2025-02-01,,No,Mid-Junior
+1561,30,Female,Married,Technical Degree,2,5,11,3,83300,24,0,14.0,No,0,0,0,0,4,2.0,2,2023-01-14,,No,Senior
+1562,37,Male,Single,Medical,3,3,4,2,60100,20,0,2.0,No,5,5,3,4,9,3.0,4,2023-06-09,,No,Senior
+1563,36,Female,Married,Life Sciences,4,6,12,2,48400,18,0,12.0,No,0,0,0,0,3,2.0,1,2022-10-26,,No,Mid-Junior
+1564,36,Male,Married,Life Sciences,3,3,4,3,70700,18,0,6.0,No,2,1,1,2,7,2.0,2,2022-08-02,,No,Senior
+1565,48,Female,Single,Human Resources,2,3,4,3,73300,16,1,5.0,No,0,0,0,0,15,2.0,4,2021-05-09,,No,Senior
+1566,44,Female,Divorced,Marketing,1,1,9,1,31300,20,1,1.0,No,0,0,0,0,1,3.0,3,2022-02-27,2022-04-28,Yes,Mid-Junior
+1567,39,Male,Married,Life Sciences,3,4,7,4,96500,22,1,29.0,No,1,1,1,1,6,2.0,3,2021-05-04,,No,Senior
+1568,24,Male,Married,Technical Degree,3,6,12,2,45800,23,1,16.0,No,0,0,0,0,0,2.0,3,2022-01-28,,No,Mid-Junior
+1569,50,Male,Single,Other,4,1,10,4,101300,18,2,7.0,No,1,0,0,1,5,1.0,3,2022-02-23,,No,Leadership
+1570,44,Female,Single,Life Sciences,1,4,6,3,68200,16,3,16.0,No,1,0,0,1,4,0.0,3,2022-06-05,2023-07-08,Yes,Senior
+1571,40,Male,Married,Medical,3,2,3,5,152300,19,0,8.0,No,0,0,0,0,3,5.0,3,2023-02-06,,No,Leadership
+1572,36,Female,Married,Medical,2,4,7,4,128800,12,0,5.0,No,1,1,1,0,3,1.0,2,2025-11-18,,No,Leadership
+1573,57,Male,Married,Technical Degree,1,3,4,2,45300,14,0,12.0,No,0,0,0,0,2,2.0,4,2023-03-05,,No,Mid-Junior
+1574,32,Male,Single,Medical,5,2,2,1,24800,15,0,3.0,No,0,0,0,0,4,0.0,3,2021-02-15,,No,Entry
+1575,40,Male,Single,Marketing,4,3,5,1,27800,16,0,,No,4,1,3,2,11,2.0,1,2022-03-06,,No,Mid-Junior
+1576,41,Female,Single,Life Sciences,2,5,11,3,59600,16,0,8.0,No,1,1,1,0,3,2.0,3,2023-04-28,2024-03-26,Yes,Senior
+1577,26,Male,Divorced,Technical Degree,1,3,5,2,43100,12,1,1.0,No,0,0,0,0,2,0.0,3,2024-01-18,,No,Mid-Junior
+1578,23,Male,Divorced,Medical,5,2,3,5,181200,21,0,4.0,Yes,0,0,0,0,1,1.0,2,2022-01-04,2022-03-05,Yes,Leadership
+1579,35,Female,Married,Marketing,3,6,12,3,81300,23,1,8.0,No,5,2,3,0,10,,1,2020-02-27,,No,Senior
+1580,33,Female,Married,Technical Degree,3,3,4,2,35800,16,1,10.0,Yes,0,0,0,0,0,1.0,6,2025-12-27,2026-02-25,Yes,Mid-Junior
+1581,35,Female,Married,Medical,3,5,11,2,35700,19,1,4.0,No,3,0,0,2,8,2.0,4,2023-01-28,,No,Mid-Junior
+1582,40,Female,Married,Life Sciences,1,4,6,2,36800,20,0,2.0,No,2,1,0,1,10,0.0,3,2020-07-05,,No,Mid-Junior
+1583,36,Female,Married,Life Sciences,2,4,7,4,109200,17,1,5.0,No,1,1,1,1,3,1.0,2,2020-08-11,,No,Leadership
+1584,38,Male,Single,Technical Degree,4,2,3,5,142700,23,0,15.0,No,2,0,2,2,6,1.0,6,2023-04-11,,No,Leadership
+1585,18,Male,Single,Technical Degree,3,2,2,1,27600,23,0,2.0,No,0,0,0,0,0,1.0,6,2021-06-01,,No,Mid-Junior
+1586,40,Male,Single,Marketing,4,3,4,3,70000,15,1,10.0,No,1,0,1,0,2,,1,2025-07-03,,No,Senior
+1587,34,Female,Single,Life Sciences,4,1,10,4,125000,14,0,12.0,No,0,0,0,0,4,2.0,4,2021-02-24,,No,Leadership
+1588,32,Male,Divorced,Life Sciences,2,5,11,2,43000,18,1,3.0,No,0,0,0,0,0,1.0,3,2020-02-20,,No,Mid-Junior
+1589,45,Male,Divorced,Life Sciences,3,5,11,2,50700,23,1,6.0,No,1,0,1,0,8,5.0,3,2023-03-10,,No,Senior
+1590,29,Male,Married,Human Resources,5,3,4,3,67600,12,1,1.0,No,0,0,0,0,3,2.0,4,2025-04-06,,No,Senior
+1591,34,Female,Married,Medical,3,6,12,2,46200,17,0,12.0,Yes,3,2,3,0,9,,5,2025-05-14,2026-09-17,Yes,Mid-Junior
+1592,50,Female,Single,Life Sciences,4,2,1,2,42400,20,3,3.0,No,3,3,3,3,8,3.0,4,2022-01-25,,No,Mid-Junior
+1593,43,Male,Divorced,Life Sciences,3,2,3,4,123600,23,0,8.0,No,0,0,0,0,10,4.0,2,2020-07-29,,No,Leadership
+1594,26,Female,Single,Life Sciences,5,3,5,1,23700,15,0,2.0,No,0,0,0,0,1,1.0,3,2022-10-31,2022-12-30,Yes,Entry
+1595,43,Male,Married,Life Sciences,1,2,3,4,138600,12,1,4.0,No,7,4,1,5,14,1.0,3,2021-04-12,,No,Leadership
+1596,39,Female,Married,Other,4,2,3,4,130800,14,2,2.0,No,4,4,4,1,6,1.0,4,2020-09-24,,No,Leadership
+1597,33,Female,Married,Other,3,4,8,2,54100,21,0,1.0,No,3,2,2,1,9,1.0,2,2024-06-29,,No,Senior
+1598,32,Female,Divorced,Life Sciences,3,6,12,2,40500,16,0,16.0,No,0,0,0,0,5,1.0,4,2025-07-07,,No,Mid-Junior
+1599,36,Male,Married,Medical,2,6,12,3,75700,16,1,4.0,Yes,0,0,0,0,4,0.0,3,2020-10-30,2020-12-29,Yes,Senior
+1600,37,Male,Single,Other,2,2,3,4,130500,11,1,14.0,Yes,7,5,7,7,9,1.0,1,2020-08-07,,No,Leadership
+1601,23,Female,Married,Life Sciences,2,2,1,3,60000,25,0,10.0,Yes,0,0,0,0,0,3.0,3,2021-09-13,2021-11-12,Yes,Senior
+1602,36,Female,Married,Marketing,2,3,4,3,89900,13,1,3.0,No,0,0,0,0,5,4.0,1,2023-05-29,,No,Senior
+1603,34,Male,Married,Medical,3,4,7,3,94000,13,3,7.0,Yes,0,0,0,0,1,1.0,4,2020-12-14,,No,Senior
+1604,29,Male,Single,Life Sciences,4,2,1,2,51000,24,2,6.0,Yes,1,1,1,1,6,1.0,3,2022-10-13,,No,Senior
+1605,44,Male,Single,Marketing,2,2,3,4,97000,18,0,30.0,No,0,0,0,0,5,2.0,6,2021-04-30,,No,Senior
+1606,38,Female,Married,Marketing,5,3,4,2,35600,18,0,2.0,No,1,0,1,0,6,2.0,1,2024-08-31,,No,Mid-Junior
+1607,42,Male,Married,Life Sciences,4,4,6,3,87300,25,3,4.0,No,1,0,0,1,8,1.0,6,2022-07-13,,No,Senior
+1608,43,Male,Single,Marketing,3,2,2,1,26600,18,1,2.0,No,0,0,0,0,4,2.0,6,2025-11-10,,No,Mid-Junior
+1609,32,Female,Divorced,Life Sciences,4,1,10,5,152300,20,1,6.0,Yes,2,0,2,2,7,1.0,0,2024-04-07,,No,Leadership
+1610,22,Male,Married,Other,3,2,2,2,49400,18,0,4.0,No,0,0,0,0,1,1.0,4,2025-01-19,2025-03-20,Yes,Mid-Junior
+1611,37,Female,Divorced,Life Sciences,3,2,3,5,158900,22,1,22.0,No,4,3,0,0,8,1.0,3,2023-05-02,,No,Leadership
+1612,37,Male,Divorced,Life Sciences,4,3,5,1,24100,16,2,13.0,Yes,0,0,0,0,4,0.0,5,2024-10-22,,No,Entry
+1613,29,Male,Single,Life Sciences,1,2,1,2,46000,11,2,10.0,No,2,1,2,0,5,2.0,4,2023-06-04,2025-07-28,Yes,Mid-Junior
+1614,39,Male,Single,Medical,1,5,11,3,77300,21,0,21.0,No,5,0,2,3,10,3.0,0,2020-09-03,2025-11-08,Yes,Senior
+1615,41,Female,Married,Medical,4,3,4,3,99700,22,1,30.0,No,7,7,6,2,18,3.0,2,2021-02-10,,No,Senior
+1616,33,Male,Single,Medical,4,2,3,5,185300,13,1,10.0,No,0,0,0,0,3,2.0,2,2022-05-01,,No,Leadership
+1617,37,Female,Married,Medical,2,3,4,2,57800,17,0,,No,2,2,2,0,5,3.0,3,2022-05-14,,No,Senior
+1618,26,Female,Married,Marketing,1,2,2,2,34900,24,1,9.0,No,1,0,1,0,4,2.0,1,2022-12-19,,No,Mid-Junior
+1619,41,Male,Divorced,Marketing,3,6,12,3,81400,22,0,2.0,No,2,2,2,0,8,4.0,2,2020-11-28,,No,Senior
+1620,29,Male,Divorced,Marketing,2,2,3,5,167500,25,1,11.0,No,1,1,0,0,4,2.0,5,2021-10-05,,No,Leadership
+1621,36,Female,Married,Other,3,6,12,2,53100,23,0,4.0,Yes,3,3,1,3,7,2.0,2,2022-09-09,,No,Senior
+1622,27,Female,Divorced,Life Sciences,4,2,2,2,39000,25,1,13.0,No,0,0,0,0,4,2.0,5,2021-12-12,,No,Mid-Junior
+1623,33,Male,Single,Technical Degree,3,5,11,3,64800,23,3,1.0,No,1,0,1,1,2,0.0,4,2020-11-03,,No,Senior
+1624,27,Male,Married,Medical,4,2,2,1,24800,22,0,5.0,Yes,0,0,0,0,1,2.0,5,2021-10-03,,No,Entry
+1625,48,Male,Single,Marketing,3,3,5,1,29600,13,0,3.0,Yes,3,2,3,3,7,3.0,1,2020-01-11,,No,Mid-Junior
+1626,35,Male,Divorced,Marketing,3,2,1,2,38000,25,1,19.0,No,0,0,0,0,5,1.0,3,2024-07-31,,No,Mid-Junior
+1627,28,Female,Single,Life Sciences,4,5,11,3,62800,24,1,13.0,No,1,0,0,1,4,1.0,0,2025-01-19,,No,Senior
+1628,38,Male,Divorced,Marketing,4,2,1,2,49900,13,0,3.0,No,0,0,0,0,9,5.0,1,2025-04-08,,No,Mid-Junior
+1629,50,Male,Married,Technical Degree,2,2,1,2,55300,16,2,4.0,No,2,2,1,2,24,2.0,1,2023-04-07,2025-01-14,Yes,Senior
+1630,24,Male,Married,Life Sciences,2,2,2,1,26200,12,3,30.0,No,0,0,0,0,0,3.0,1,2022-08-06,2022-10-05,Yes,Mid-Junior
+1631,38,Female,Single,Life Sciences,3,2,3,5,148100,23,1,3.0,Yes,0,0,0,0,8,0.0,4,2023-03-04,,No,Leadership
+1632,29,Male,Married,Technical Degree,1,3,5,1,30600,19,0,3.0,Yes,0,0,0,0,2,3.0,2,2025-02-02,,No,Mid-Junior
+1633,37,Male,Married,Technical Degree,2,2,2,2,38600,21,2,1.0,No,1,1,0,0,2,1.0,3,2020-10-18,2022-01-11,Yes,Mid-Junior
+1634,36,Female,Married,Life Sciences,4,3,4,3,71400,13,3,3.0,No,0,0,0,0,5,5.0,1,2022-08-14,2022-10-13,Yes,Senior
+1635,23,Male,Married,Medical,2,2,3,4,131800,23,3,23.0,No,0,0,0,0,2,3.0,6,2022-03-21,,No,Leadership
+1636,47,Female,Married,Marketing,1,2,2,2,42900,23,1,3.0,No,3,3,3,2,7,3.0,6,2024-10-07,,No,Mid-Junior
+1637,23,Male,Single,Technical Degree,4,4,6,3,90400,24,0,6.0,Yes,0,0,0,0,0,3.0,3,2021-04-15,2021-06-14,Yes,Senior
+1638,47,Male,Single,Life Sciences,2,1,10,4,135100,13,0,6.0,No,2,2,2,2,4,0.0,4,2022-07-09,,No,Leadership
+1639,37,Female,Married,Human Resources,2,4,8,2,59500,17,0,6.0,No,2,0,0,2,4,2.0,3,2021-09-02,2023-08-11,Yes,Senior
+1640,43,Male,Married,Medical,3,3,5,2,41300,24,2,30.0,Yes,2,2,0,2,4,2.0,1,2021-08-05,,No,Mid-Junior
+1641,37,Female,Married,Technical Degree,2,6,12,3,90300,11,2,6.0,Yes,1,0,0,0,2,3.0,4,2020-10-19,,No,Senior
+1642,39,Male,Divorced,Technical Degree,3,5,11,2,33100,12,1,13.0,No,1,1,1,1,8,6.0,4,2020-09-01,2021-07-15,Yes,Mid-Junior
+1643,27,Male,Divorced,Technical Degree,3,2,1,3,60500,19,0,7.0,No,0,0,0,0,0,2.0,2,2023-06-13,,No,Senior
+1644,25,Male,Divorced,Marketing,4,4,7,3,65700,25,0,3.0,Yes,1,1,1,0,2,1.0,2,2023-03-28,,No,Senior
+1645,49,Female,Married,Life Sciences,3,3,5,1,22900,16,3,10.0,Yes,6,6,4,5,11,0.0,3,2024-12-03,,No,Entry
+1646,37,Male,Married,Life Sciences,4,2,2,1,20600,20,1,3.0,No,0,0,0,0,4,1.0,2,2021-05-24,,No,Entry
+1647,34,Male,Married,Marketing,3,2,1,3,93600,25,0,3.0,No,0,0,0,0,4,2.0,1,2025-04-03,,No,Senior
+1648,40,Male,Married,Human Resources,2,2,1,2,35700,13,1,20.0,No,1,0,0,1,14,1.0,3,2023-05-30,2024-08-26,Yes,Mid-Junior
+1649,37,Male,Single,Marketing,3,6,12,2,44800,17,0,3.0,No,4,1,1,3,14,4.0,3,2024-07-06,,No,Mid-Junior
+1650,30,Male,Married,Human Resources,3,4,7,4,135700,22,0,30.0,Yes,1,1,0,0,5,2.0,2,2023-01-20,,No,Leadership
+1651,49,Female,Divorced,Medical,3,2,2,2,39300,23,1,1.0,No,6,3,2,4,17,2.0,4,2025-08-11,2026-08-28,Yes,Mid-Junior
+1652,35,Male,Married,Marketing,4,4,7,4,125200,23,0,6.0,Yes,1,1,0,0,5,4.0,5,2024-11-28,,No,Leadership
+1653,42,Male,Married,Life Sciences,3,5,11,3,81700,11,1,2.0,Yes,1,0,0,0,9,3.0,4,2020-11-25,2022-01-27,Yes,Senior
+1654,18,Male,Single,Life Sciences,3,2,2,1,21200,17,1,11.0,Yes,0,0,0,0,0,1.0,1,2020-06-12,2020-08-11,Yes,Entry
+1655,26,Male,Divorced,Life Sciences,3,2,1,3,89300,19,3,2.0,No,0,0,0,0,2,2.0,2,2023-08-13,2023-10-16,Yes,Senior
+1656,39,Female,Single,Life Sciences,3,4,8,1,25600,11,1,11.0,No,0,0,0,0,3,0.0,1,2022-10-22,,No,Mid-Junior
+1657,30,Female,Married,Technical Degree,2,1,9,2,46500,16,1,7.0,Yes,0,0,0,0,2,5.0,3,2020-04-15,2020-06-14,Yes,Mid-Junior
+1658,40,Female,Married,Marketing,3,4,7,4,129000,12,0,7.0,No,11,11,11,8,14,1.0,2,2022-07-26,,No,Leadership
+1659,43,Male,Divorced,Technical Degree,2,3,4,2,57100,23,1,1.0,No,0,0,0,0,11,1.0,5,2020-03-25,,No,Senior
+1660,22,Male,Single,Medical,3,3,4,2,33900,21,1,7.0,No,0,0,0,0,0,2.0,6,2023-01-08,,No,Mid-Junior
+1661,26,Female,Divorced,Medical,4,2,2,1,22900,13,1,5.0,Yes,0,0,0,0,1,2.0,2,2020-06-13,2020-08-12,Yes,Entry
+1662,29,Female,Single,Marketing,3,4,8,1,24200,25,1,8.0,Yes,1,0,0,1,6,2.0,3,2025-04-11,,No,Entry
+1663,49,Male,Single,Marketing,5,3,4,3,75000,13,0,22.0,Yes,6,1,2,0,12,3.0,6,2025-10-26,,No,Senior
+1664,34,Male,Divorced,Medical,5,4,7,4,134600,12,0,5.0,No,2,0,2,2,5,4.0,4,2024-12-16,,No,Leadership
+1665,27,Female,Single,Human Resources,3,5,11,2,56600,16,2,2.0,No,0,0,0,0,0,2.0,2,2023-02-13,2023-04-14,Yes,Senior
+1666,46,Male,Married,Life Sciences,4,3,4,3,91100,19,0,1.0,No,3,1,1,0,14,1.0,4,2024-11-20,,No,Senior
+1667,26,Male,Married,Technical Degree,3,2,3,5,184000,20,1,7.0,No,0,0,0,0,0,2.0,4,2025-07-07,,No,Leadership
+1668,45,Male,Divorced,Medical,5,2,1,2,58200,23,3,7.0,Yes,3,0,0,1,9,0.0,2,2021-01-08,,No,Senior
+1669,31,Male,Divorced,Medical,3,3,4,2,40400,14,1,5.0,No,0,0,0,0,2,2.0,1,2025-04-09,,No,Mid-Junior
+1670,30,Female,Divorced,Human Resources,3,2,2,2,55100,12,0,3.0,No,1,1,1,0,3,0.0,3,2023-11-26,,No,Senior
+1671,50,Female,Single,Technical Degree,3,2,2,1,19700,20,1,5.0,No,0,0,0,0,1,1.0,6,2024-07-30,,No,Entry
+1672,50,Male,Divorced,Life Sciences,3,3,4,2,47700,21,1,10.0,No,6,3,6,6,21,1.0,2,2023-09-27,,No,Mid-Junior
+1673,22,Male,Married,Life Sciences,2,3,5,1,22100,22,1,1.0,No,0,0,0,0,1,1.0,4,2023-08-08,,No,Entry
+1674,45,Female,Single,Life Sciences,4,2,1,2,47100,21,0,2.0,No,2,1,0,1,16,3.0,1,2021-03-04,2023-01-14,Yes,Mid-Junior
+1675,65,Male,Single,Medical,4,2,3,5,171200,25,0,1.0,No,1,1,0,1,7,2.0,4,2023-09-12,,No,Leadership
+1676,33,Male,Married,Technical Degree,4,3,4,3,75200,24,1,20.0,No,0,0,0,0,4,6.0,2,2024-08-13,,No,Senior
+1677,25,Female,Single,Medical,4,2,3,4,104800,19,2,7.0,No,0,0,0,0,1,2.0,2,2025-07-22,,No,Leadership
+1678,38,Male,Married,Marketing,2,2,1,2,53700,22,1,8.0,No,1,0,1,1,6,3.0,1,2023-03-26,,No,Senior
+1679,43,Male,Married,Medical,4,2,2,2,57200,23,3,9.0,No,3,2,1,2,6,0.0,2,2024-06-28,,No,Senior
+1680,35,Male,Married,Technical Degree,4,3,5,2,39500,13,0,8.0,Yes,1,1,0,1,4,1.0,2,2020-05-30,,No,Mid-Junior
+1681,39,Male,Single,Other,3,2,2,2,34800,17,2,1.0,Yes,0,0,0,0,4,3.0,2,2025-02-05,,No,Mid-Junior
+1682,40,Male,Married,Life Sciences,4,5,11,2,57900,13,1,5.0,No,1,0,0,1,4,2.0,0,2020-12-26,,No,Senior
+1683,43,Female,Married,Other,1,2,1,3,93600,16,2,3.0,Yes,2,2,2,2,16,3.0,1,2023-07-12,2025-06-15,Yes,Senior
+1684,31,Female,Married,Life Sciences,3,2,1,2,41300,19,3,7.0,No,0,0,0,0,4,2.0,2,2023-08-17,,No,Mid-Junior
+1685,38,Male,Single,Human Resources,4,2,1,2,36600,23,0,6.0,Yes,4,4,2,2,8,4.0,2,2021-04-19,,No,Mid-Junior
+1686,24,Male,Married,Technical Degree,3,6,12,2,38900,12,1,17.0,No,0,0,0,0,0,2.0,3,2024-07-13,,No,Mid-Junior
+1687,38,Female,Single,Life Sciences,3,2,1,2,53500,21,0,18.0,Yes,1,1,0,0,4,0.0,0,2025-10-08,2026-07-10,Yes,Senior
+1688,28,Female,Married,Medical,2,3,4,2,39600,21,2,,No,1,0,0,1,3,4.0,1,2025-03-07,,No,Mid-Junior
+1689,33,Male,Single,Life Sciences,3,5,11,3,62000,25,3,1.0,Yes,0,0,0,0,4,4.0,2,2024-08-19,,No,Senior
+1690,39,Female,Single,Medical,3,2,3,5,161600,19,1,3.0,No,2,0,1,1,6,2.0,1,2020-08-10,2022-06-29,Yes,Leadership
+1691,38,Female,Single,Technical Degree,3,3,5,1,33300,19,3,9.0,Yes,8,4,5,8,13,5.0,6,2025-10-24,,No,Mid-Junior
+1692,45,Male,Single,Technical Degree,4,3,5,1,21400,14,1,10.0,No,1,1,1,1,2,0.0,4,2024-01-21,,No,Entry
+1693,40,Male,Married,Marketing,1,2,2,2,56100,15,1,5.0,No,1,0,1,0,4,5.0,4,2025-08-03,2026-10-12,Yes,Senior
+1694,46,Male,Divorced,Life Sciences,3,2,1,2,51000,21,1,7.0,No,3,2,0,0,11,4.0,5,2024-12-15,,No,Senior
+1695,36,Male,Divorced,Marketing,3,5,11,2,36400,11,0,30.0,No,1,1,0,1,6,3.0,5,2020-07-30,2021-06-22,Yes,Mid-Junior
+1696,38,Male,Divorced,Medical,3,3,5,2,34800,25,1,8.0,Yes,0,0,0,0,5,1.0,5,2022-12-29,,No,Mid-Junior
+1697,38,Male,Married,Medical,4,4,6,2,39300,19,3,1.0,No,5,4,2,5,12,1.0,4,2021-06-20,,No,Mid-Junior
+1698,35,Female,Married,Medical,5,3,4,3,95100,18,1,10.0,No,1,0,0,0,6,1.0,4,2023-03-25,,No,Senior
+1699,38,Female,Married,Life Sciences,3,1,10,5,174900,25,1,18.0,Yes,3,3,0,0,11,8.0,3,2024-11-29,,No,Leadership
+1700,47,Male,Divorced,Life Sciences,4,4,7,4,97800,22,1,4.0,No,2,0,2,1,8,2.0,2,2025-06-08,2026-10-27,Yes,Senior
+1701,38,Male,Married,Technical Degree,1,2,2,1,23000,11,0,2.0,Yes,0,0,0,0,5,1.0,3,2022-09-07,,No,Entry
+1702,41,Female,Married,Medical,2,2,3,4,126600,16,1,14.0,No,0,0,0,0,3,0.0,4,2021-10-10,,No,Leadership
+1703,48,Male,Married,Medical,2,4,6,2,56800,22,0,4.0,No,1,0,0,1,5,1.0,3,2023-06-26,,No,Senior
+1704,37,Male,Divorced,Marketing,3,2,3,4,119200,11,3,16.0,No,0,0,0,0,6,2.0,4,2020-02-26,,No,Leadership
+1705,60,Male,Single,Other,3,3,4,3,88500,20,1,1.0,No,2,0,0,2,14,4.0,5,2024-07-29,,No,Senior
+1706,43,Female,Married,Life Sciences,3,1,10,5,182100,24,1,15.0,Yes,3,0,0,2,17,0.0,3,2021-01-16,,No,Leadership
+1707,56,Female,Single,Medical,4,6,12,2,56600,17,1,19.0,No,3,2,0,1,8,2.0,2,2022-07-09,,No,Senior
+1708,35,Male,Married,Human Resources,5,2,2,1,26400,16,0,9.0,Yes,0,0,0,0,3,2.0,3,2021-04-09,2021-06-08,Yes,Mid-Junior
+1709,38,Male,Married,Other,4,1,10,4,97700,19,2,3.0,No,2,1,2,0,3,3.0,3,2021-04-26,,No,Senior
+1710,46,Male,Married,Other,3,4,7,4,139500,14,1,2.0,No,1,1,1,1,5,1.0,4,2021-09-22,2022-10-29,Yes,Leadership
+1711,46,Male,Married,Human Resources,5,2,2,2,51000,23,1,13.0,No,2,0,2,0,8,3.0,0,2023-04-10,,No,Senior
+1712,42,Female,Married,Life Sciences,3,5,11,3,81700,16,1,17.0,No,0,0,0,0,2,1.0,4,2025-09-15,2025-12-14,Yes,Senior
+1713,41,Female,Single,Life Sciences,3,2,1,2,35500,13,3,11.0,No,0,0,0,0,6,2.0,4,2023-01-24,2023-03-25,Yes,Mid-Junior
+1714,25,Male,Married,Medical,3,3,4,2,39900,16,3,2.0,Yes,0,0,0,0,1,5.0,3,2025-05-30,,No,Mid-Junior
+1715,43,Male,Single,Medical,3,2,3,4,108500,14,1,16.0,No,2,0,1,0,6,3.0,0,2025-04-18,,No,Leadership
+1716,29,Male,Single,Other,3,2,1,3,60300,18,0,22.0,Yes,1,1,1,1,5,3.0,6,2022-09-25,,No,Senior
+1717,43,Male,Married,Technical Degree,2,5,11,3,76800,11,2,1.0,No,2,2,2,1,6,1.0,6,2025-02-13,,No,Senior
+1718,45,Male,Divorced,Life Sciences,3,2,3,4,115000,14,1,2.0,Yes,9,8,3,8,13,1.0,1,2021-08-15,,No,Leadership
+1719,34,Female,Married,Life Sciences,2,6,12,2,40800,15,1,2.0,No,0,0,0,0,1,2.0,3,2024-04-20,2024-06-19,Yes,Mid-Junior
+1720,38,Female,Married,Life Sciences,2,5,11,3,94500,12,0,,No,0,0,0,0,3,3.0,6,2025-09-12,,No,Senior
+1721,40,Female,Single,Life Sciences,3,2,2,1,23000,15,1,6.0,Yes,1,1,0,0,6,3.0,4,2021-07-13,2022-05-01,Yes,Entry
+1722,32,Male,Married,Marketing,3,2,2,1,24400,22,1,5.0,No,2,0,0,0,6,1.0,1,2023-02-05,,No,Entry
+1723,25,Male,Single,Life Sciences,3,4,8,2,43000,21,3,3.0,No,0,0,0,0,2,3.0,4,2024-08-26,,No,Mid-Junior
+1724,36,Female,Married,Life Sciences,5,4,6,2,52600,24,2,17.0,No,0,0,0,0,0,4.0,3,2023-10-24,,No,Senior
+1725,36,Male,Single,Medical,4,3,4,2,36700,24,0,13.0,No,0,0,0,0,1,1.0,3,2025-09-10,,No,Mid-Junior
+1726,32,Male,Married,Life Sciences,4,2,2,1,31300,11,2,3.0,Yes,0,0,0,0,9,0.0,4,2022-12-30,2023-02-28,Yes,Mid-Junior
+1727,25,Female,Married,Marketing,3,2,1,2,39000,16,1,12.0,No,0,0,0,0,2,3.0,3,2023-03-04,,No,Mid-Junior
+1728,26,Male,Single,Medical,3,1,10,5,147600,22,0,14.0,No,0,0,0,0,2,4.0,2,2023-05-07,,No,Leadership
+1729,33,Female,Married,Life Sciences,5,3,5,1,31800,17,1,2.0,No,0,0,0,0,5,2.0,3,2025-06-28,2025-08-27,Yes,Mid-Junior
+1730,41,Female,Married,Medical,3,2,3,4,111800,15,0,9.0,Yes,0,0,0,0,8,6.0,2,2025-01-03,,No,Leadership
+1731,43,Female,Divorced,Technical Degree,5,2,1,3,86200,14,1,22.0,Yes,1,0,0,1,10,3.0,4,2025-06-06,,No,Senior
+1732,50,Male,Divorced,Life Sciences,3,2,3,5,179900,17,1,12.0,No,1,1,1,1,4,2.0,3,2023-11-14,,No,Leadership
+1733,36,Female,Married,Marketing,2,3,5,2,40000,22,3,4.0,No,0,0,0,0,2,0.0,3,2023-09-23,,No,Mid-Junior
+1734,38,Female,Divorced,Life Sciences,2,4,7,4,113700,11,0,21.0,No,0,0,0,0,2,1.0,3,2024-03-25,,No,Leadership
+1735,40,Male,Single,Medical,4,6,12,2,37800,15,0,11.0,No,2,2,2,2,12,4.0,5,2025-02-08,,No,Mid-Junior
+1736,28,Male,Married,Life Sciences,4,2,1,3,76400,12,0,8.0,No,0,0,0,0,2,4.0,1,2023-08-11,,No,Senior
+1737,18,Female,Married,Life Sciences,3,5,11,2,55700,23,1,20.0,No,0,0,0,0,0,4.0,1,2022-02-11,,No,Senior
+1738,35,Female,Married,Technical Degree,2,3,4,2,41300,18,2,13.0,No,0,0,0,0,4,2.0,4,2022-09-05,,No,Mid-Junior
+1739,33,Male,Married,Medical,4,4,8,2,38600,11,1,6.0,Yes,0,0,0,0,3,2.0,2,2024-04-17,,No,Mid-Junior
+1740,29,Male,Married,Life Sciences,4,3,5,2,48100,20,2,12.0,No,1,1,0,0,3,2.0,5,2022-08-14,,No,Mid-Junior
+1741,38,Male,Married,Life Sciences,4,2,2,1,21100,19,3,4.0,No,0,0,0,0,3,2.0,3,2024-08-09,2024-10-08,Yes,Entry
+1742,42,Male,Single,Medical,4,4,8,1,24800,14,2,4.0,No,1,1,0,1,5,2.0,1,2023-07-27,2024-08-26,Yes,Entry
+1743,28,Male,Married,Marketing,2,2,3,4,126600,25,1,1.0,Yes,0,0,0,0,4,2.0,1,2024-04-10,,No,Leadership
+1744,34,Male,Married,Technical Degree,3,3,4,2,41900,19,2,14.0,No,0,0,0,0,6,2.0,2,2024-04-30,,No,Mid-Junior
+1745,25,Female,Married,Marketing,4,2,1,3,93700,25,0,,No,0,0,0,0,2,3.0,2,2021-09-15,,No,Senior
+1746,42,Female,Single,Human Resources,3,3,5,2,49600,18,2,9.0,Yes,1,1,1,1,8,3.0,4,2025-07-21,,No,Mid-Junior
+1747,44,Male,Married,Other,3,5,11,3,67300,23,2,4.0,No,1,1,0,0,7,1.0,4,2020-05-31,,No,Senior
+1748,25,Female,Married,Life Sciences,2,2,3,4,100800,18,2,3.0,No,0,0,0,0,2,1.0,4,2021-06-01,,No,Leadership
+1749,30,Male,Single,Life Sciences,4,3,5,2,48200,25,0,2.0,Yes,0,0,0,0,3,5.0,2,2025-08-19,2025-10-19,Yes,Mid-Junior
+1750,23,Female,Divorced,Life Sciences,4,3,4,3,79600,23,1,6.0,No,0,0,0,0,2,3.0,6,2023-09-21,,No,Senior
+1751,38,Female,Married,Technical Degree,3,3,5,2,36400,24,0,15.0,Yes,0,0,0,0,3,4.0,3,2021-02-15,,No,Mid-Junior
+1752,28,Female,Married,Technical Degree,4,5,11,2,43800,14,1,14.0,No,0,0,0,0,2,3.0,2,2024-12-08,2025-02-06,Yes,Mid-Junior
+1753,29,Female,Single,Other,3,2,2,1,25200,13,2,17.0,No,3,1,1,1,4,2.0,5,2025-11-24,2026-10-29,Yes,Mid-Junior
+1754,39,Female,Divorced,Life Sciences,3,3,4,2,58600,18,2,5.0,Yes,1,1,0,1,4,3.0,2,2021-08-13,,No,Senior
+1755,48,Female,Married,Medical,2,2,2,2,33100,21,0,,No,0,0,0,0,10,1.0,3,2024-08-06,,No,Mid-Junior
+1756,24,Female,Single,Technical Degree,3,3,4,2,47700,22,0,8.0,No,0,0,0,0,1,2.0,2,2021-09-24,,No,Mid-Junior
+1757,34,Male,Single,Marketing,5,6,12,3,91100,11,0,15.0,No,5,0,5,1,9,,3,2020-11-02,,No,Senior
+1758,30,Male,Married,Life Sciences,2,3,5,2,57200,17,0,4.0,No,1,0,0,0,4,3.0,4,2025-04-07,,No,Senior
+1759,27,Male,Married,Human Resources,2,5,11,3,91700,15,1,1.0,No,0,0,0,0,2,4.0,5,2022-12-21,,No,Senior
+1760,42,Male,Divorced,Medical,3,2,1,2,40900,11,1,2.0,No,5,4,3,0,8,4.0,6,2023-10-18,,No,Mid-Junior
+1761,46,Female,Single,Technical Degree,3,5,11,3,79400,11,0,14.0,No,4,3,4,2,15,2.0,4,2024-06-16,,No,Senior
+1762,27,Male,Married,Life Sciences,1,4,6,3,76700,12,1,9.0,No,0,0,0,0,2,2.0,2,2020-11-24,2021-01-23,Yes,Senior
+1763,43,Female,Divorced,Marketing,3,2,1,3,77200,13,1,2.0,No,3,3,1,0,11,1.0,5,2025-12-25,2026-09-20,Yes,Senior
+1764,29,Male,Married,Life Sciences,3,2,1,3,63000,12,1,5.0,Yes,0,0,0,0,2,0.0,3,2025-06-21,2025-08-20,Yes,Senior
+1765,21,Female,Married,Life Sciences,4,2,3,4,105500,22,3,10.0,No,0,0,0,0,0,2.0,1,2020-05-27,,No,Leadership
+1766,24,Male,Divorced,Life Sciences,3,3,5,2,42200,12,2,2.0,No,0,0,0,0,2,0.0,1,2020-10-07,,No,Mid-Junior
+1767,24,Male,Married,Marketing,3,4,6,2,38400,19,0,5.0,Yes,0,0,0,0,0,2.0,1,2022-08-19,,No,Mid-Junior
+1768,45,Male,Married,Technical Degree,3,4,8,2,58700,22,1,26.0,No,4,3,3,3,8,2.0,3,2023-03-23,,No,Senior
+1769,41,Male,Married,Other,3,6,12,3,80300,19,0,6.0,No,2,1,0,0,6,1.0,0,2022-07-20,,No,Senior
+1770,29,Male,Married,Medical,3,6,12,3,59200,17,1,2.0,No,0,0,0,0,3,2.0,5,2021-01-05,,No,Senior
+1771,39,Male,Single,Life Sciences,5,3,5,1,29700,18,0,3.0,No,0,0,0,0,9,4.0,0,2024-11-12,,No,Mid-Junior
+1772,38,Male,Married,Life Sciences,5,3,4,2,61100,14,1,14.0,No,4,1,1,2,10,2.0,1,2021-02-07,2025-04-20,Yes,Senior
+1773,34,Male,Divorced,Life Sciences,3,4,7,3,84400,13,0,7.0,Yes,0,0,0,0,3,1.0,5,2021-02-15,2021-04-16,Yes,Senior
+1774,27,Male,Married,Life Sciences,3,2,1,3,92800,19,1,5.0,No,0,0,0,0,4,1.0,1,2021-11-12,,No,Senior
+1775,35,Male,Divorced,Medical,1,2,2,2,53100,20,1,10.0,No,3,1,0,1,6,0.0,2,2023-05-11,,No,Senior
+1776,52,Male,Married,Marketing,4,2,1,2,58100,22,2,3.0,No,10,4,9,8,16,3.0,0,2020-04-28,,No,Senior
+1777,37,Female,Married,Medical,3,3,4,2,47800,15,2,11.0,No,5,1,5,2,11,0.0,3,2020-07-07,,No,Mid-Junior
+1778,37,Male,Married,Marketing,2,2,1,2,36100,14,1,15.0,No,0,0,0,0,4,1.0,2,2023-08-21,2023-10-20,Yes,Mid-Junior
+1779,26,Female,Married,Marketing,3,2,3,4,106800,19,0,4.0,No,1,0,1,1,4,3.0,3,2023-04-16,,No,Leadership
+1780,25,Male,Divorced,Life Sciences,3,3,4,3,63100,16,0,4.0,No,0,0,0,0,1,0.0,2,2024-01-08,,No,Senior
+1781,28,Male,Married,Life Sciences,4,2,2,2,42900,13,3,6.0,Yes,0,0,0,0,2,0.0,5,2024-03-15,,No,Mid-Junior
+1782,21,Male,Married,Medical,3,2,3,5,184600,17,1,9.0,No,0,0,0,0,0,3.0,2,2024-10-30,,No,Leadership
+1783,55,Male,Married,Marketing,1,3,5,2,59300,12,0,1.0,No,13,0,7,4,17,0.0,6,2021-08-19,,No,Senior
+1784,37,Male,Married,Life Sciences,3,2,3,4,133000,19,1,6.0,No,4,0,2,1,7,0.0,3,2022-09-27,,No,Leadership
+1785,29,Female,Divorced,Life Sciences,3,5,11,2,39400,23,0,3.0,Yes,0,0,0,0,4,1.0,4,2025-12-15,,No,Mid-Junior
+1786,30,Female,Divorced,Life Sciences,1,4,8,2,52100,25,1,12.0,No,0,0,0,0,3,0.0,2,2024-08-14,,No,Senior
+1787,26,Male,Married,Life Sciences,4,4,6,2,43100,18,1,7.0,Yes,0,0,0,0,3,2.0,2,2022-01-07,,No,Mid-Junior
+1788,25,Male,Married,Marketing,2,3,5,1,30100,22,0,16.0,Yes,1,1,1,0,3,3.0,2,2021-11-27,2022-10-12,Yes,Mid-Junior
+1789,45,Male,Married,Medical,4,2,1,2,61000,16,1,8.0,No,6,2,0,5,10,4.0,3,2020-11-19,,No,Senior
+1790,49,Female,Single,Life Sciences,3,2,1,3,81400,18,2,1.0,No,2,2,0,1,15,1.0,3,2024-04-15,,No,Senior
+1791,22,Male,Married,Medical,3,3,5,1,18300,13,1,18.0,No,0,0,0,0,1,2.0,0,2022-09-13,2022-11-12,Yes,Entry
+1792,46,Female,Married,Life Sciences,3,5,11,3,94000,20,0,13.0,No,0,0,0,0,5,1.0,2,2021-08-09,,No,Senior
+1793,27,Male,Divorced,Life Sciences,3,6,12,2,54700,21,0,8.0,No,1,0,1,0,4,2.0,2,2022-08-09,,No,Senior
+1794,32,Male,Divorced,Human Resources,3,2,3,5,188700,15,2,7.0,No,0,0,0,0,5,1.0,3,2025-03-03,2025-05-15,Yes,Leadership
+1795,38,Male,Single,Life Sciences,3,3,5,1,30400,19,0,30.0,Yes,2,1,1,1,15,1.0,4,2022-11-06,2024-12-02,Yes,Mid-Junior
+1796,39,Male,Divorced,Life Sciences,3,3,5,1,27800,12,0,10.0,Yes,1,0,1,1,6,2.0,3,2022-11-11,,No,Mid-Junior
+1797,38,Male,Married,Medical,2,2,3,4,113600,20,0,8.0,No,2,1,1,0,5,3.0,2,2020-02-08,,No,Leadership
+1798,43,Male,Married,Medical,3,2,3,5,144100,25,1,3.0,No,4,3,2,3,5,1.0,4,2025-03-20,,No,Leadership
+1799,20,Male,Single,Technical Degree,3,1,10,5,147300,13,3,2.0,No,0,0,0,0,0,2.0,2,2023-03-24,,No,Leadership
+1800,19,Male,Married,Life Sciences,2,1,10,4,136200,19,0,5.0,No,0,0,0,0,0,2.0,3,2021-10-09,,No,Leadership
+1801,34,Male,Single,Technical Degree,4,3,5,1,26100,19,1,23.0,Yes,4,2,3,1,7,1.0,3,2020-10-29,,No,Mid-Junior
+1802,41,Male,Single,Life Sciences,3,2,2,2,57800,20,1,1.0,Yes,3,3,2,0,6,2.0,2,2024-12-14,,No,Senior
+1803,33,Female,Single,Life Sciences,3,2,1,2,33000,22,2,5.0,No,0,0,0,0,4,2.0,3,2023-11-16,,No,Mid-Junior
+1804,45,Male,Married,Other,3,4,8,2,36600,20,0,14.0,No,0,0,0,0,18,1.0,4,2023-05-10,,No,Mid-Junior
+1805,43,Female,Divorced,Life Sciences,3,4,8,2,52000,16,2,9.0,No,4,3,3,2,9,0.0,4,2024-10-03,,No,Senior
+1806,21,Female,Married,Life Sciences,3,2,2,2,42800,17,2,2.0,No,0,0,0,0,0,2.0,2,2022-10-21,,No,Mid-Junior
+1807,49,Female,Married,Human Resources,3,5,11,2,52200,19,1,14.0,Yes,5,3,5,2,12,3.0,6,2025-02-14,2026-10-05,Yes,Senior
+1808,38,Female,Married,Life Sciences,1,2,3,4,105500,25,0,4.0,Yes,6,6,0,3,13,1.0,3,2024-04-24,2026-10-17,Yes,Leadership
+1809,40,Female,Divorced,Life Sciences,3,2,2,1,27000,11,0,3.0,No,3,2,0,0,10,0.0,1,2022-08-29,,No,Mid-Junior
+1810,38,Female,Single,Life Sciences,3,3,4,2,45600,24,1,8.0,No,1,0,1,0,4,0.0,4,2024-04-11,,No,Mid-Junior
+1811,41,Male,Divorced,Life Sciences,1,2,1,2,37800,22,0,9.0,No,0,0,0,0,3,,6,2024-01-10,,No,Mid-Junior
+1812,39,Male,Single,Medical,3,6,12,3,92200,15,0,9.0,No,0,0,0,0,3,2.0,3,2023-04-26,,No,Senior
+1813,40,Male,Married,Marketing,1,1,10,5,170900,11,1,3.0,No,1,1,1,0,10,2.0,2,2023-04-24,,No,Leadership
+1814,46,Male,Divorced,Life Sciences,4,5,11,3,93000,16,0,8.0,No,3,2,2,1,10,2.0,1,2020-03-30,,No,Senior
+1815,33,Female,Married,Life Sciences,3,2,3,4,138500,14,0,2.0,Yes,2,2,0,1,5,2.0,3,2024-06-09,,No,Leadership
+1816,30,Female,Married,Medical,3,4,7,4,131800,25,1,12.0,No,0,0,0,0,3,3.0,3,2023-01-29,,No,Leadership
+1817,44,Male,Married,Medical,4,2,3,5,181800,11,1,29.0,Yes,2,1,0,1,11,1.0,2,2020-02-03,,No,Leadership
+1818,38,Male,Single,Technical Degree,2,2,3,5,176000,20,1,7.0,No,0,0,0,0,2,3.0,2,2020-07-19,2020-09-22,Yes,Leadership
+1819,31,Male,Married,Medical,3,2,2,1,20400,20,3,8.0,No,1,1,1,0,3,4.0,2,2025-07-27,2026-07-10,Yes,Entry
+1820,35,Female,Married,Life Sciences,4,2,1,3,84500,11,0,15.0,Yes,2,0,0,0,8,3.0,1,2022-07-31,2024-10-03,Yes,Senior
+1821,31,Male,Divorced,Human Resources,3,2,1,3,70400,24,0,1.0,No,2,2,2,2,3,3.0,4,2023-12-14,,No,Senior
+1822,29,Male,Married,Technical Degree,4,2,2,1,23100,23,2,,Yes,0,0,0,0,6,,5,2022-06-16,2022-08-27,Yes,Entry
+1823,35,Male,Married,Marketing,3,1,10,4,123900,19,3,3.0,No,1,0,0,1,7,4.0,4,2022-02-17,,No,Leadership
+1824,39,Male,Single,Marketing,4,2,1,3,87600,23,1,1.0,Yes,0,0,0,0,3,0.0,1,2022-10-23,,No,Senior
+1825,27,Male,Married,Marketing,3,2,3,4,96600,22,0,2.0,Yes,0,0,0,0,3,2.0,3,2021-07-14,,No,Senior
+1826,32,Male,Married,Medical,3,3,5,2,42900,22,1,3.0,No,2,2,1,2,6,2.0,3,2021-02-01,,No,Mid-Junior
+1827,38,Male,Married,Technical Degree,2,2,2,2,36900,19,0,1.0,No,3,2,2,2,6,2.0,2,2020-06-10,,No,Mid-Junior
+1828,38,Male,Married,Other,4,3,4,3,91100,12,0,4.0,Yes,7,6,1,2,14,3.0,3,2023-06-19,2026-10-26,Yes,Senior
+1829,47,Female,Married,Marketing,2,2,2,2,52700,23,0,12.0,Yes,5,1,1,5,20,2.0,4,2024-02-03,,No,Senior
+1830,35,Male,Single,Life Sciences,3,3,5,2,54300,21,1,1.0,No,0,0,0,0,1,1.0,1,2021-06-22,2021-08-21,Yes,Senior
+1831,27,Male,Divorced,Marketing,4,2,1,2,40100,18,1,16.0,Yes,0,0,0,0,1,2.0,5,2023-04-23,,No,Mid-Junior
+1832,28,Female,Married,Marketing,3,3,5,1,30600,20,3,10.0,Yes,2,2,2,2,5,1.0,6,2023-08-31,,No,Mid-Junior
+1833,23,Male,Divorced,Human Resources,3,5,11,2,57100,25,1,3.0,No,0,0,0,0,0,2.0,2,2024-08-28,,No,Senior
+1834,27,Male,Single,Technical Degree,4,3,5,2,42800,15,3,7.0,No,1,0,1,1,5,2.0,3,2021-12-20,,No,Mid-Junior
+1835,39,Female,Divorced,Technical Degree,2,2,3,5,189400,16,0,6.0,Yes,1,1,1,0,6,2.0,0,2022-04-02,,No,Leadership
+1836,40,Female,Married,Medical,1,3,4,2,46200,15,0,19.0,No,4,1,4,2,17,5.0,4,2021-06-25,,No,Mid-Junior
+1837,35,Female,Married,Marketing,3,3,4,3,65800,18,1,24.0,No,0,0,0,0,1,3.0,5,2024-02-07,,No,Senior
+1838,36,Male,Married,Human Resources,2,1,9,2,46500,16,1,1.0,No,2,1,0,2,8,5.0,1,2025-12-14,,No,Mid-Junior
+1839,18,Male,Divorced,Life Sciences,3,2,1,3,85000,16,0,24.0,No,0,0,0,0,0,2.0,6,2025-08-17,2025-10-16,Yes,Senior
+1840,40,Male,Married,Technical Degree,2,3,4,3,70200,19,0,7.0,Yes,6,4,4,0,16,0.0,1,2021-11-04,,No,Senior
+1841,23,Male,Single,Life Sciences,2,2,2,1,19500,22,0,8.0,Yes,0,0,0,0,0,1.0,2,2022-11-18,,No,Entry
+1842,39,Female,Divorced,Life Sciences,3,5,11,2,35100,25,0,5.0,No,1,0,0,1,5,0.0,3,2025-05-27,,No,Mid-Junior
+1843,37,Female,Married,Life Sciences,4,3,5,2,49200,16,0,25.0,No,0,0,0,0,0,1.0,4,2023-04-23,,No,Mid-Junior
+1844,34,Male,Single,Marketing,3,5,11,3,59900,24,0,7.0,No,0,0,0,0,6,0.0,1,2023-10-19,,No,Senior
+1845,36,Male,Divorced,Technical Degree,3,3,4,2,38100,23,2,25.0,No,7,5,1,6,10,2.0,1,2021-04-16,,No,Mid-Junior
+1846,41,Female,Married,Life Sciences,2,2,2,1,21500,12,0,9.0,Yes,4,1,2,0,16,0.0,2,2025-04-02,,No,Entry
+1847,45,Male,Married,Life Sciences,3,4,6,3,71100,21,0,2.0,No,2,1,1,2,6,0.0,1,2020-11-04,,No,Senior
+1848,41,Male,Married,Technical Degree,3,5,11,3,80800,18,0,6.0,No,0,0,0,0,1,5.0,1,2021-07-30,2021-09-28,Yes,Senior
+1849,45,Male,Single,Medical,2,2,1,3,66400,17,0,2.0,No,2,0,0,0,7,5.0,2,2024-06-15,2026-08-06,Yes,Senior
+1850,27,Female,Single,Technical Degree,4,3,5,2,46600,24,0,2.0,No,0,0,0,0,1,6.0,2,2024-02-07,,No,Mid-Junior
+1851,26,Female,Married,Technical Degree,3,2,3,4,123300,14,0,6.0,Yes,0,0,0,0,5,0.0,2,2021-01-04,,No,Leadership
+1852,42,Male,Married,Medical,1,2,1,3,80500,15,1,7.0,No,2,1,1,2,4,0.0,6,2024-06-04,,No,Senior
+1853,36,Male,Married,Medical,3,2,2,1,25800,19,0,8.0,Yes,2,0,2,0,7,2.0,1,2020-02-27,,No,Mid-Junior
+1854,37,Female,Married,Medical,1,2,3,5,163100,20,0,30.0,No,0,0,0,0,3,1.0,4,2022-12-19,,No,Leadership
+1855,35,Male,Single,Marketing,3,2,2,1,30500,14,0,8.0,Yes,0,0,0,0,3,1.0,3,2021-05-21,,No,Mid-Junior
+1856,35,Female,Married,Technical Degree,4,2,1,2,49400,14,3,2.0,No,0,0,0,0,2,3.0,2,2025-02-05,,No,Mid-Junior
+1857,34,Male,Divorced,Medical,4,1,9,1,31300,19,1,24.0,No,2,0,2,0,6,5.0,1,2024-02-18,,No,Mid-Junior
+1858,41,Male,Single,Technical Degree,3,1,9,2,47300,11,0,13.0,No,2,2,1,0,7,5.0,0,2022-12-09,,No,Mid-Junior
+1859,43,Female,Divorced,Life Sciences,3,3,4,2,35900,14,0,26.0,No,0,0,0,0,5,2.0,4,2024-04-09,,No,Mid-Junior
+1860,40,Female,Single,Life Sciences,1,3,4,2,35700,20,0,6.0,No,2,2,0,2,5,1.0,0,2024-03-01,,No,Mid-Junior
+1861,39,Female,Single,Medical,5,6,12,2,35200,21,0,7.0,No,1,1,0,1,3,0.0,5,2021-03-19,,No,Mid-Junior
+1862,33,Female,Married,Medical,4,4,6,3,67100,12,0,20.0,Yes,1,1,1,1,6,3.0,4,2022-08-15,2023-09-14,Yes,Senior
+1863,38,Male,Married,Life Sciences,3,5,11,2,35600,16,0,1.0,No,2,1,1,0,5,2.0,4,2020-04-12,,No,Mid-Junior
+1864,37,Female,Single,Life Sciences,5,6,12,2,57500,17,0,22.0,No,0,0,0,0,3,2.0,2,2023-09-05,2023-11-10,Yes,Senior
+1865,29,Male,Single,Marketing,3,2,2,2,54100,21,0,13.0,Yes,1,0,1,1,5,,4,2022-06-25,,No,Senior
+1866,41,Male,Married,Life Sciences,1,3,5,2,50400,21,1,,No,3,1,2,2,9,2.0,4,2020-09-15,2023-11-26,Yes,Senior
+1867,24,Male,Married,Marketing,2,2,3,4,135700,20,2,30.0,No,0,0,0,0,1,1.0,2,2025-03-16,,No,Leadership
+1868,31,Female,Married,Medical,2,2,1,3,69600,13,0,3.0,No,0,0,0,0,1,4.0,1,2023-05-22,,No,Senior
+1869,44,Female,Single,Marketing,3,2,2,2,36300,13,0,8.0,No,0,0,0,0,5,1.0,3,2024-07-30,2024-09-28,Yes,Mid-Junior
+1870,18,Male,Married,Technical Degree,2,2,2,2,35000,24,1,11.0,No,0,0,0,0,0,2.0,1,2021-07-26,2021-09-24,Yes,Mid-Junior
+1871,32,Male,Divorced,Technical Degree,4,2,2,1,23500,23,0,28.0,Yes,1,1,1,0,4,4.0,6,2020-06-01,2021-05-19,Yes,Entry
+1872,18,Male,Divorced,Life Sciences,3,3,5,2,33800,12,0,4.0,No,0,0,0,0,0,6.0,1,2025-07-10,,No,Mid-Junior
+1873,46,Male,Married,Other,4,2,3,4,135600,25,0,8.0,No,0,0,0,0,10,3.0,3,2021-04-20,,No,Leadership
+1874,41,Male,Married,Medical,3,6,12,2,42300,15,0,21.0,No,1,1,0,1,8,2.0,3,2021-02-02,2022-01-03,Yes,Mid-Junior
+1875,26,Male,Married,Medical,5,3,4,3,86400,21,1,7.0,Yes,0,0,0,0,2,1.0,5,2021-07-09,,No,Senior
+1876,26,Male,Married,Marketing,3,1,9,1,23600,23,0,10.0,No,0,0,0,0,0,2.0,2,2024-05-10,,No,Entry
+1877,46,Female,Single,Human Resources,3,2,1,3,84700,21,1,9.0,Yes,11,11,10,0,18,1.0,3,2025-02-01,,No,Senior
+1878,38,Male,Single,Marketing,3,1,9,1,25200,23,2,5.0,No,2,1,2,2,8,3.0,1,2024-02-28,,No,Mid-Junior
+1879,40,Female,Married,Marketing,1,2,2,2,40500,19,1,12.0,No,0,0,0,0,4,0.0,5,2024-09-12,,No,Mid-Junior
+1880,33,Male,Married,Life Sciences,3,5,11,2,50300,19,1,3.0,Yes,1,0,1,0,7,1.0,1,2021-09-24,,No,Senior
+1881,28,Female,Single,Medical,3,2,3,4,128700,24,0,16.0,No,0,0,0,0,1,2.0,3,2024-08-26,,No,Leadership
+1882,42,Male,Married,Life Sciences,4,2,2,2,36900,12,1,2.0,No,1,0,0,1,16,0.0,1,2021-02-09,,No,Mid-Junior
+1883,45,Male,Married,Life Sciences,5,2,3,5,189800,12,1,1.0,No,1,0,0,0,7,1.0,4,2025-06-27,2026-09-02,Yes,Leadership
+1884,28,Male,Married,Life Sciences,4,2,1,3,78200,24,0,1.0,No,1,0,1,0,4,2.0,5,2024-07-29,,No,Senior
+1885,28,Female,Divorced,Technical Degree,1,2,3,4,98100,11,1,2.0,No,1,1,0,1,3,2.0,3,2023-02-19,,No,Senior
+1886,34,Male,Single,Medical,3,4,7,4,118200,17,1,8.0,No,1,1,1,1,5,2.0,5,2020-05-14,2021-08-08,Yes,Leadership
+1887,42,Male,Single,Life Sciences,3,2,1,2,46400,17,0,,No,5,1,5,3,9,2.0,5,2024-02-26,,No,Mid-Junior
+1888,23,Female,Married,Technical Degree,5,2,2,2,47200,18,2,30.0,No,1,1,0,0,2,,2,2022-06-08,,No,Mid-Junior
+1889,54,Male,Single,Life Sciences,3,1,9,2,39400,16,0,22.0,No,1,1,0,0,12,0.0,5,2024-12-21,,No,Mid-Junior
+1890,45,Female,Married,Marketing,2,4,8,2,33000,13,0,8.0,Yes,1,0,1,1,7,0.0,2,2024-12-26,2025-11-26,Yes,Mid-Junior
+1891,30,Female,Single,Life Sciences,4,5,11,3,67600,18,1,7.0,No,0,0,0,0,0,0.0,2,2024-01-25,,No,Senior
+1892,36,Female,Married,Life Sciences,1,2,2,2,42600,22,0,3.0,No,1,0,1,0,8,1.0,2,2021-02-10,,No,Mid-Junior
+1893,42,Male,Divorced,Medical,2,2,2,2,55200,11,0,5.0,No,3,0,3,2,12,0.0,3,2024-02-13,2026-08-09,Yes,Senior
+1894,39,Male,Divorced,Marketing,2,2,1,3,64300,23,1,6.0,No,0,0,0,0,3,0.0,2,2024-01-09,,No,Senior
+1895,35,Male,Divorced,Life Sciences,3,3,5,2,45200,23,2,2.0,No,1,0,1,1,10,1.0,3,2020-09-05,,No,Mid-Junior
+1896,49,Female,Married,Human Resources,3,4,6,2,40900,11,3,12.0,Yes,5,1,5,5,14,3.0,2,2024-06-18,2026-10-06,Yes,Mid-Junior
+1897,41,Male,Single,Life Sciences,5,1,9,1,35800,15,3,6.0,Yes,5,2,2,0,10,1.0,2,2021-05-15,2026-06-10,Yes,Mid-Junior
+1898,28,Female,Married,Medical,1,2,1,3,62000,19,0,20.0,No,0,0,0,0,0,4.0,0,2021-01-10,,No,Senior
+1899,26,Male,Single,Medical,1,2,3,4,124900,18,1,8.0,No,0,0,0,0,0,1.0,4,2022-05-18,,No,Leadership
+1900,36,Male,Married,Other,4,3,5,1,29400,14,2,7.0,No,4,1,3,3,8,3.0,2,2020-03-28,2024-01-10,Yes,Mid-Junior
+1901,44,Female,Married,Life Sciences,3,4,7,4,139100,20,1,14.0,No,0,0,0,0,6,0.0,3,2023-09-28,,No,Leadership
+1902,18,Female,Married,Life Sciences,3,2,3,5,189800,14,3,3.0,No,0,0,0,0,0,0.0,0,2022-09-24,2022-11-23,Yes,Leadership
+1903,38,Female,Married,Life Sciences,2,3,5,2,50400,19,0,1.0,No,1,1,0,1,11,4.0,3,2022-04-20,2023-02-06,Yes,Senior
+1904,38,Female,Married,Marketing,3,5,11,3,82500,22,1,2.0,No,1,0,1,1,8,0.0,4,2022-04-28,,No,Senior
+1905,25,Female,Divorced,Marketing,4,3,5,2,39600,22,0,30.0,No,0,0,0,0,1,0.0,1,2022-06-03,2022-08-02,Yes,Mid-Junior
+1906,29,Male,Single,Technical Degree,3,3,5,2,38600,14,1,2.0,No,2,0,0,2,4,3.0,3,2023-09-07,,No,Mid-Junior
+1907,57,Male,Married,Life Sciences,2,2,2,2,46400,12,1,9.0,No,3,0,2,2,8,3.0,4,2021-08-27,2024-10-27,Yes,Mid-Junior
+1908,27,Male,Married,Life Sciences,4,3,4,3,77400,21,0,3.0,No,1,1,1,1,3,,1,2020-01-12,,No,Senior
+1909,30,Female,Single,Medical,3,5,11,3,62300,25,2,9.0,No,0,0,0,0,2,3.0,3,2023-02-09,,No,Senior
+1910,27,Male,Married,Marketing,3,3,4,2,55400,23,1,12.0,No,0,0,0,0,2,3.0,4,2021-08-15,,No,Senior
+1911,51,Female,Married,Medical,4,4,8,2,51400,17,1,3.0,No,2,2,1,1,22,8.0,4,2021-06-16,,No,Senior
+1912,29,Male,Divorced,Life Sciences,3,3,4,2,48100,11,1,5.0,No,0,0,0,0,6,4.0,1,2022-10-23,,No,Mid-Junior
+1913,31,Female,Married,Life Sciences,4,4,7,4,119000,14,0,7.0,No,0,0,0,0,7,5.0,3,2021-12-15,,No,Leadership
+1914,29,Male,Single,Life Sciences,4,3,5,2,39500,12,2,13.0,No,1,0,1,0,3,1.0,3,2021-03-26,,No,Mid-Junior
+1915,46,Female,Single,Life Sciences,3,2,2,1,29900,13,0,12.0,No,6,5,5,5,11,1.0,1,2020-04-15,,No,Mid-Junior
+1916,21,Male,Divorced,Life Sciences,2,3,5,2,40200,19,1,1.0,No,0,0,0,0,0,1.0,3,2021-06-23,,No,Mid-Junior
+1917,40,Male,Married,Medical,1,3,5,1,29500,19,3,11.0,Yes,0,0,0,0,3,1.0,3,2020-03-01,,No,Mid-Junior
+1918,31,Female,Married,Life Sciences,2,4,7,4,100800,14,0,1.0,No,0,0,0,0,3,4.0,4,2024-01-07,2024-03-07,Yes,Leadership
+1919,47,Male,Single,Technical Degree,2,3,4,3,70800,19,2,3.0,No,1,0,1,1,8,0.0,2,2023-08-19,2024-05-24,Yes,Senior
+1920,39,Male,Married,Marketing,3,3,4,2,42000,15,1,1.0,No,3,0,2,0,6,3.0,6,2021-12-14,,No,Mid-Junior
+1921,24,Male,Divorced,Medical,2,5,11,2,35500,23,0,5.0,Yes,0,0,0,0,2,1.0,4,2022-12-22,,No,Mid-Junior
+1922,38,Female,Married,Medical,2,5,11,2,39500,12,0,2.0,No,0,0,0,0,2,2.0,1,2020-08-02,,No,Mid-Junior
+1923,23,Female,Single,Life Sciences,3,5,11,3,82600,17,1,6.0,No,0,0,0,0,1,1.0,2,2021-06-03,,No,Senior
+1924,35,Male,Divorced,Marketing,4,5,11,3,95600,15,0,21.0,No,3,1,3,1,5,3.0,1,2024-09-20,,No,Senior
+1925,39,Male,Married,Medical,3,3,5,1,21700,24,2,6.0,No,2,1,0,0,14,3.0,3,2025-11-24,2026-10-22,Yes,Entry
+1926,25,Female,Married,Life Sciences,3,3,5,1,19700,19,2,4.0,No,0,0,0,0,1,1.0,1,2025-05-04,2025-07-03,Yes,Entry
+1927,42,Male,Single,Life Sciences,3,2,1,2,48500,16,1,4.0,No,5,0,0,0,7,1.0,4,2024-01-22,,No,Mid-Junior
+1928,47,Male,Single,Life Sciences,2,1,10,4,117600,18,1,15.0,No,0,0,0,0,7,2.0,6,2025-10-03,,No,Leadership
+1929,39,Female,Married,Human Resources,3,6,12,2,57600,24,1,7.0,No,2,2,2,0,10,5.0,2,2021-03-22,,No,Senior
+1930,42,Female,Married,Life Sciences,2,6,12,3,91900,11,1,1.0,No,0,0,0,0,3,3.0,4,2025-01-25,,No,Senior
+1931,46,Male,Single,Technical Degree,3,3,5,2,46400,21,0,11.0,No,0,0,0,0,2,2.0,2,2025-08-25,2025-10-24,Yes,Mid-Junior
+1932,37,Female,Single,Marketing,3,2,2,1,21400,18,0,5.0,Yes,2,0,0,2,9,1.0,2,2020-06-26,,No,Entry
+1933,34,Male,Married,Other,3,1,10,4,112700,11,0,30.0,No,0,0,0,0,3,1.0,3,2025-11-05,2026-01-04,Yes,Leadership
+1934,37,Male,Single,Technical Degree,3,3,4,3,68700,23,0,3.0,No,0,0,0,0,3,4.0,3,2025-02-19,,No,Senior
+1935,47,Female,Divorced,Other,3,2,1,2,41100,22,1,2.0,No,0,0,0,0,7,0.0,2,2020-05-07,,No,Mid-Junior
+1936,35,Female,Single,Medical,1,6,12,3,61600,21,0,14.0,Yes,4,4,1,4,8,1.0,2,2020-09-06,,No,Senior
+1937,20,Male,Married,Medical,3,2,1,3,70600,19,1,3.0,No,0,0,0,0,0,4.0,1,2025-05-15,,No,Senior
+1938,33,Female,Married,Life Sciences,4,3,4,2,47200,22,2,18.0,Yes,0,0,0,0,1,2.0,0,2024-07-03,,No,Mid-Junior
+1939,42,Male,Single,Other,2,2,3,5,142900,21,0,1.0,Yes,1,0,1,1,6,0.0,0,2024-10-12,2026-01-05,Yes,Leadership
+1940,42,Male,Divorced,Life Sciences,4,3,4,3,82900,19,1,10.0,No,4,1,2,2,9,0.0,3,2021-03-18,,No,Senior
+1941,50,Female,Single,Human Resources,5,6,12,2,51000,17,0,1.0,No,5,2,4,1,10,3.0,1,2025-07-01,,No,Senior
+1942,42,Female,Single,Medical,3,1,9,2,48300,21,1,1.0,No,4,1,3,0,15,3.0,0,2024-12-21,2026-10-20,Yes,Mid-Junior
+1943,32,Female,Married,Life Sciences,3,1,10,5,174900,13,2,5.0,Yes,0,0,0,0,3,0.0,2,2023-08-12,2023-10-16,Yes,Leadership
+1944,31,Male,Single,Technical Degree,3,2,3,4,110100,13,0,1.0,Yes,1,1,1,0,5,1.0,3,2021-08-30,,No,Leadership
+1945,28,Female,Single,Medical,3,6,12,3,80500,16,2,1.0,No,0,0,0,0,0,3.0,1,2020-09-26,,No,Senior
+1946,52,Female,Married,Life Sciences,3,3,4,3,87600,17,0,4.0,No,11,10,11,4,18,2.0,1,2021-05-31,,No,Senior
+1947,32,Male,Divorced,Technical Degree,3,2,1,2,55600,13,1,3.0,No,0,0,0,0,1,3.0,3,2023-01-31,,No,Senior
+1948,38,Male,Single,Medical,1,3,5,1,30800,13,0,18.0,No,1,1,0,1,8,1.0,3,2023-08-24,,No,Mid-Junior
+1949,39,Female,Married,Medical,3,5,11,3,77700,24,0,2.0,Yes,0,0,0,0,5,5.0,3,2024-04-09,,No,Senior
+1950,45,Female,Divorced,Medical,2,5,11,3,83800,14,1,2.0,Yes,0,0,0,0,3,3.0,6,2025-12-13,,No,Senior
+1951,36,Male,Divorced,Human Resources,4,4,8,2,40500,24,2,27.0,Yes,0,0,0,0,3,1.0,2,2023-04-22,,No,Mid-Junior
+1952,33,Male,Married,Medical,3,3,5,1,19900,14,0,30.0,No,0,0,0,0,3,0.0,2,2025-02-01,,No,Entry
+1953,25,Female,Single,Medical,3,2,1,3,76200,11,0,4.0,Yes,0,0,0,0,1,2.0,3,2025-09-01,,No,Senior
+1954,36,Male,Married,Life Sciences,3,3,5,2,35600,14,1,9.0,No,1,1,1,0,3,0.0,4,2024-10-28,,No,Mid-Junior
+1955,30,Female,Married,Medical,3,4,7,3,71900,23,0,4.0,No,2,0,2,0,7,3.0,2,2021-02-10,,No,Senior
+1956,30,Male,Single,Technical Degree,2,2,1,3,91100,17,1,7.0,No,3,3,0,0,8,1.0,2,2021-04-13,,No,Senior
+1957,47,Male,Married,Medical,2,2,3,5,163700,25,0,4.0,No,3,0,3,3,9,5.0,3,2022-05-30,,No,Leadership
+1958,22,Male,Divorced,Marketing,3,2,3,4,97700,16,0,1.0,No,0,0,0,0,0,1.0,3,2024-10-27,,No,Senior
+1959,28,Male,Married,Medical,3,6,12,2,50000,21,0,1.0,Yes,0,0,0,0,1,2.0,2,2025-01-23,,No,Mid-Junior
+1960,45,Female,Divorced,Technical Degree,4,2,2,2,44100,19,1,12.0,No,3,1,0,0,12,2.0,3,2022-07-24,,No,Mid-Junior
+1961,39,Female,Married,Technical Degree,5,6,12,3,95300,22,1,6.0,No,3,1,0,3,8,3.0,3,2024-08-21,,No,Senior
+1962,37,Male,Married,Life Sciences,2,2,3,4,126700,23,2,19.0,Yes,1,0,0,0,3,4.0,4,2023-10-20,,No,Leadership
+1963,29,Female,Married,Technical Degree,5,1,9,1,24900,14,2,8.0,No,0,0,0,0,0,2.0,4,2025-01-31,,No,Entry
+1964,48,Male,Single,Medical,2,4,7,4,129400,13,2,24.0,No,4,2,0,0,16,2.0,2,2024-06-21,,No,Leadership
+1965,42,Male,Single,Technical Degree,3,2,1,2,44100,23,2,6.0,No,4,3,2,2,15,0.0,3,2024-08-30,,No,Mid-Junior
+1966,34,Male,Single,Life Sciences,3,2,3,5,160500,23,0,4.0,No,0,0,0,0,1,3.0,1,2021-01-24,2021-03-25,Yes,Leadership
+1967,37,Male,Married,Life Sciences,4,2,1,2,43500,16,2,13.0,No,3,0,3,1,6,,3,2024-10-14,2026-08-06,Yes,Mid-Junior
+1968,27,Male,Married,Medical,1,4,7,3,93200,25,1,30.0,No,2,0,1,1,4,2.0,5,2022-11-10,,No,Senior
+1969,31,Male,Single,Medical,3,3,5,2,42400,25,0,25.0,No,0,0,0,0,1,3.0,3,2024-03-13,2024-05-12,Yes,Mid-Junior
+1970,32,Male,Single,Life Sciences,1,2,3,5,143100,18,0,12.0,Yes,1,0,1,0,5,3.0,4,2025-04-26,,No,Leadership
+1971,26,Female,Married,Medical,3,2,1,3,76700,24,0,21.0,No,0,0,0,0,2,2.0,0,2020-10-01,,No,Senior
+1972,19,Male,Married,Medical,1,2,3,5,173000,18,1,10.0,No,0,0,0,0,0,0.0,0,2021-01-08,,No,Leadership
+1973,42,Female,Married,Medical,4,3,4,3,78000,17,1,6.0,No,3,3,1,2,7,1.0,2,2020-12-15,,No,Senior
+1974,28,Male,Married,Marketing,1,3,4,2,47500,15,2,2.0,No,0,0,0,0,2,1.0,3,2021-01-16,2021-03-17,Yes,Mid-Junior
+1975,35,Male,Divorced,Marketing,2,2,2,1,20100,21,1,3.0,Yes,0,0,0,0,2,1.0,3,2021-01-30,2021-03-31,Yes,Entry
+1976,35,Male,Married,Medical,5,5,11,2,38000,20,2,1.0,No,2,2,2,1,4,1.0,6,2021-06-16,,No,Mid-Junior
+1977,32,Male,Married,Medical,4,3,5,1,23800,23,2,4.0,No,0,0,0,0,1,2.0,2,2020-09-02,,No,Entry
+1978,33,Female,Single,Technical Degree,1,4,6,2,45100,25,0,14.0,Yes,0,0,0,0,2,2.0,4,2023-09-12,2023-12-02,Yes,Mid-Junior
+1979,36,Male,Married,Medical,3,1,10,5,187200,11,1,5.0,No,2,1,0,2,9,3.0,4,2021-05-15,,No,Leadership
+1980,25,Male,Single,Medical,4,2,2,1,18800,13,0,1.0,No,0,0,0,0,1,2.0,2,2024-08-09,,No,Entry
+1981,18,Male,Divorced,Medical,3,3,5,2,32800,12,0,1.0,Yes,0,0,0,0,0,3.0,2,2023-12-19,2024-03-08,Yes,Mid-Junior
+1982,37,Male,Single,Medical,2,1,9,2,42500,18,0,2.0,No,1,1,0,0,6,1.0,3,2024-09-28,2025-07-13,Yes,Mid-Junior
+1983,26,Female,Married,Marketing,3,2,1,3,88900,16,2,2.0,Yes,0,0,0,0,4,6.0,3,2023-03-24,,No,Senior
+1984,37,Male,Single,Marketing,3,3,4,2,42500,14,0,1.0,No,6,0,1,5,8,2.0,4,2023-07-03,,No,Mid-Junior
+1985,32,Female,Married,Medical,3,3,5,1,27600,13,2,8.0,No,1,1,0,0,3,1.0,1,2023-12-11,2024-10-07,Yes,Mid-Junior
+1986,25,Female,Married,Human Resources,2,1,9,1,18300,23,1,8.0,No,0,0,0,0,2,2.0,2,2025-09-09,,No,Entry
+1987,27,Male,Single,Life Sciences,4,3,4,3,72800,20,3,11.0,Yes,0,0,0,0,1,4.0,3,2022-05-21,,No,Senior
+1988,41,Male,Divorced,Marketing,3,2,2,1,28300,24,1,2.0,Yes,3,0,0,0,8,2.0,3,2021-09-25,,No,Mid-Junior
+1989,41,Male,Married,Medical,3,6,12,3,92900,15,3,,No,0,0,0,0,5,1.0,2,2025-05-29,2025-07-28,Yes,Senior
+1990,43,Male,Single,Technical Degree,2,5,11,2,61400,21,1,3.0,Yes,5,2,3,3,7,1.0,3,2021-03-19,,No,Senior
+1991,51,Female,Married,Life Sciences,2,2,2,1,32600,19,0,3.0,Yes,3,1,0,3,19,0.0,3,2023-12-05,,No,Mid-Junior
+1992,32,Female,Married,Life Sciences,4,3,5,1,25200,24,1,12.0,No,0,0,0,0,0,2.0,5,2024-02-14,,No,Mid-Junior
+1993,18,Male,Married,Other,4,1,9,2,44300,18,0,1.0,No,0,0,0,0,0,2.0,2,2021-04-15,,No,Mid-Junior
+1994,43,Male,Single,Marketing,2,3,4,3,66000,25,0,7.0,No,1,1,0,0,5,2.0,6,2023-02-15,,No,Senior
+1995,26,Female,Married,Medical,3,2,2,1,28600,23,2,1.0,No,0,0,0,0,1,1.0,4,2022-07-15,,No,Mid-Junior
+1996,48,Female,Single,Human Resources,3,3,4,3,82200,20,1,5.0,No,2,2,2,0,13,1.0,3,2024-10-23,,No,Senior
+1997,25,Female,Married,Life Sciences,4,1,10,5,187100,17,0,2.0,Yes,0,0,0,0,0,1.0,4,2020-04-17,,No,Leadership
+1998,22,Female,Divorced,Technical Degree,1,3,5,1,27800,24,0,10.0,No,0,0,0,0,1,,0,2022-12-31,,No,Mid-Junior
+1999,18,Female,Married,Technical Degree,4,2,2,1,30800,19,1,13.0,No,0,0,0,0,0,2.0,2,2020-04-28,2020-06-27,Yes,Mid-Junior
+2000,46,Male,Married,Medical,3,3,5,2,57800,16,1,2.0,No,1,1,1,0,3,0.0,3,2023-01-24,,No,Senior
+2001,34,Male,Divorced,Life Sciences,3,4,6,2,40200,21,2,7.0,No,0,0,0,0,4,4.0,6,2023-06-19,,No,Mid-Junior
+2002,48,Male,Divorced,Life Sciences,2,6,12,3,92400,15,1,2.0,No,5,1,0,0,13,1.0,2,2023-10-23,,No,Senior
+2003,54,Male,Married,Marketing,2,2,3,5,152000,23,2,4.0,Yes,3,2,0,0,16,2.0,2,2023-12-08,,No,Leadership
+2004,37,Male,Married,Other,2,3,5,2,61600,23,1,2.0,No,6,4,1,3,11,5.0,1,2020-01-26,,No,Senior
+2005,41,Male,Married,Medical,3,5,11,3,76600,12,1,2.0,No,0,0,0,0,4,1.0,4,2022-01-13,,No,Senior
+2006,18,Male,Single,Marketing,3,3,4,2,56000,23,0,12.0,No,0,0,0,0,0,0.0,3,2021-08-09,,No,Senior
+2007,32,Male,Married,Life Sciences,1,2,3,4,125800,11,2,9.0,No,6,6,1,5,8,2.0,3,2024-06-29,,No,Leadership
+2008,42,Male,Married,Technical Degree,3,2,1,2,43400,17,0,5.0,No,0,0,0,0,3,1.0,6,2020-10-12,,No,Mid-Junior
+2009,35,Male,Divorced,Life Sciences,3,4,8,2,36300,12,1,6.0,Yes,1,0,1,1,5,2.0,3,2021-08-04,,No,Mid-Junior
+2010,52,Female,Married,Technical Degree,3,3,4,3,86100,24,0,11.0,Yes,0,0,0,0,12,3.0,2,2020-05-05,2020-07-04,Yes,Senior
+2011,44,Male,Divorced,Medical,3,4,7,4,136200,14,1,1.0,No,3,2,3,0,12,0.0,3,2025-12-12,,No,Leadership
+2012,35,Female,Married,Life Sciences,5,3,4,2,54200,17,0,6.0,No,4,2,1,2,11,3.0,1,2022-05-31,,No,Senior
+2013,45,Male,Divorced,Marketing,3,2,2,2,43400,18,0,10.0,No,0,0,0,0,3,2.0,1,2024-03-20,,No,Mid-Junior
+2014,39,Male,Single,Marketing,3,6,12,2,46700,13,0,4.0,No,0,0,0,0,4,1.0,6,2024-09-15,2024-11-14,Yes,Mid-Junior
+2015,42,Male,Married,Life Sciences,4,2,3,5,162800,24,0,1.0,Yes,3,3,2,2,14,0.0,0,2023-10-28,,No,Leadership
+2016,28,Male,Single,Other,3,3,5,2,45800,11,0,23.0,No,0,0,0,0,3,1.0,0,2021-10-06,2021-12-05,Yes,Mid-Junior
+2017,31,Male,Married,Technical Degree,2,2,3,5,188300,15,0,27.0,No,0,0,0,0,4,3.0,5,2023-06-30,,No,Leadership
+2018,31,Male,Married,Medical,5,1,9,1,24000,12,2,21.0,No,2,2,1,1,7,0.0,1,2023-08-21,,No,Entry
+2019,42,Female,Married,Life Sciences,4,3,5,1,21800,21,0,13.0,No,0,0,0,0,6,,2,2020-12-13,2021-02-11,Yes,Entry
+2020,26,Male,Divorced,Marketing,3,2,2,2,49400,17,1,11.0,No,1,0,1,1,2,1.0,5,2021-09-29,,No,Mid-Junior
+2021,28,Female,Single,Life Sciences,4,3,5,2,56600,20,2,4.0,No,0,0,0,0,2,3.0,3,2021-10-06,,No,Senior
+2022,37,Male,Married,Marketing,5,2,2,1,22400,13,0,23.0,No,1,1,1,1,12,2.0,5,2020-07-22,,No,Entry
+2023,27,Male,Single,Medical,3,2,2,2,41900,25,0,7.0,No,0,0,0,0,1,5.0,3,2020-11-30,,No,Mid-Junior
+2024,43,Female,Married,Life Sciences,2,3,5,2,47500,22,1,30.0,Yes,0,0,0,0,1,4.0,4,2023-01-19,2023-03-20,Yes,Mid-Junior
+2025,32,Female,Single,Medical,2,6,12,3,78700,20,2,9.0,No,2,0,1,2,4,4.0,4,2024-10-02,,No,Senior
+2026,38,Female,Divorced,Medical,3,2,3,5,149000,17,0,11.0,No,0,0,0,0,0,2.0,2,2025-06-12,,No,Leadership
+2027,34,Female,Married,Life Sciences,3,6,12,2,35400,16,1,5.0,No,0,0,0,0,2,4.0,2,2024-12-15,,No,Mid-Junior
+2028,31,Male,Single,Medical,2,4,8,1,25000,18,1,20.0,Yes,1,1,0,0,6,1.0,2,2024-08-23,,No,Entry
+2029,41,Female,Divorced,Human Resources,2,2,2,2,56500,12,0,1.0,No,2,2,0,0,14,5.0,5,2023-01-23,,No,Senior
+2030,21,Male,Single,Marketing,4,2,2,1,24600,11,1,8.0,No,0,0,0,0,0,3.0,1,2022-06-01,,No,Entry
+2031,40,Male,Married,Life Sciences,5,3,5,2,40000,18,0,27.0,No,2,0,0,2,8,1.0,2,2025-09-29,,No,Mid-Junior
+2032,32,Female,Single,Life Sciences,1,1,9,2,39600,15,1,7.0,No,0,0,0,0,4,3.0,3,2021-04-11,2021-06-10,Yes,Mid-Junior
+2033,33,Male,Married,Life Sciences,4,3,4,2,41500,11,1,3.0,No,2,0,2,2,7,2.0,2,2024-10-26,,No,Mid-Junior
+2034,41,Male,Married,Marketing,3,2,2,1,22200,14,1,7.0,No,0,0,0,0,4,1.0,5,2021-03-30,,No,Entry
+2035,33,Female,Married,Life Sciences,4,1,9,2,45300,16,2,2.0,Yes,0,0,0,0,3,0.0,2,2023-03-06,2023-05-28,Yes,Mid-Junior
+2036,25,Male,Married,Human Resources,2,4,7,3,68000,13,1,11.0,No,0,0,0,0,4,2.0,2,2025-06-16,,No,Senior
+2037,35,Male,Married,Life Sciences,1,6,12,3,95500,19,0,2.0,No,3,3,0,3,7,5.0,2,2025-11-28,2026-09-21,Yes,Senior
+2038,46,Male,Married,Life Sciences,2,4,7,4,98100,25,3,2.0,No,0,0,0,0,6,0.0,2,2020-07-05,,No,Senior
+2039,45,Female,Married,Medical,3,4,7,4,109800,18,0,,No,3,2,1,0,10,1.0,3,2022-06-22,,No,Leadership
+2040,26,Male,Single,Life Sciences,3,1,9,1,22700,24,1,1.0,Yes,1,0,1,1,2,0.0,0,2024-06-06,,No,Entry
+2041,41,Female,Married,Life Sciences,2,3,4,3,88700,21,2,7.0,No,4,3,0,2,13,1.0,2,2020-08-12,,No,Senior
+2042,33,Female,Single,Life Sciences,4,6,12,3,91100,13,1,1.0,No,2,0,0,1,8,1.0,1,2020-02-01,,No,Senior
+2043,35,Female,Married,Life Sciences,4,4,8,1,23000,22,0,3.0,No,1,0,0,1,5,2.0,5,2022-04-17,2023-04-04,Yes,Entry
+2044,33,Female,Married,Life Sciences,2,4,7,4,112100,14,2,7.0,No,7,2,7,3,9,,4,2022-05-15,,No,Leadership
+2045,41,Male,Divorced,Medical,2,2,2,1,25100,20,1,18.0,No,1,0,1,1,4,1.0,2,2021-07-16,,No,Mid-Junior
+2046,40,Male,Single,Technical Degree,3,2,1,2,41800,18,1,10.0,No,1,1,1,1,7,0.0,3,2022-11-12,,No,Mid-Junior
+2047,34,Male,Single,Life Sciences,2,4,8,2,47300,17,0,2.0,Yes,1,1,0,0,5,0.0,0,2023-03-31,,No,Mid-Junior
+2048,29,Male,Married,Marketing,1,3,5,1,18700,17,3,6.0,Yes,0,0,0,0,4,2.0,4,2023-09-05,,No,Entry
+2049,56,Male,Married,Marketing,2,3,5,2,65100,16,1,8.0,No,16,3,12,13,22,4.0,2,2021-05-06,,No,Senior
+2050,44,Female,Divorced,Marketing,2,3,5,1,28500,16,1,6.0,Yes,3,2,3,0,6,2.0,0,2020-02-01,2023-03-09,Yes,Mid-Junior
+2051,45,Male,Married,Human Resources,3,4,6,3,75300,14,2,28.0,No,4,3,3,0,8,2.0,5,2024-10-29,,No,Senior
+2052,46,Male,Single,Human Resources,3,2,3,4,109100,18,2,9.0,Yes,7,1,6,0,15,2.0,2,2021-12-20,,No,Leadership
+2053,34,Female,Single,Technical Degree,1,3,4,3,59700,13,1,1.0,No,2,0,1,0,6,2.0,6,2021-06-13,,No,Senior
+2054,52,Female,Single,Technical Degree,2,3,5,1,24700,14,0,16.0,No,2,0,1,1,11,2.0,6,2024-04-06,,No,Entry
+2055,38,Male,Married,Life Sciences,3,2,3,5,162800,17,0,15.0,No,1,0,0,0,4,2.0,1,2025-12-21,,No,Leadership
+2056,43,Male,Divorced,Marketing,1,2,1,3,88600,14,1,19.0,Yes,1,1,1,0,6,3.0,4,2022-07-31,,No,Senior
+2057,33,Male,Single,Medical,5,3,5,2,35500,23,1,2.0,No,3,3,3,1,5,5.0,5,2025-08-11,2026-08-06,Yes,Mid-Junior
+2058,32,Female,Single,Life Sciences,4,2,1,2,45900,18,0,5.0,No,1,1,1,0,6,3.0,2,2023-12-21,,No,Mid-Junior
+2059,45,Female,Married,Life Sciences,3,2,1,3,95000,24,3,4.0,No,8,2,5,1,16,0.0,1,2020-10-22,,No,Senior
+2060,39,Female,Divorced,Human Resources,4,4,6,2,54600,15,2,10.0,No,1,1,0,0,6,2.0,6,2024-06-14,,No,Senior
+2061,38,Male,Divorced,Other,2,1,9,2,47500,14,3,1.0,No,2,1,0,2,6,2.0,5,2020-06-22,,No,Mid-Junior
+2062,33,Female,Married,Other,4,2,3,4,122100,24,1,1.0,No,1,0,1,0,8,0.0,2,2024-11-21,2025-08-27,Yes,Leadership
+2063,18,Female,Single,Life Sciences,4,2,3,4,99900,14,1,9.0,No,0,0,0,0,0,0.0,1,2025-02-26,,No,Senior
+2064,27,Male,Divorced,Medical,3,4,8,2,53500,14,1,5.0,Yes,0,0,0,0,0,3.0,3,2020-11-14,,No,Senior
+2065,35,Male,Single,Life Sciences,3,3,4,3,94900,11,0,4.0,No,0,0,0,0,6,1.0,4,2023-07-06,2023-09-04,Yes,Senior
+2066,43,Male,Single,Life Sciences,1,3,4,2,50900,22,1,11.0,No,4,1,4,3,17,1.0,5,2024-10-24,,No,Senior
+2067,40,Male,Married,Marketing,3,4,8,2,35500,12,2,2.0,No,4,1,3,4,13,6.0,1,2024-07-14,,No,Mid-Junior
+2068,46,Male,Single,Life Sciences,3,2,1,2,41400,11,3,11.0,No,1,0,1,1,10,3.0,4,2024-09-06,,No,Mid-Junior
+2069,32,Male,Single,Life Sciences,3,2,3,5,164600,11,0,5.0,Yes,5,4,1,1,9,5.0,6,2023-03-31,,No,Leadership
+2070,36,Male,Married,Medical,3,4,8,2,47100,25,2,11.0,Yes,0,0,0,0,4,5.0,1,2021-04-16,2021-06-15,Yes,Mid-Junior
+2071,38,Female,Single,Medical,1,4,7,3,65900,11,0,8.0,No,3,0,0,1,4,4.0,4,2020-03-26,,No,Senior
+2072,26,Female,Married,Medical,2,4,8,1,27300,22,1,4.0,No,0,0,0,0,3,3.0,5,2023-08-23,,No,Mid-Junior
+2073,50,Male,Divorced,Technical Degree,4,1,9,2,61800,24,1,5.0,Yes,5,5,3,2,27,2.0,1,2021-12-04,,No,Senior
+2074,22,Male,Single,Medical,3,2,3,5,193800,18,2,2.0,No,0,0,0,0,0,5.0,6,2025-02-27,,No,Leadership
+2075,34,Male,Married,Life Sciences,5,3,4,3,73100,16,0,1.0,No,0,0,0,0,6,0.0,0,2024-01-22,,No,Senior
+2076,45,Male,Married,Life Sciences,3,4,7,4,102500,25,1,7.0,No,4,1,2,1,8,0.0,4,2020-12-26,,No,Leadership
+2077,43,Female,Married,Human Resources,3,2,3,4,141900,25,0,7.0,No,7,2,6,1,15,1.0,5,2024-11-23,,No,Leadership
+2078,45,Female,Married,Medical,3,4,7,3,70000,23,0,11.0,No,8,8,3,3,17,3.0,2,2021-03-09,,No,Senior
+2079,32,Male,Divorced,Life Sciences,3,3,4,3,70500,15,0,21.0,Yes,0,0,0,0,2,3.0,4,2022-09-23,,No,Senior
+2080,34,Female,Single,Technical Degree,4,4,6,3,90900,13,0,3.0,Yes,1,0,0,1,3,,5,2024-11-19,,No,Senior
+2081,38,Female,Married,Life Sciences,3,4,7,4,139100,14,1,3.0,Yes,0,0,0,0,9,1.0,2,2024-06-28,,No,Leadership
+2082,47,Male,Married,Medical,2,5,11,3,64500,11,2,30.0,No,4,3,2,1,14,1.0,3,2025-11-16,,No,Senior
+2083,30,Male,Single,Life Sciences,3,2,2,2,39100,15,0,3.0,No,1,1,1,1,4,1.0,6,2020-11-18,,No,Mid-Junior
+2084,27,Female,Married,Medical,4,4,7,4,120800,22,1,14.0,No,0,0,0,0,5,1.0,3,2024-06-09,,No,Leadership
+2085,36,Female,Single,Life Sciences,2,4,8,2,35000,21,2,4.0,No,0,0,0,0,1,1.0,1,2023-06-24,,No,Mid-Junior
+2086,29,Female,Married,Marketing,4,1,10,4,140800,25,0,30.0,No,2,0,2,0,5,4.0,1,2023-10-22,2025-09-17,Yes,Leadership
+2087,31,Male,Divorced,Life Sciences,4,3,5,2,32400,14,0,1.0,No,0,0,0,0,1,3.0,1,2023-09-26,,No,Mid-Junior
+2088,56,Female,Single,Technical Degree,5,2,2,2,40600,14,0,2.0,Yes,2,2,1,2,12,1.0,2,2021-11-19,,No,Mid-Junior
+2089,21,Female,Single,Marketing,3,6,12,2,44400,14,0,1.0,No,0,0,0,0,0,0.0,4,2020-11-08,2021-01-07,Yes,Mid-Junior
+2090,35,Female,Single,Medical,4,3,4,3,78300,25,1,6.0,No,1,1,1,1,4,2.0,6,2021-04-12,,No,Senior
+2091,34,Male,Single,Life Sciences,3,6,12,3,63100,11,1,7.0,No,0,0,0,0,6,0.0,3,2025-12-13,2026-02-11,Yes,Senior
+2092,43,Male,Married,Medical,3,2,1,3,71900,24,1,9.0,No,0,0,0,0,9,3.0,2,2022-03-05,,No,Senior
+2093,38,Male,Single,Life Sciences,4,2,1,2,45300,22,0,15.0,No,2,1,1,1,5,2.0,1,2023-12-02,,No,Mid-Junior
+2094,48,Male,Single,Life Sciences,2,2,3,4,102900,19,1,4.0,No,3,0,2,2,11,3.0,6,2023-12-09,,No,Leadership
+2095,28,Male,Single,Medical,1,3,5,2,47200,23,1,1.0,No,0,0,0,0,5,3.0,3,2021-08-27,2021-10-26,Yes,Mid-Junior
+2096,47,Male,Single,Life Sciences,3,5,11,3,101200,11,0,4.0,No,10,6,10,3,17,0.0,3,2021-02-25,,No,Leadership
+2097,28,Female,Married,Technical Degree,1,3,5,1,23300,11,0,10.0,No,0,0,0,0,1,1.0,4,2021-08-22,2021-10-21,Yes,Entry
+2098,49,Male,Single,Technical Degree,3,2,2,1,23600,13,0,7.0,Yes,2,1,0,1,7,2.0,0,2022-03-19,,No,Entry
+2099,25,Female,Single,Life Sciences,5,4,8,2,40000,22,1,4.0,No,0,0,0,0,0,0.0,2,2021-12-11,,No,Mid-Junior
+2100,42,Female,Single,Marketing,2,4,6,3,70600,14,0,3.0,Yes,1,0,1,0,8,4.0,4,2021-09-18,,No,Senior
+2101,50,Male,Married,Medical,4,6,12,2,41100,17,2,6.0,Yes,0,0,0,0,3,5.0,4,2020-11-04,2021-01-03,Yes,Mid-Junior
+2102,43,Male,Married,Medical,1,3,5,1,33400,23,1,1.0,No,4,2,4,0,7,9.0,3,2025-07-16,,No,Mid-Junior
+2103,33,Female,Single,Life Sciences,3,1,9,2,41000,24,1,1.0,No,1,1,1,1,3,2.0,2,2025-03-15,,No,Mid-Junior
+2104,47,Male,Single,Life Sciences,4,2,1,2,34400,15,1,27.0,No,3,2,2,1,13,4.0,2,2025-01-12,,No,Mid-Junior
+2105,25,Male,Single,Technical Degree,3,4,6,2,33800,20,2,21.0,No,0,0,0,0,2,1.0,1,2023-08-16,,No,Mid-Junior
+2106,49,Female,Single,Marketing,1,2,1,2,57700,22,2,11.0,No,9,3,3,8,20,3.0,3,2023-07-18,2026-09-04,Yes,Senior
+2107,19,Female,Married,Technical Degree,3,4,6,3,72700,18,1,1.0,No,0,0,0,0,0,3.0,5,2020-10-06,,No,Senior
+2108,36,Male,Married,Technical Degree,3,4,6,2,36200,13,0,9.0,No,4,2,2,3,9,0.0,2,2025-04-04,,No,Mid-Junior
+2109,33,Female,Divorced,Medical,4,2,1,3,92800,16,0,12.0,No,1,1,1,1,3,1.0,2,2024-12-16,,No,Senior
+2110,41,Male,Single,Life Sciences,2,2,3,5,193300,15,3,7.0,No,2,0,1,2,15,3.0,3,2023-05-25,,No,Leadership
+2111,19,Male,Married,Marketing,4,4,6,3,72700,14,0,8.0,Yes,0,0,0,0,0,3.0,2,2023-01-30,,No,Senior
+2112,29,Male,Single,Other,1,3,5,2,38900,18,0,3.0,Yes,0,0,0,0,4,0.0,3,2020-08-18,,No,Mid-Junior
+2113,26,Male,Single,Medical,5,2,1,2,45300,16,2,1.0,No,0,0,0,0,3,2.0,3,2023-12-12,2024-02-10,Yes,Mid-Junior
+2114,47,Male,Married,Marketing,4,4,8,2,52400,16,2,2.0,No,9,7,2,8,17,3.0,2,2020-10-30,2026-09-01,Yes,Senior
+2115,33,Male,Single,Medical,1,2,2,1,22800,23,2,19.0,No,1,1,0,0,3,4.0,2,2025-01-25,,No,Entry
+2116,29,Male,Married,Technical Degree,2,2,3,4,138100,25,3,8.0,No,1,0,1,1,4,5.0,2,2020-06-03,,No,Leadership
+2117,30,Male,Divorced,Life Sciences,4,3,4,3,86800,13,1,3.0,No,0,0,0,0,0,1.0,2,2020-08-21,,No,Senior
+2118,48,Male,Married,Medical,3,5,11,2,40900,19,1,3.0,Yes,6,6,6,6,19,3.0,4,2024-02-19,,No,Mid-Junior
+2119,24,Female,Divorced,Marketing,4,4,6,2,44800,12,2,3.0,Yes,0,0,0,0,2,2.0,2,2023-03-21,,No,Mid-Junior
+2120,44,Male,Divorced,Life Sciences,4,2,2,1,27000,16,1,16.0,Yes,4,2,4,0,10,2.0,2,2020-11-10,2025-01-24,Yes,Mid-Junior
+2121,41,Female,Married,Life Sciences,2,2,2,2,38500,25,1,5.0,No,2,1,1,1,7,2.0,1,2021-01-04,,No,Mid-Junior
+2122,28,Male,Married,Marketing,3,6,12,3,93300,19,2,17.0,No,2,2,0,2,5,1.0,5,2025-09-07,,No,Senior
+2123,38,Male,Divorced,Technical Degree,2,5,11,2,47400,16,1,8.0,No,3,0,1,2,14,3.0,0,2024-04-23,,No,Mid-Junior
+2124,33,Female,Married,Technical Degree,2,2,1,2,56300,16,0,9.0,No,0,0,0,0,6,1.0,1,2025-03-10,,No,Senior
+2125,40,Female,Divorced,Marketing,4,1,9,2,43000,12,1,20.0,No,2,2,0,0,4,2.0,1,2020-06-17,,No,Mid-Junior
+2126,23,Female,Divorced,Life Sciences,3,2,3,5,182800,16,1,4.0,No,0,0,0,0,1,2.0,1,2025-01-16,,No,Leadership
+2127,49,Male,Married,Medical,2,4,8,2,40400,20,0,9.0,No,3,1,1,0,15,2.0,4,2022-02-10,,No,Mid-Junior
+2128,31,Female,Married,Medical,2,3,5,1,20500,25,1,5.0,No,1,1,1,0,4,0.0,2,2023-08-09,,No,Entry
+2129,38,Female,Single,Medical,3,2,3,5,183700,21,1,1.0,Yes,1,0,1,1,5,0.0,2,2025-05-02,,No,Leadership
+2130,23,Male,Divorced,Medical,4,6,12,3,65500,20,0,11.0,No,0,0,0,0,1,2.0,3,2025-08-15,,No,Senior
+2131,41,Male,Married,Marketing,3,4,7,3,61100,22,0,26.0,No,0,0,0,0,4,1.0,2,2021-09-09,,No,Senior
+2132,43,Male,Married,Life Sciences,5,2,1,3,72600,24,0,17.0,No,4,4,2,3,12,2.0,3,2020-09-10,,No,Senior
+2133,25,Female,Single,Life Sciences,3,2,1,3,88000,23,1,17.0,Yes,0,0,0,0,2,0.0,3,2025-01-19,,No,Senior
+2134,47,Female,Single,Life Sciences,3,6,12,3,91900,20,1,5.0,No,1,0,1,1,6,0.0,1,2021-02-27,2022-02-24,Yes,Senior
+2135,22,Male,Divorced,Medical,5,2,2,1,29200,19,0,3.0,No,0,0,0,0,0,2.0,4,2020-12-11,,No,Mid-Junior
+2136,28,Male,Divorced,Life Sciences,3,2,2,2,44200,16,1,24.0,No,1,0,1,1,3,0.0,4,2025-08-28,,No,Mid-Junior
+2137,34,Male,Married,Life Sciences,2,4,7,4,106000,25,2,3.0,Yes,0,0,0,0,3,3.0,4,2021-12-07,,No,Leadership
+2138,42,Female,Single,Other,2,4,7,3,90100,21,0,29.0,No,5,4,4,1,11,1.0,1,2020-06-09,,No,Senior
+2139,53,Female,Married,Life Sciences,3,2,3,4,120100,13,2,6.0,No,0,0,0,0,10,3.0,3,2022-10-11,,No,Leadership
+2140,30,Female,Married,Human Resources,5,3,5,2,49500,20,0,1.0,No,0,0,0,0,5,0.0,1,2024-11-28,2025-01-27,Yes,Mid-Junior
+2141,28,Female,Married,Marketing,3,1,10,4,108600,23,0,1.0,No,0,0,0,0,2,1.0,2,2025-11-16,,No,Leadership
+2142,39,Female,Divorced,Medical,4,3,5,2,56600,22,0,1.0,No,0,0,0,0,3,0.0,2,2025-11-11,,No,Senior
+2143,30,Female,Single,Medical,2,2,2,2,39400,25,0,2.0,No,3,2,0,2,6,0.0,4,2021-10-12,2024-10-14,Yes,Mid-Junior
+2144,31,Male,Married,Medical,2,3,4,3,67300,24,1,1.0,No,2,0,1,2,5,3.0,1,2024-03-07,2026-02-17,Yes,Senior
+2145,43,Female,Divorced,Medical,2,3,4,2,33600,16,1,8.0,No,0,0,0,0,1,0.0,1,2024-05-05,,No,Mid-Junior
+2146,26,Male,Single,Technical Degree,1,4,6,3,87600,17,0,11.0,Yes,0,0,0,0,1,3.0,4,2024-08-01,2024-09-30,Yes,Senior
+2147,35,Female,Married,Life Sciences,3,5,11,3,78200,24,0,20.0,No,1,1,1,0,8,3.0,2,2020-08-02,,No,Senior
+2148,46,Female,Single,Medical,5,1,9,1,26500,11,2,5.0,No,1,0,0,1,6,1.0,2,2023-10-02,2024-07-19,Yes,Mid-Junior
+2149,35,Male,Single,Marketing,1,2,2,1,25500,19,0,3.0,No,0,0,0,0,1,1.0,0,2023-09-12,,No,Mid-Junior
+2150,35,Male,Married,Life Sciences,3,4,7,3,79500,19,0,21.0,Yes,0,0,0,0,7,3.0,0,2021-01-22,,No,Senior
+2151,19,Male,Married,Human Resources,5,3,5,1,21800,15,0,22.0,No,0,0,0,0,0,4.0,2,2024-05-02,2024-07-01,Yes,Entry
+2152,38,Male,Single,Medical,4,2,3,4,111900,22,0,9.0,No,1,0,1,0,4,3.0,4,2022-10-29,2024-01-15,Yes,Leadership
+2153,36,Male,Single,Marketing,4,2,3,5,148500,23,3,20.0,No,0,0,0,0,2,2.0,1,2021-09-07,,No,Leadership
+2154,35,Female,Divorced,Other,4,3,5,2,53500,24,1,4.0,No,5,4,1,3,11,1.0,2,2023-09-27,,No,Senior
+2155,34,Female,Divorced,Life Sciences,3,2,3,5,148900,13,0,10.0,No,6,5,4,1,10,2.0,2,2020-11-29,,No,Leadership
+2156,33,Male,Divorced,Medical,3,3,4,2,44200,20,0,16.0,Yes,0,0,0,0,5,0.0,2,2021-08-02,,No,Mid-Junior
+2157,33,Male,Married,Human Resources,4,6,12,2,46600,15,2,12.0,Yes,1,1,0,0,7,,4,2023-12-03,,No,Mid-Junior
+2158,41,Male,Married,Medical,4,3,5,2,33200,23,3,20.0,No,1,1,0,1,8,4.0,5,2023-06-24,,No,Mid-Junior
+2159,50,Male,Married,Life Sciences,1,4,8,1,23200,22,0,17.0,No,1,1,0,1,14,3.0,6,2024-05-24,,No,Entry
+2160,41,Female,Single,Medical,3,3,4,2,43900,16,0,28.0,No,2,0,0,1,5,1.0,0,2021-06-12,,No,Mid-Junior
+2161,31,Female,Married,Marketing,4,3,4,2,46400,12,2,13.0,No,0,0,0,0,3,1.0,2,2020-12-13,,No,Mid-Junior
+2162,21,Male,Married,Marketing,4,2,3,5,178700,23,0,,No,0,0,0,0,0,3.0,1,2023-06-22,,No,Leadership
+2163,39,Male,Single,Medical,4,2,3,4,130000,12,1,8.0,No,1,0,0,0,2,3.0,1,2024-03-22,,No,Leadership
+2164,27,Female,Married,Life Sciences,3,4,6,2,37400,25,0,6.0,No,1,1,1,1,2,6.0,6,2023-09-07,,No,Mid-Junior
+2165,50,Female,Married,Life Sciences,4,3,4,2,61600,17,1,16.0,No,5,4,4,4,10,2.0,6,2021-06-07,,No,Senior
+2166,28,Male,Married,Life Sciences,4,3,5,2,55900,16,0,1.0,No,1,0,0,1,3,1.0,4,2025-11-26,,No,Senior
+2167,49,Male,Single,Medical,3,2,1,3,72300,19,0,4.0,No,13,1,2,7,19,4.0,3,2021-01-17,,No,Senior
+2168,39,Male,Married,Other,4,2,3,4,132900,11,1,11.0,Yes,4,1,4,2,8,2.0,3,2024-09-30,2026-09-14,Yes,Leadership
+2169,47,Male,Married,Life Sciences,1,2,2,1,23500,23,1,5.0,No,0,0,0,0,11,4.0,5,2020-03-15,,No,Entry
+2170,35,Female,Single,Life Sciences,3,3,5,2,40800,16,2,8.0,Yes,3,0,1,1,6,1.0,2,2024-01-25,,No,Mid-Junior
+2171,39,Male,Married,Other,4,2,1,3,91000,20,0,4.0,No,4,0,0,4,10,1.0,2,2023-06-19,,No,Senior
+2172,33,Male,Single,Life Sciences,3,1,10,5,149000,12,0,5.0,No,1,0,0,0,7,6.0,2,2022-01-08,,No,Leadership
+2173,26,Male,Married,Technical Degree,4,2,2,2,41800,16,3,7.0,Yes,1,1,0,1,2,3.0,3,2022-05-27,,No,Mid-Junior
+2174,50,Male,Married,Medical,2,4,6,3,64400,16,1,29.0,Yes,0,0,0,0,3,2.0,3,2023-10-31,,No,Senior
+2175,41,Female,Married,Life Sciences,3,3,4,3,65600,18,0,3.0,No,0,0,0,0,7,0.0,3,2025-06-14,2025-08-13,Yes,Senior
+2176,47,Male,Single,Medical,3,2,3,5,156400,15,0,2.0,No,3,0,2,1,12,2.0,2,2022-07-16,2025-05-21,Yes,Leadership
+2177,35,Male,Married,Life Sciences,3,1,10,4,110400,16,1,3.0,No,1,0,1,0,6,1.0,1,2021-09-26,,No,Leadership
+2178,53,Male,Divorced,Technical Degree,1,1,10,5,160100,20,0,2.0,No,7,3,6,5,15,1.0,2,2020-11-12,,No,Leadership
+2179,51,Male,Married,Technical Degree,1,6,12,2,47900,23,1,2.0,Yes,2,2,2,0,9,4.0,3,2023-04-26,,No,Mid-Junior
+2180,30,Female,Married,Medical,4,2,2,1,30300,13,1,4.0,No,2,0,2,2,4,0.0,3,2021-02-18,,No,Mid-Junior
+2181,30,Male,Married,Marketing,1,2,2,1,27200,20,2,3.0,No,1,1,1,1,2,2.0,5,2025-09-10,,No,Mid-Junior
+2182,33,Female,Married,Life Sciences,3,2,1,2,51800,19,1,2.0,Yes,0,0,0,0,1,,2,2025-11-26,,No,Senior
+2183,33,Male,Single,Medical,1,3,5,2,53500,25,0,14.0,Yes,2,0,2,0,7,1.0,1,2020-06-03,,No,Senior
+2184,42,Male,Married,Medical,4,3,5,1,26700,17,0,6.0,No,1,0,0,0,4,0.0,5,2023-10-11,2024-12-17,Yes,Mid-Junior
+2185,31,Female,Married,Life Sciences,4,2,1,2,48700,20,2,4.0,Yes,3,3,0,2,5,2.0,0,2021-06-20,2024-08-20,Yes,Mid-Junior
+2186,44,Male,Single,Life Sciences,3,6,12,3,79300,16,1,2.0,No,5,4,0,4,12,0.0,3,2024-03-23,2026-10-10,Yes,Senior
+2187,39,Female,Divorced,Technical Degree,3,4,6,3,73900,17,0,8.0,No,2,1,2,1,5,4.0,2,2022-01-10,2024-04-06,Yes,Senior
+2188,41,Male,Divorced,Marketing,1,3,4,2,35800,21,1,4.0,No,2,1,2,2,7,6.0,0,2021-11-09,,No,Mid-Junior
+2189,44,Female,Married,Life Sciences,5,1,10,4,117100,24,1,2.0,No,3,3,2,1,11,3.0,4,2024-11-27,,No,Leadership
+2190,42,Female,Single,Technical Degree,5,6,12,3,88800,11,1,3.0,Yes,3,0,0,3,10,2.0,4,2020-06-27,,No,Senior
+2191,31,Male,Married,Medical,3,2,1,3,87800,18,2,9.0,No,0,0,0,0,4,1.0,2,2024-08-09,,No,Senior
+2192,31,Male,Divorced,Technical Degree,4,2,1,3,79500,20,1,2.0,Yes,0,0,0,0,0,0.0,5,2024-02-01,2024-04-24,Yes,Senior
+2193,32,Male,Single,Medical,2,2,2,1,23400,22,1,4.0,Yes,0,0,0,0,3,1.0,4,2022-08-30,,No,Entry
+2194,33,Female,Divorced,Marketing,4,2,2,1,24100,18,2,4.0,No,2,0,1,0,4,3.0,2,2024-12-24,,No,Entry
+2195,49,Female,Single,Life Sciences,3,3,4,3,62900,23,1,20.0,Yes,0,0,0,0,8,2.0,1,2023-03-13,,No,Senior
+2196,31,Male,Married,Technical Degree,2,2,1,3,76400,22,0,6.0,No,2,1,1,0,8,2.0,6,2025-01-12,2026-08-23,Yes,Senior
+2197,35,Male,Divorced,Human Resources,2,2,2,1,24800,16,1,1.0,No,0,0,0,0,2,0.0,3,2022-09-06,,No,Entry
+2198,32,Male,Married,Life Sciences,2,2,2,1,30200,21,0,3.0,No,2,2,1,1,5,1.0,2,2023-06-21,2025-07-20,Yes,Mid-Junior
+2199,20,Male,Married,Life Sciences,1,2,2,2,57700,11,3,3.0,Yes,0,0,0,0,0,3.0,3,2022-03-05,2022-05-04,Yes,Senior
+2200,43,Male,Divorced,Marketing,2,2,3,4,115800,23,0,30.0,No,2,0,1,0,18,1.0,1,2024-12-09,,No,Leadership
+2201,46,Male,Married,Other,4,5,11,3,71800,11,2,7.0,No,1,0,0,0,14,2.0,6,2025-03-06,,No,Senior
+2202,31,Female,Married,Life Sciences,3,2,3,5,165000,13,0,2.0,No,0,0,0,0,1,2.0,6,2023-02-28,,No,Leadership
+2203,50,Male,Married,Technical Degree,2,1,10,4,119400,23,0,11.0,Yes,3,0,1,2,19,1.0,0,2024-04-13,,No,Leadership
+2204,33,Female,Divorced,Life Sciences,4,2,1,2,43800,15,0,8.0,No,1,0,1,0,5,0.0,5,2025-08-21,,No,Mid-Junior
+2205,57,Female,Single,Technical Degree,4,3,4,2,51300,17,0,9.0,Yes,1,0,1,0,4,1.0,3,2025-11-30,,No,Senior
+2206,33,Female,Married,Other,2,5,11,3,63400,23,1,2.0,Yes,2,1,0,1,4,1.0,2,2024-09-10,,No,Senior
+2207,42,Male,Divorced,Life Sciences,1,6,12,2,35700,14,0,1.0,No,0,0,0,0,8,2.0,3,2021-10-25,2021-12-24,Yes,Mid-Junior
+2208,28,Female,Single,Technical Degree,3,3,5,1,21800,24,0,3.0,Yes,0,0,0,0,1,0.0,6,2021-07-20,2021-09-18,Yes,Entry
+2209,47,Male,Single,Marketing,2,2,1,2,37600,22,1,1.0,No,1,0,1,1,15,2.0,3,2020-08-01,,No,Mid-Junior
+2210,35,Female,Divorced,Life Sciences,3,2,1,3,86400,25,0,5.0,Yes,0,0,0,0,2,2.0,2,2025-05-22,2025-07-21,Yes,Senior
+2211,31,Male,Single,Marketing,3,2,2,2,49700,25,0,1.0,No,1,1,1,0,4,3.0,5,2021-02-24,,No,Mid-Junior
+2212,29,Female,Married,Life Sciences,3,2,3,5,187100,11,1,30.0,No,0,0,0,0,2,0.0,2,2025-10-14,,No,Leadership
+2213,34,Female,Divorced,Life Sciences,3,1,10,5,151600,22,1,,No,3,1,2,2,6,2.0,3,2021-05-25,,No,Leadership
+2214,25,Male,Married,Marketing,1,4,7,3,67900,18,3,22.0,Yes,0,0,0,0,1,1.0,4,2023-03-13,2023-05-12,Yes,Senior
+2215,32,Male,Married,Technical Degree,1,3,4,2,58500,18,2,7.0,No,1,0,1,0,6,3.0,0,2021-10-18,,No,Senior
+2216,45,Female,Married,Medical,3,3,5,1,25900,24,0,4.0,Yes,2,2,0,1,8,2.0,2,2023-01-22,2025-02-15,Yes,Mid-Junior
+2217,37,Male,Divorced,Other,3,3,4,3,67800,12,2,,No,5,2,3,2,8,3.0,1,2025-10-03,,No,Senior
+2218,35,Male,Married,Marketing,2,4,6,3,96100,22,0,9.0,No,2,1,0,1,9,3.0,1,2021-08-26,,No,Senior
+2219,47,Female,Single,Marketing,3,1,9,2,40800,23,2,14.0,No,2,2,1,1,7,2.0,0,2024-11-26,,No,Mid-Junior
+2220,28,Male,Single,Medical,3,3,5,1,19100,22,1,28.0,No,0,0,0,0,1,4.0,3,2021-01-10,2021-03-11,Yes,Entry
+2221,18,Male,Married,Technical Degree,3,2,3,5,177600,16,1,7.0,No,0,0,0,0,0,2.0,1,2025-01-21,,No,Leadership
+2222,34,Male,Married,Medical,4,4,7,3,90900,13,0,2.0,No,0,0,0,0,1,1.0,2,2023-12-02,,No,Senior
+2223,40,Male,Divorced,Technical Degree,4,2,2,1,21500,13,0,11.0,Yes,1,1,0,1,6,1.0,3,2020-04-19,,No,Entry
+2224,18,Male,Married,Life Sciences,3,1,9,1,26300,15,3,7.0,No,0,0,0,0,0,1.0,3,2024-08-26,,No,Mid-Junior
+2225,48,Male,Married,Life Sciences,4,2,2,1,25000,11,1,2.0,No,8,5,6,0,12,1.0,0,2020-08-06,,No,Entry
+2226,49,Male,Divorced,Technical Degree,4,2,2,1,35400,18,0,7.0,No,7,3,2,2,10,3.0,2,2024-06-11,,No,Mid-Junior
+2227,32,Male,Single,Other,3,2,1,2,49900,18,0,10.0,No,1,1,1,0,3,1.0,3,2025-08-18,,No,Mid-Junior
+2228,33,Female,Married,Life Sciences,3,4,8,2,36000,14,0,25.0,Yes,1,0,1,1,4,1.0,3,2024-03-11,,No,Mid-Junior
+2229,32,Female,Married,Life Sciences,4,2,1,2,40700,20,0,19.0,Yes,1,1,1,1,5,1.0,1,2022-08-23,2023-08-31,Yes,Mid-Junior
+2230,38,Male,Divorced,Life Sciences,2,5,11,3,83400,23,2,4.0,No,5,0,1,1,11,2.0,3,2020-11-30,,No,Senior
+2231,29,Female,Single,Technical Degree,2,3,4,2,39800,12,0,12.0,No,0,0,0,0,0,,2,2024-03-15,,No,Mid-Junior
+2232,26,Female,Divorced,Life Sciences,3,2,3,4,127200,18,0,18.0,Yes,1,0,1,1,2,2.0,2,2022-07-08,,No,Leadership
+2233,47,Male,Single,Other,3,6,12,2,36900,19,1,11.0,Yes,3,2,3,3,6,2.0,1,2020-04-25,,No,Mid-Junior
+2234,33,Female,Married,Medical,4,2,3,4,125800,14,2,4.0,Yes,0,0,0,0,4,3.0,4,2023-07-29,2023-09-27,Yes,Leadership
+2235,47,Male,Married,Marketing,3,3,4,3,63400,17,2,5.0,No,0,0,0,0,3,2.0,4,2023-10-05,2023-12-04,Yes,Senior
+2236,37,Male,Married,Medical,4,3,5,2,50400,19,1,6.0,Yes,0,0,0,0,9,0.0,5,2021-07-17,,No,Senior
+2237,35,Male,Married,Medical,3,4,7,3,75500,25,2,1.0,No,0,0,0,0,4,1.0,3,2020-06-05,,No,Senior
+2238,44,Female,Married,Human Resources,4,4,7,3,85600,23,3,2.0,No,0,0,0,0,1,3.0,1,2023-03-21,,No,Senior
+2239,27,Male,Married,Medical,2,6,12,2,48400,19,0,3.0,No,0,0,0,0,1,0.0,2,2025-04-19,,No,Mid-Junior
+2240,51,Female,Married,Medical,3,3,4,3,91000,18,3,2.0,No,8,4,7,3,19,4.0,3,2021-07-22,,No,Senior
+2241,44,Female,Married,Life Sciences,3,2,1,3,62300,11,0,7.0,No,2,2,2,0,7,3.0,5,2025-04-05,,No,Senior
+2242,29,Female,Married,Life Sciences,5,2,3,5,163100,12,0,3.0,No,0,0,0,0,1,1.0,2,2025-01-11,,No,Leadership
+2243,23,Male,Married,Marketing,4,3,5,1,18100,21,1,19.0,Yes,0,0,0,0,0,2.0,1,2020-01-22,2020-03-22,Yes,Entry
+2244,40,Female,Divorced,Medical,3,3,4,2,58400,17,0,5.0,No,9,6,3,3,12,3.0,1,2020-03-18,2026-10-03,Yes,Senior
+2245,44,Male,Married,Marketing,1,1,10,5,154300,20,1,4.0,No,2,0,0,2,11,2.0,6,2021-09-04,,No,Leadership
+2246,42,Female,Single,Life Sciences,3,2,1,2,41900,21,2,6.0,No,0,0,0,0,3,1.0,3,2025-12-01,,No,Mid-Junior
+2247,23,Male,Divorced,Life Sciences,4,2,3,4,139900,22,1,5.0,No,0,0,0,0,1,2.0,4,2024-09-29,2024-11-28,Yes,Leadership
+2248,30,Male,Single,Life Sciences,1,2,3,4,111300,24,3,1.0,No,1,1,1,0,5,3.0,3,2023-03-26,,No,Leadership
+2249,25,Female,Married,Technical Degree,3,4,7,4,101700,16,1,23.0,Yes,0,0,0,0,0,3.0,3,2022-08-31,,No,Leadership
+2250,38,Male,Single,Life Sciences,2,4,8,2,44300,16,1,11.0,No,1,1,0,0,7,3.0,2,2023-05-18,,No,Mid-Junior
+1015,49,Male,Divorced,Life Sciences,3,1,9,1,29800,12,1,4.0,Yes,3,0,1,0,6,0.0,4,2024-09-14,,No,Mid-Junior
+1186,36,Male,Married,Life Sciences,4,2,1,3,69600,16,1,17.0,No,3,0,0,2,7,3.0,3,2021-01-17,,No,Senior
+1413,55,Male,Single,Life Sciences,5,2,1,2,48000,14,1,17.0,Yes,2,2,0,1,12,3.0,1,2021-09-09,2023-08-09,Yes,Mid-Junior

@@ -1,0 +1,204 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700.79 664" width="1700.79" height="664" style="--bg:#1F1F1F;--fg:#CCCCCC;--line:#CCCCCC;--accent:#0078D4;--muted:#CCCCCCCC;--surface:#181818;--border:#CCCCCC;background:var(--bg)">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&amp;display=swap');
+  text { font-family: 'Inter', system-ui, sans-serif; }
+  .mono { font-family: 'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, monospace; }
+  svg {
+    /* Derived from --bg and --fg (overridable via --line, --accent, etc.) */
+    --_text:          var(--fg);
+    --_text-sec:      var(--muted, color-mix(in srgb, var(--fg) 60%, var(--bg)));
+    --_text-muted:    var(--muted, color-mix(in srgb, var(--fg) 40%, var(--bg)));
+    --_text-faint:    color-mix(in srgb, var(--fg) 25%, var(--bg));
+    --_line:          var(--line, color-mix(in srgb, var(--fg) 50%, var(--bg)));
+    --_arrow:         var(--accent, color-mix(in srgb, var(--fg) 85%, var(--bg)));
+    --_node-fill:     var(--surface, color-mix(in srgb, var(--fg) 3%, var(--bg)));
+    --_node-stroke:   var(--border, color-mix(in srgb, var(--fg) 20%, var(--bg)));
+    --_group-fill:    var(--bg);
+    --_group-hdr:     color-mix(in srgb, var(--fg) 5%, var(--bg));
+    --_inner-stroke:  color-mix(in srgb, var(--fg) 12%, var(--bg));
+    --_key-badge:     color-mix(in srgb, var(--fg) 10%, var(--bg));
+  }
+</style>
+<defs>
+</defs>
+<polyline class="er-relationship" data-entity1="departments" data-entity2="job_roles" data-cardinality1="one" data-cardinality2="zero-many" data-identifying="true" data-label="organises" points="233,332 484.558,332" fill="none" stroke="var(--_line)" stroke-width="1" />
+<polyline class="er-relationship" data-entity1="departments" data-entity2="employees" data-cardinality1="one" data-cardinality2="zero-many" data-identifying="true" data-label="employs" points="233,358 243,358 243,452 858.62,452 858.62,478 938.62,478" fill="none" stroke="var(--_line)" stroke-width="1" />
+<polyline class="er-relationship" data-entity1="job_roles" data-entity2="employees" data-cardinality1="one" data-cardinality2="zero-many" data-identifying="true" data-label="assigned_to" points="677.558,332 938.62,332" fill="none" stroke="var(--_line)" stroke-width="1" />
+<polyline class="er-relationship" data-entity1="education_levels" data-entity2="employees" data-cardinality1="one" data-cardinality2="zero-many" data-identifying="true" data-label="attained_by" points="690.758,162 858.62,162 858.62,186 938.62,186" fill="none" stroke="var(--_line)" stroke-width="1" />
+<polyline class="er-relationship" data-entity1="employees" data-entity2="satisfaction_surveys" data-cardinality1="one" data-cardinality2="one" data-identifying="true" data-label="completes" points="1177.82,332 1414.99,332" fill="none" stroke="var(--_line)" stroke-width="1" />
+<g class="entity" data-id="departments" data-label="departments">
+  <rect x="40" y="306" width="193" height="78" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="40" y="306" width="193" height="34" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="136.5" y="323" text-anchor="middle" font-size="13" font-weight="700" fill="var(--_text)" dy="4.55">departments</text>
+  <line x1="40" y1="340" x2="233" y2="340" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <rect x="46" y="344" width="22.31" height="14" rx="2" ry="2" fill="var(--_key-badge)" />
+  <text x="57.155" y="351" text-anchor="middle" dy="0.35em" font-size="9" font-weight="600" fill="var(--_text-sec)">PK</text>
+  <text x="76.31" y="351" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">INTEGER</tspan></text>
+  <text x="225" y="351" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">DepartmentID</tspan></text>
+  <rect x="46" y="366" width="22.31" height="14" rx="2" ry="2" fill="var(--_key-badge)" />
+  <text x="57.155" y="373" text-anchor="middle" dy="0.35em" font-size="9" font-weight="600" fill="var(--_text-sec)">UK</text>
+  <text x="76.31" y="373" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">TEXT</tspan></text>
+  <text x="225" y="373" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">DepartmentName</tspan></text>
+</g>
+<g class="entity" data-id="job_roles" data-label="job_roles">
+  <rect x="484.558" y="282" width="193" height="100" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="484.558" y="282" width="193" height="34" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="581.058" y="299" text-anchor="middle" font-size="13" font-weight="700" fill="var(--_text)" dy="4.55">job_roles</text>
+  <line x1="484.558" y1="316" x2="677.558" y2="316" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <rect x="490.558" y="320" width="22.31" height="14" rx="2" ry="2" fill="var(--_key-badge)" />
+  <text x="501.71299999999997" y="327" text-anchor="middle" dy="0.35em" font-size="9" font-weight="600" fill="var(--_text-sec)">PK</text>
+  <text x="520.8679999999999" y="327" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">INTEGER</tspan></text>
+  <text x="669.558" y="327" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">JobRoleID</tspan></text>
+  <rect x="490.558" y="342" width="22.31" height="14" rx="2" ry="2" fill="var(--_key-badge)" />
+  <text x="501.71299999999997" y="349" text-anchor="middle" dy="0.35em" font-size="9" font-weight="600" fill="var(--_text-sec)">UK</text>
+  <text x="520.8679999999999" y="349" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">TEXT</tspan></text>
+  <text x="669.558" y="349" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">JobRoleName</tspan></text>
+  <rect x="490.558" y="364" width="22.31" height="14" rx="2" ry="2" fill="var(--_key-badge)" />
+  <text x="501.71299999999997" y="371" text-anchor="middle" dy="0.35em" font-size="9" font-weight="600" fill="var(--_text-sec)">FK</text>
+  <text x="520.8679999999999" y="371" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">INTEGER</tspan></text>
+  <text x="669.558" y="371" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">DepartmentID</tspan></text>
+</g>
+<g class="entity" data-id="employees" data-label="employees">
+  <rect x="938.62" y="40" width="239.2" height="584" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="938.62" y="40" width="239.2" height="34" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="1058.22" y="57" text-anchor="middle" font-size="13" font-weight="700" fill="var(--_text)" dy="4.55">employees</text>
+  <line x1="938.62" y1="74" x2="1177.82" y2="74" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <rect x="944.62" y="78" width="22.31" height="14" rx="2" ry="2" fill="var(--_key-badge)" />
+  <text x="955.775" y="85" text-anchor="middle" dy="0.35em" font-size="9" font-weight="600" fill="var(--_text-sec)">PK</text>
+  <text x="974.93" y="85" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">INTEGER</tspan></text>
+  <text x="1169.82" y="85" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">EmployeeID</tspan></text>
+  <text x="946.62" y="107" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">INTEGER</tspan></text>
+  <text x="1169.82" y="107" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">Age</tspan></text>
+  <text x="946.62" y="129" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">TEXT</tspan></text>
+  <text x="1169.82" y="129" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">Gender</tspan></text>
+  <text x="946.62" y="151" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">TEXT</tspan></text>
+  <text x="1169.82" y="151" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">MaritalStatus</tspan></text>
+  <text x="946.62" y="173" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">TEXT</tspan></text>
+  <text x="1169.82" y="173" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">EducationField</tspan></text>
+  <rect x="944.62" y="188" width="22.31" height="14" rx="2" ry="2" fill="var(--_key-badge)" />
+  <text x="955.775" y="195" text-anchor="middle" dy="0.35em" font-size="9" font-weight="600" fill="var(--_text-sec)">FK</text>
+  <text x="974.93" y="195" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">INTEGER</tspan></text>
+  <text x="1169.82" y="195" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">EducationLevelID</tspan></text>
+  <rect x="944.62" y="210" width="22.31" height="14" rx="2" ry="2" fill="var(--_key-badge)" />
+  <text x="955.775" y="217" text-anchor="middle" dy="0.35em" font-size="9" font-weight="600" fill="var(--_text-sec)">FK</text>
+  <text x="974.93" y="217" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">INTEGER</tspan></text>
+  <text x="1169.82" y="217" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">DepartmentID</tspan></text>
+  <rect x="944.62" y="232" width="22.31" height="14" rx="2" ry="2" fill="var(--_key-badge)" />
+  <text x="955.775" y="239" text-anchor="middle" dy="0.35em" font-size="9" font-weight="600" fill="var(--_text-sec)">FK</text>
+  <text x="974.93" y="239" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">INTEGER</tspan></text>
+  <text x="1169.82" y="239" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">JobRoleID</tspan></text>
+  <text x="946.62" y="261" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">INTEGER</tspan></text>
+  <text x="1169.82" y="261" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">JobLevel</tspan></text>
+  <text x="946.62" y="283" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">INTEGER</tspan></text>
+  <text x="1169.82" y="283" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">MonthlyIncome</tspan></text>
+  <text x="946.62" y="305" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">INTEGER</tspan></text>
+  <text x="1169.82" y="305" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">PercentSalaryHike</tspan></text>
+  <text x="946.62" y="327" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">INTEGER</tspan></text>
+  <text x="1169.82" y="327" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">StockOptionLevel</tspan></text>
+  <text x="946.62" y="349" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">INTEGER</tspan></text>
+  <text x="1169.82" y="349" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">DistanceFromHome</tspan></text>
+  <text x="946.62" y="371" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">TEXT</tspan></text>
+  <text x="1169.82" y="371" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">OverTime</tspan></text>
+  <text x="946.62" y="393" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">INTEGER</tspan></text>
+  <text x="1169.82" y="393" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">YearsAtCompany</tspan></text>
+  <text x="946.62" y="415" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">INTEGER</tspan></text>
+  <text x="1169.82" y="415" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">YearsInCurrentRole</tspan></text>
+  <text x="946.62" y="437" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">INTEGER</tspan></text>
+  <text x="1169.82" y="437" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">YearsSinceLastPromotion</tspan></text>
+  <text x="946.62" y="459" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">INTEGER</tspan></text>
+  <text x="1169.82" y="459" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">YearsWithCurrManager</tspan></text>
+  <text x="946.62" y="481" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">INTEGER</tspan></text>
+  <text x="1169.82" y="481" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">TotalWorkingYears</tspan></text>
+  <text x="946.62" y="503" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">INTEGER</tspan></text>
+  <text x="1169.82" y="503" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">NumCompaniesWorked</tspan></text>
+  <text x="946.62" y="525" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">INTEGER</tspan></text>
+  <text x="1169.82" y="525" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">TrainingTimesLastYear</tspan></text>
+  <text x="946.62" y="547" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">TEXT</tspan></text>
+  <text x="1169.82" y="547" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">DateOfJoining</tspan></text>
+  <text x="946.62" y="569" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">TEXT</tspan></text>
+  <text x="1169.82" y="569" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">DateOfLeaving</tspan></text>
+  <text x="946.62" y="591" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">TEXT</tspan></text>
+  <text x="1169.82" y="591" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">Attrition</tspan></text>
+  <text x="946.62" y="613" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">TEXT</tspan></text>
+  <text x="1169.82" y="613" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">SalaryBand</tspan></text>
+</g>
+<g class="entity" data-id="education_levels" data-label="education_levels">
+  <rect x="471.358" y="112" width="219.4" height="100" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="471.358" y="112" width="219.4" height="34" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="581.058" y="129" text-anchor="middle" font-size="13" font-weight="700" fill="var(--_text)" dy="4.55">education_levels</text>
+  <line x1="471.358" y1="146" x2="690.758" y2="146" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <rect x="477.358" y="150" width="22.31" height="14" rx="2" ry="2" fill="var(--_key-badge)" />
+  <text x="488.513" y="157" text-anchor="middle" dy="0.35em" font-size="9" font-weight="600" fill="var(--_text-sec)">PK</text>
+  <text x="507.668" y="157" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">INTEGER</tspan></text>
+  <text x="682.758" y="157" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">EducationLevelID</tspan></text>
+  <rect x="477.358" y="172" width="22.31" height="14" rx="2" ry="2" fill="var(--_key-badge)" />
+  <text x="488.513" y="179" text-anchor="middle" dy="0.35em" font-size="9" font-weight="600" fill="var(--_text-sec)">UK</text>
+  <text x="507.668" y="179" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">TEXT</tspan></text>
+  <text x="682.758" y="179" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">EducationLevelName</tspan></text>
+  <text x="479.358" y="201" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">INTEGER</tspan></text>
+  <text x="682.758" y="201" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">EducationRank</tspan></text>
+</g>
+<g class="entity" data-id="satisfaction_surveys" data-label="satisfaction_surveys">
+  <rect x="1414.99" y="227" width="245.79999999999998" height="210" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="1414.99" y="227" width="245.79999999999998" height="34" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="1537.89" y="244" text-anchor="middle" font-size="13" font-weight="700" fill="var(--_text)" dy="4.55">satisfaction_surveys</text>
+  <line x1="1414.99" y1="261" x2="1660.79" y2="261" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <rect x="1420.99" y="265" width="22.31" height="14" rx="2" ry="2" fill="var(--_key-badge)" />
+  <text x="1432.145" y="272" text-anchor="middle" dy="0.35em" font-size="9" font-weight="600" fill="var(--_text-sec)">PK</text>
+  <text x="1451.3" y="272" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">INTEGER</tspan></text>
+  <text x="1652.79" y="272" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">SurveyID</tspan></text>
+  <text x="1422.99" y="294" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">INTEGER</tspan></text>
+  <text x="1652.79" y="294" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">EmployeeID</tspan></text>
+  <text x="1422.99" y="316" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">INTEGER</tspan></text>
+  <text x="1652.79" y="316" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">JobSatisfaction</tspan></text>
+  <text x="1422.99" y="338" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">INTEGER</tspan></text>
+  <text x="1652.79" y="338" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">EnvironmentSatisfaction</tspan></text>
+  <text x="1422.99" y="360" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">INTEGER</tspan></text>
+  <text x="1652.79" y="360" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">WorkLifeBalance</tspan></text>
+  <text x="1422.99" y="382" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">INTEGER</tspan></text>
+  <text x="1652.79" y="382" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">RelationshipSatisfaction</tspan></text>
+  <text x="1422.99" y="404" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">INTEGER</tspan></text>
+  <text x="1652.79" y="404" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">PerformanceRating</tspan></text>
+  <text x="1422.99" y="426" class="mono" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-muted)">INTEGER</tspan></text>
+  <text x="1652.79" y="426" class="mono" text-anchor="end" dy="0.35em" font-size="11" font-weight="400"><tspan fill="var(--_text-sec)">JobInvolvement</tspan></text>
+</g>
+<line x1="237" y1="326" x2="237" y2="338" stroke="var(--_line)" stroke-width="1.25" />
+<line x1="241" y1="326" x2="241" y2="338" stroke="var(--_line)" stroke-width="1.25" />
+<line x1="480.558" y1="339" x2="468.558" y2="332" stroke="var(--_line)" stroke-width="1.25" />
+<line x1="480.558" y1="332" x2="468.558" y2="332" stroke="var(--_line)" stroke-width="1.25" />
+<line x1="480.558" y1="325" x2="468.558" y2="332" stroke="var(--_line)" stroke-width="1.25" />
+<circle cx="464.558" cy="332" r="4" fill="var(--bg)" stroke="var(--_line)" stroke-width="1.25" />
+<line x1="237" y1="352" x2="237" y2="364" stroke="var(--_line)" stroke-width="1.25" />
+<line x1="241" y1="352" x2="241" y2="364" stroke="var(--_line)" stroke-width="1.25" />
+<line x1="934.62" y1="485" x2="922.62" y2="478" stroke="var(--_line)" stroke-width="1.25" />
+<line x1="934.62" y1="478" x2="922.62" y2="478" stroke="var(--_line)" stroke-width="1.25" />
+<line x1="934.62" y1="471" x2="922.62" y2="478" stroke="var(--_line)" stroke-width="1.25" />
+<circle cx="918.62" cy="478" r="4" fill="var(--bg)" stroke="var(--_line)" stroke-width="1.25" />
+<line x1="681.558" y1="326" x2="681.558" y2="338" stroke="var(--_line)" stroke-width="1.25" />
+<line x1="685.558" y1="326" x2="685.558" y2="338" stroke="var(--_line)" stroke-width="1.25" />
+<line x1="934.62" y1="339" x2="922.62" y2="332" stroke="var(--_line)" stroke-width="1.25" />
+<line x1="934.62" y1="332" x2="922.62" y2="332" stroke="var(--_line)" stroke-width="1.25" />
+<line x1="934.62" y1="325" x2="922.62" y2="332" stroke="var(--_line)" stroke-width="1.25" />
+<circle cx="918.62" cy="332" r="4" fill="var(--bg)" stroke="var(--_line)" stroke-width="1.25" />
+<line x1="694.758" y1="156" x2="694.758" y2="168" stroke="var(--_line)" stroke-width="1.25" />
+<line x1="698.758" y1="156" x2="698.758" y2="168" stroke="var(--_line)" stroke-width="1.25" />
+<line x1="934.62" y1="193" x2="922.62" y2="186" stroke="var(--_line)" stroke-width="1.25" />
+<line x1="934.62" y1="186" x2="922.62" y2="186" stroke="var(--_line)" stroke-width="1.25" />
+<line x1="934.62" y1="179" x2="922.62" y2="186" stroke="var(--_line)" stroke-width="1.25" />
+<circle cx="918.62" cy="186" r="4" fill="var(--bg)" stroke="var(--_line)" stroke-width="1.25" />
+<line x1="1181.82" y1="326" x2="1181.82" y2="338" stroke="var(--_line)" stroke-width="1.25" />
+<line x1="1185.82" y1="326" x2="1185.82" y2="338" stroke="var(--_line)" stroke-width="1.25" />
+<line x1="1410.99" y1="338" x2="1410.99" y2="326" stroke="var(--_line)" stroke-width="1.25" />
+<line x1="1406.99" y1="338" x2="1406.99" y2="326" stroke="var(--_line)" stroke-width="1.25" />
+<rect x="329.6" y="321.85" width="58.358" height="20.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="0.5" />
+<text x="358.779" y="332" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-muted)" dy="3.8499999999999996">organises</text>
+<rect x="527.3829999999999" y="441.85" width="48.854" height="20.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="0.5" />
+<text x="551.81" y="452" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-muted)" dy="3.8499999999999996">employs</text>
+<rect x="774.1579999999999" y="321.85" width="67.86200000000001" height="20.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="0.5" />
+<text x="808.0889999999999" y="332" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-muted)" dy="3.8499999999999996">assigned_to</text>
+<rect x="794.5400000000001" y="151.85" width="64.298" height="20.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="0.5" />
+<text x="826.6890000000001" y="162" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-muted)" dy="3.8499999999999996">attained_by</text>
+<rect x="1267.82" y="321.85" width="57.17" height="20.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="0.5" />
+<text x="1296.405" y="332" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-muted)" dy="3.8499999999999996">completes</text>
+</svg>

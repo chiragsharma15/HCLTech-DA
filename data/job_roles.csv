@@ -1,0 +1,13 @@
+JobRoleID,JobRoleName,DepartmentID
+1,Research Scientist,2
+2,Laboratory Technician,2
+3,Research Director,2
+4,Sales Executive,3
+5,Sales Representative,3
+6,Software Engineer,4
+7,Senior Developer,4
+8,QA Engineer,4
+9,HR Executive,1
+10,HR Manager,1
+11,Marketing Specialist,5
+12,Financial Analyst,6
