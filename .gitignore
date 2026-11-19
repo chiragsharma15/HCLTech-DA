@@ -19,3 +19,5 @@ ENV/
 Thumbs.db
 *.bak
 *.tmp
+~$*
+~$*.docx
