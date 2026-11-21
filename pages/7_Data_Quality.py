@@ -9,7 +9,7 @@ import os
 import sqlite3
 import streamlit as st
 import pandas as pd
-from src.ui import render_header, render_insight_box, render_section_header
+from src.ui import render_header, render_insight_box, render_section_header, render_navbar
 
 st.set_page_config(page_title="Data Quality Audit | NovaTech", page_icon="🛡️", layout="wide")
 
@@ -18,6 +18,7 @@ DB_PATH = os.path.join(BASE_DIR, 'data', 'app.db')
 RAW_CSV_PATH = os.path.join(BASE_DIR, 'data', 'employees_raw.csv')
 
 def main():
+    render_navbar("Quality")
     render_header(
         title="Data Quality, Schema Constraints & Cleaning Audit",
         subtitle="Transparency verification of relational integrity, range constraints, and raw anomaly remediation",

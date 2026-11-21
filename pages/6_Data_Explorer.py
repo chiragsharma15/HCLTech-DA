@@ -11,7 +11,7 @@ from src.data_loader import load_data
 from src.filters import render_sidebar_filters
 from src.charts import plot_demographic_sunburst
 from src.utils import export_to_csv, export_to_excel
-from src.ui import render_header, render_insight_box, render_section_header
+from src.ui import render_header, render_insight_box, render_section_header, render_navbar
 
 st.set_page_config(page_title="Data Explorer & Export | NovaTech", page_icon="📁", layout="wide")
 
@@ -19,6 +19,7 @@ def main():
     raw_df = load_data()
     filtered_df = render_sidebar_filters(raw_df)
     
+    render_navbar("Explorer")
     render_header(
         title="Intersectional Risk Profiler & Data Explorer",
         subtitle="Exploring compound demographic vulnerabilities and exporting curated analytical subsets",

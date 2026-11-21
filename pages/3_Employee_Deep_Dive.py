@@ -11,7 +11,7 @@ from src.data_loader import load_data
 from src.filters import render_sidebar_filters
 from src.analysis import calculate_overtime_stats, get_salary_band_summary, get_role_level_matrix
 from src.charts import plot_overtime_comparison_bar, plot_salary_band_bar, plot_role_level_heatmap
-from src.ui import render_header, render_insight_box, render_section_header
+from src.ui import render_header, render_insight_box, render_section_header, render_navbar
 
 st.set_page_config(page_title="Workforce Deep-Dive | NovaTech", page_icon="🔍", layout="wide")
 
@@ -19,6 +19,7 @@ def main():
     raw_df = load_data()
     filtered_df = render_sidebar_filters(raw_df)
     
+    render_navbar("Deep-Dive")
     render_header(
         title="Workforce Deep-Dive: Overtime & Compensation",
         subtitle="Empirical evaluation of chronic overtime obligations and compensation tier vulnerability",

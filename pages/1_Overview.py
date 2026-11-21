@@ -8,5 +8,4 @@ Task: BUILD-06
 import streamlit as st
 import app
 
-if __name__ == "__main__":
-    app.main()
+app.main()

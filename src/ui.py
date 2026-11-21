@@ -10,6 +10,71 @@ import streamlit.components.v1 as components
 
 TAILWIND_CDN = '<script src="https://cdn.tailwindcss.com"></script>'
 
+
+def render_navbar(active_page: str = "Overview") -> None:
+    """
+    Renders an executive horizontal navigation bar at the top of the application.
+    Replaces sidebar navigation with top-level navbar controls.
+    """
+    st.markdown("""
+        <style>
+        /* Top Navigation Bar Styling */
+        div[data-testid="stHorizontalBlock"] .stPageLink {
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+        div[data-testid="stHorizontalBlock"] .stPageLink a {
+            border-radius: 8px !important;
+            padding: 6px 4px !important;
+            font-size: 0.78rem !important;
+            font-weight: 600 !important;
+            text-align: center !important;
+            border: 1px solid #CBD5E1 !important;
+            background-color: #FFFFFF !important;
+            color: #1E293B !important;
+            text-decoration: none !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05) !important;
+            transition: all 0.15s ease-in-out !important;
+            min-height: 38px !important;
+        }
+        div[data-testid="stHorizontalBlock"] .stPageLink a:hover {
+            border-color: #1B3A5C !important;
+            background-color: #F1F5F9 !important;
+            color: #1B3A5C !important;
+        }
+        div[data-testid="stHorizontalBlock"] .stPageLink a[aria-disabled="true"] {
+            background-color: #1B3A5C !important;
+            color: #FFFFFF !important;
+            border-color: #1B3A5C !important;
+            font-weight: 700 !important;
+            box-shadow: 0 2px 4px rgba(27, 58, 92, 0.3) !important;
+        }
+        </style>
+    """, unsafe_allow_html=True)
+
+    nav_items = [
+        ("pages/1_Overview.py", "Overview", "📊"),
+        ("pages/2_Department_Analysis.py", "Departments", "🏢"),
+        ("pages/3_Employee_Deep_Dive.py", "Deep-Dive", "👥"),
+        ("pages/4_Satisfaction.py", "Satisfaction", "❤️"),
+        ("pages/5_Attrition_Trends.py", "Trends", "📈"),
+        ("pages/6_Data_Explorer.py", "Explorer", "📁"),
+        ("pages/7_Data_Quality.py", "Quality", "🛡️"),
+        ("pages/8_About.py", "About", "ℹ️"),
+    ]
+
+    cols = st.columns(len(nav_items))
+    for i, (path, label, icon) in enumerate(nav_items):
+        with cols[i]:
+            is_active = (active_page.strip().lower() == label.strip().lower())
+            st.page_link(path, label=label, icon=icon, disabled=is_active, use_container_width=True)
+
+    st.markdown("<div style='margin-bottom: 8px;'></div>", unsafe_allow_html=True)
+
+
 def render_header(title: str, subtitle: str, badge: str = "HR Analytics Platform") -> None:
     """Renders a responsive corporate Tailwind header banner."""
     html_code = f"""

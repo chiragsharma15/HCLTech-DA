@@ -11,7 +11,7 @@ from src.data_loader import load_data
 from src.filters import render_sidebar_filters
 from src.analysis import get_tenure_breakdown, compare_salary_hikes
 from src.charts import plot_tenure_band_bar, plot_salary_hike_boxplot, plot_yoy_department_trend
-from src.ui import render_header, render_insight_box, render_section_header
+from src.ui import render_header, render_insight_box, render_section_header, render_navbar
 
 st.set_page_config(page_title="Tenure & Trends | NovaTech", page_icon="📈", layout="wide")
 
@@ -19,6 +19,7 @@ def main():
     raw_df = load_data()
     filtered_df = render_sidebar_filters(raw_df)
     
+    render_navbar("Trends")
     render_header(
         title="Tenure Analysis & Longitudinal Retention",
         subtitle="Tracking early-tenure flight risk, annual merit salary hike sensitivity, and multi-year benchmarks",

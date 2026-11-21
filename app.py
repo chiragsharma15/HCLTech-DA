@@ -11,7 +11,7 @@ from src.data_loader import load_data
 from src.filters import render_sidebar_filters
 from src.analysis import compute_headline_kpis, get_monthly_trend, get_descriptive_stats
 from src.charts import plot_attrition_trend_line
-from src.ui import render_header, render_kpi_row, render_insight_box, render_section_header
+from src.ui import render_header, render_kpi_row, render_insight_box, render_section_header, render_navbar
 
 # Global Streamlit Configuration
 st.set_page_config(
@@ -30,8 +30,11 @@ def main():
         st.info("Run `python src/generate_data.py` to regenerate the database if missing.")
         return
 
-    # Render global sidebar filters
+    # Render global sidebar filters (only filters in sidebar)
     filtered_df = render_sidebar_filters(raw_df)
+
+    # 0. Global Top Navigation Bar (replaces sidebar navigation)
+    render_navbar("Overview")
 
     # 1. Page Header Banner
     render_header(

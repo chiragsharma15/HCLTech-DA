@@ -6,11 +6,12 @@ Task: BUILD-13
 """
 
 import streamlit as st
-from src.ui import render_header, render_section_header
+from src.ui import render_header, render_section_header, render_navbar
 
 st.set_page_config(page_title="About & Architecture | NovaTech", page_icon="ℹ️", layout="wide")
 
 def main():
+    render_navbar("About")
     render_header(
         title="About: Employee Attrition Analysis Platform",
         subtitle="MCA 2nd Year Capstone Data Analytics Project | ABES Engineering College",
@@ -21,7 +22,7 @@ def main():
     
     with col1:
         render_section_header("Academic & Project Specifications", "Official university submission record details")
-        st.markdown("""
+        st.markdown(r"""
             <div style="background-color: #FFFFFF; border: 1px solid #E2E8F0; padding: 20px; border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
                 <table style="width: 100%; font-size: 0.9rem; line-height: 2;">
                     <tr><td style="color: #64748B; width: 35%;"><b>Project Title:</b></td><td style="color: #1E293B;"><b>Employee Attrition Analysis</b></td></tr>
@@ -38,7 +39,7 @@ def main():
         
     with col2:
         render_section_header("Technology Stack Ecosystem", "Production libraries and frameworks utilized in the solution")
-        st.markdown("""
+        st.markdown(r"""
             <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px;">
                 <span style="background-color: #1B3A5C; color: white; padding: 6px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: bold;">Python 3.12</span>
                 <span style="background-color: #FF4B4B; color: white; padding: 6px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: bold;">Streamlit 1.38.0</span>
@@ -61,7 +62,7 @@ def main():
     render_section_header("Academic Viva Defense Reference", "Curated technical questions and empirical analytical findings")
     
     with st.expander("🎓 Expand Viva Defense FAQ & Key Takeaways", expanded=True):
-        st.markdown("""
+        st.markdown(r"""
             1. **Why is this an EDA project rather than an ML prediction model?**  
                *Per the approved BRD scope (Section 6.2), EDA explains why employees voluntarily left using verifiable empirical facts, giving HR leaders actionable levers immediately without black-box ML drift.*
             

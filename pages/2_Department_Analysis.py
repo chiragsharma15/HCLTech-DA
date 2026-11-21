@@ -11,7 +11,7 @@ from src.data_loader import load_data
 from src.filters import render_sidebar_filters
 from src.analysis import get_department_summary, compute_headline_kpis
 from src.charts import plot_department_ranking_bar
-from src.ui import render_header, render_insight_box, render_section_header
+from src.ui import render_header, render_insight_box, render_section_header, render_navbar
 
 st.set_page_config(page_title="Department Analysis | NovaTech", page_icon="🏢", layout="wide")
 
@@ -19,6 +19,7 @@ def main():
     raw_df = load_data()
     filtered_df = render_sidebar_filters(raw_df)
     
+    render_navbar("Departments")
     render_header(
         title="Departmental Turnover Comparison & Ranking",
         subtitle="Identifying high-vulnerability business units to target retention interventions",

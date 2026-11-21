@@ -337,5 +337,6 @@ def plot_demographic_sunburst(df: pd.DataFrame) -> go.Figure:
         color_discrete_map={'Yes': ROSE_DANGER, 'No': SKY_SECONDARY},
         title="<b>Hierarchical Workforce Breakdown & Departure Flow</b>"
     )
-    fig.update_layout(margin=dict(l=10, r=10, t=50, b=10), height=500, **LAYOUT_DEFAULTS)
+    fig.update_layout(**LAYOUT_DEFAULTS)
+    fig.update_layout(margin=dict(l=10, r=10, t=50, b=10), height=500)
     return fig

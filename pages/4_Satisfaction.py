@@ -11,7 +11,7 @@ from src.data_loader import load_data
 from src.filters import render_sidebar_filters
 from src.analysis import compute_satisfaction_correlations, get_wlb_age_matrix
 from src.charts import plot_satisfaction_correlation_heatmap, plot_wlb_age_heatmap
-from src.ui import render_header, render_insight_box, render_section_header
+from src.ui import render_header, render_insight_box, render_section_header, render_navbar
 
 st.set_page_config(page_title="Satisfaction & Engagement | NovaTech", page_icon="❤️", layout="wide")
 
@@ -19,6 +19,7 @@ def main():
     raw_df = load_data()
     filtered_df = render_sidebar_filters(raw_df)
     
+    render_navbar("Satisfaction")
     render_header(
         title="Psychometric & Workplace Satisfaction Analytics",
         subtitle="Evaluating controllable workplace environment ratings and work-life balance perceptions",
