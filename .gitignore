@@ -21,3 +21,8 @@ Thumbs.db
 *.tmp
 ~$*
 ~$*.docx
+
+# Local guides & temporary demo walkthroughs
+docs/*Demo*
+docs/*Viva*
+docs/18_Steps_Comprehensive_Document.pdf
