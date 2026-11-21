@@ -15,7 +15,7 @@ from src.ui import render_header, render_kpi_row, render_insight_box, render_sec
 
 # Global Streamlit Configuration
 st.set_page_config(
-    page_title="Employee Attrition Analysis | NovaTech",
+    page_title="HR Employee Attrition Analysis | NovaTech",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded"

@@ -1,7 +1,7 @@
-# BUILD_PLAN.md — Employee Attrition Analysis (EAA-2025)
+# BUILD_PLAN.md — HR Employee Attrition Analysis (P068)
 
 > **Student:** Chirag Sharma | **Roll No:** 2500320140042 | **Course:** MCA 2nd Yr Data Analytics, ABES Engineering College  
-> **Mentor:** Mrs. Kalpna Dwivedi | **Target Stack:** Python 3.12, Streamlit, SQLite, Plotly, Tailwind CSS, pytest  
+> **Mentor:** Mr. Dinesh Sereno | **Target Stack:** Python 3.12, Streamlit, SQLite, Plotly, Tailwind CSS, pytest  
 > **Repository:** `D:\DA` | **Execution Phase:** Step 14 of 18 (Input for Step 15 Build Phase)
 
 ---

@@ -84,7 +84,7 @@ def render_header(title: str, subtitle: str, badge: str = "HR Analytics Platform
             <div>
                 <div class="flex items-center gap-2 mb-2">
                     <span class="bg-blue-600 text-white text-xs font-semibold px-2.5 py-1 rounded-full uppercase tracking-wider">{badge}</span>
-                    <span class="text-slate-400 text-xs">NovaTech Solutions | EAA-2025</span>
+                    <span class="text-slate-400 text-xs">NovaTech Solutions | P068</span>
                 </div>
                 <h1 class="text-2xl md:text-3xl font-extrabold tracking-tight text-white">{title}</h1>
                 <p class="text-slate-300 text-sm mt-1">{subtitle}</p>

@@ -26,3 +26,6 @@ Thumbs.db
 docs/*Demo*
 docs/*Viva*
 docs/18_Steps_Comprehensive_Document.pdf
+
+# Submission zip archives (stored locally for LMS portal upload)
+*.zip

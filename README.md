@@ -1,4 +1,4 @@
-# Employee Attrition Analysis (EAA-2025)
+# HR Employee Attrition Analysis (P068)
 
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.38.0-FF4B4B.svg)](https://streamlit.io/)
@@ -8,6 +8,10 @@
 [![Tests Passing](https://img.shields.io/badge/pytest-20%20passed-10B981.svg)](https://pytest.org/)
 
 An executive workforce retention diagnostics and exploratory data analysis (EDA) web application built for **NovaTech Solutions Pvt. Ltd.** (Noida, UP), developed as an MCA 2nd Year Data Analytics Capstone Project at **ABES Engineering College**.
+
+* **Live Streamlit Application:** [https://employee-attrition-analy.streamlit.app/](https://employee-attrition-analy.streamlit.app/)
+* **GitHub Repository:** [https://github.com/chiragsharma15/HCLTech-DA](https://github.com/chiragsharma15/HCLTech-DA)
+* **Project ID:** `P068` | **Batch:** `ABES_OND26_MCA2ndYear_DataAnalytics_Batch01`
 
 ---
 
@@ -129,7 +133,8 @@ python -m pytest tests -v
 ## 👤 Project Credits & Attribution
 
 - **Student Author:** Chirag Sharma (Roll No: `2500320140042`)
-- **Faculty Mentor:** Mrs. Kalpna Dwivedi
+- **Faculty Mentor:** Mr. Dinesh Sereno
+- **Project ID:** P068
 - **Institution:** ABES Engineering College, Ghaziabad
 - **Course:** Master of Computer Applications (MCA 2nd Year, Data Analytics)
 - **Academic Year:** 2025–2026

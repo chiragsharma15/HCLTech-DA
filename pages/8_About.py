@@ -21,14 +21,15 @@ def main():
     col1, col2 = st.columns([3, 2])
     
     with col1:
+        st.image("assets/abes_logo.png", width=240)
         render_section_header("Academic & Project Specifications", "Official university submission record details")
         st.markdown(r"""
             <div style="background-color: #FFFFFF; border: 1px solid #E2E8F0; padding: 20px; border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
                 <table style="width: 100%; font-size: 0.9rem; line-height: 2;">
-                    <tr><td style="color: #64748B; width: 35%;"><b>Project Title:</b></td><td style="color: #1E293B;"><b>Employee Attrition Analysis</b></td></tr>
-                    <tr><td style="color: #64748B;"><b>Project ID:</b></td><td style="color: #1E293B;">EAA-2025</td></tr>
+                    <tr><td style="color: #64748B; width: 35%;"><b>Project Title:</b></td><td style="color: #1E293B;"><b>HR Employee Attrition Analysis</b></td></tr>
+                    <tr><td style="color: #64748B;"><b>Project ID:</b></td><td style="color: #1E293B;">P068</td></tr>
                     <tr><td style="color: #64748B;"><b>Student Author:</b></td><td style="color: #1E293B;"><b>Chirag Sharma</b> (Roll No: <code>2500320140042</code>)</td></tr>
-                    <tr><td style="color: #64748B;"><b>Faculty Mentor:</b></td><td style="color: #1E293B;"><b>Mrs. Kalpna Dwivedi</b></td></tr>
+                    <tr><td style="color: #64748B;"><b>Faculty Mentor:</b></td><td style="color: #1E293B;"><b>Mr. Dinesh Sereno</b></td></tr>
                     <tr><td style="color: #64748B;"><b>Institution:</b></td><td style="color: #1E293B;">ABES Engineering College, Ghaziabad</td></tr>
                     <tr><td style="color: #64748B;"><b>Degree Program:</b></td><td style="color: #1E293B;">MCA 2nd Year (Data Analytics Specialization)</td></tr>
                     <tr><td style="color: #64748B;"><b>Target Organization:</b></td><td style="color: #1E293B;">NovaTech Solutions Pvt. Ltd., Noida (500 IT Staff)</td></tr>
